@@ -1,0 +1,20 @@
+{
+  "format": 1,
+  "revision": 1,
+  "id": "ww-digi",
+  "name": "WW Digi DX (FT4/FT8)",
+  "cabrillo_name": "WW-DIGI",
+  "rules_url": "https://ww-digi.com/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "last_full", "month": 8, "start_hour": 12, "hours": 24},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["DG"],
+  "rig_modes": ["FT8", "FT4", "MFSK", "DG", "PKTUSB", "DATA"],
+  "dupe": "band",
+  "exchange": [{"field": "grid4"}],
+  "points": {"type": "distance", "base": 1, "per_km": 3000},
+  "multipliers": [{"type": "grid_field", "per": "band"}],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": ["nr", "utc", "band", "mode", "call", "ex_s", "ex_r", "land", "km", "pts", "gain", "mult"]
+}
