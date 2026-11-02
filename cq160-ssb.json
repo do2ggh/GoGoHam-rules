@@ -1,0 +1,53 @@
+{
+  "format": 2,
+  "revision": 1,
+  "id": "cq160-ssb",
+  "name": "CQ WW 160 m SSB",
+  "cabrillo_name": "CQ-160-SSB",
+  "rules_url": "https://www.cq160.com/rules/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 4,
+    "month": 2,
+    "start_day": -1,
+    "start_hour": 22,
+    "hours": 48
+  },
+  "operating_time": {"single_op_hours": 30, "min_break_minutes": 30},
+  "bands": ["160"],
+  "modes": ["PH"],
+  "dupe": "band",
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "St/Zone",
+      "prefill": "country",
+      "by_region": {"us": "state", "ve": "province", "dx": "cq_zone"}
+    }
+  ],
+  "points": {
+    "type": "continent",
+    "own_country": 2,
+    "same_continent": 5,
+    "same_continent_na": 5,
+    "other_continent": 10,
+    "maritime": 5
+  },
+  "multipliers": [
+    {"type": "us_state", "per": "band", "states": "48dc"},
+    {"type": "ve_province", "per": "band"},
+    {
+      "type": "country",
+      "per": "band",
+      "exclude": ["K", "VE"]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r", "land", "pts",
+    "gain", "mult"
+  ]
+}
