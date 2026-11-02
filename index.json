@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "rules": [
+    {
+      "id": "cqww-cw",
+      "file": "cqww-cw.json",
+      "name": "CQ WW DX CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 1,
+      "sha256": "3aea6057c7a4c592306b3a2e6dc8f496acfb34643c2125e0661c56a7f771022e"
+    },
+    {
+      "id": "cqww-ssb",
+      "file": "cqww-ssb.json",
+      "name": "CQ WW DX SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 1,
+      "sha256": "9dc75935815622e92c275bc57130b6369b0c17ae3ee4179942ed80317ad8ba2d"
+    },
+    {
+      "id": "wpx-cw",
+      "file": "wpx-cw.json",
+      "name": "CQ WPX CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 1,
+      "sha256": "ea7ba74d672d81e916e0b4be0663791d3a85a0a7f3b10592818ba3db87815651"
+    },
+    {
+      "id": "wpx-ssb",
+      "file": "wpx-ssb.json",
+      "name": "CQ WPX SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 1,
+      "sha256": "59ad30400ecdc0bc0ffa25caebb9109be02a7e1cdbc65c5528a6d9a7def29a41"
+    },
+    {
+      "id": "ww-digi",
+      "file": "ww-digi.json",
+      "name": "WW Digi DX (FT4/FT8)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 1,
+      "sha256": "3464bcd8eda2fa6789e38344f224a05c0fd9b6646d47e7b0681d4276c62778d8"
+    }
+  ]
+}
