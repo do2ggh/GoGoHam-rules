@@ -2,6 +2,42 @@
   "format": 1,
   "rules": [
     {
+      "id": "arrl-dx-cw",
+      "file": "arrl-dx-cw.json",
+      "name": "ARRL International DX CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 2,
+      "sha256": "79cc77474a9228fd2acfdf90b28eff5d2baa5168d31114f4144aca2d6cf62146"
+    },
+    {
+      "id": "arrl-dx-ssb",
+      "file": "arrl-dx-ssb.json",
+      "name": "ARRL International DX SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 2,
+      "sha256": "5736254b168fa21468d50e2d44b58e8dfd6895a023908013eb5662f57b6c1ba3"
+    },
+    {
+      "id": "cq160-cw",
+      "file": "cq160-cw.json",
+      "name": "CQ WW 160 m CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 2,
+      "sha256": "3ba1448ad19ed62b3fcdf4ff6cb6b93bcb00f907005b2d63a07162d60611c89c"
+    },
+    {
+      "id": "cq160-ssb",
+      "file": "cq160-ssb.json",
+      "name": "CQ WW 160 m SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 2,
+      "sha256": "84a64fc0062833a959328e3a8b87175da3fc91fbc88af4b322070e6e5fee2813"
+    },
+    {
       "id": "cqww-cw",
       "file": "cqww-cw.json",
       "name": "CQ WW DX CW",
