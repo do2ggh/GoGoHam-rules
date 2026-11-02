@@ -1,0 +1,51 @@
+{
+  "format": 3,
+  "revision": 1,
+  "id": "arrl-10",
+  "name": "ARRL 10 m (SSB/CW)",
+  "cabrillo_name": "ARRL-10",
+  "rules_url": "https://www.arrl.org/10-meter",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 2, "month": 12, "start_hour": 0, "hours": 48},
+  "operating_time": {"single_op_hours": 36, "min_break_minutes": 30},
+  "bands": ["10"],
+  "modes": ["PH", "CW"],
+  "dupe": "band_mode",
+  "mode_limits": {
+    "CW": {"max_khz": 28300}
+  },
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "St/Nr",
+      "us_entities": ["K", "KL", "KL7", "KH6"],
+      "by_region": {
+        "us": "state",
+        "ve": "province",
+        "xe": "xe_state",
+        "dx": "serial",
+        "mm": "itu_region"
+      }
+    }
+  ],
+  "points": {"type": "mode", "PH": 2, "CW": 4},
+  "multipliers": [
+    {"type": "us_state", "per": "mode", "states": "50dc"},
+    {"type": "ve_province", "per": "mode"},
+    {"type": "xe_state", "per": "mode"},
+    {
+      "type": "country",
+      "per": "mode",
+      "dxcc_only": true,
+      "exclude": ["K", "KL", "KL7", "KH6", "VE", "XE"]
+    },
+    {"type": "itu_region", "per": "mode"}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r", "land",
+    "pts", "gain", "mult"
+  ]
+}

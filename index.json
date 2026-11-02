@@ -2,6 +2,15 @@
   "format": 1,
   "rules": [
     {
+      "id": "arrl-10",
+      "file": "arrl-10.json",
+      "name": "ARRL 10 m (SSB/CW)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 3,
+      "sha256": "bbf1d4506707df437113f5fac3c5cc92945ec2e050891015054e5293639c5e0d"
+    },
+    {
       "id": "arrl-dx-cw",
       "file": "arrl-dx-cw.json",
       "name": "ARRL International DX CW",
@@ -54,6 +63,24 @@
       "rules_checked": "2026-11",
       "format": 1,
       "sha256": "9dc75935815622e92c275bc57130b6369b0c17ae3ee4179942ed80317ad8ba2d"
+    },
+    {
+      "id": "euhfc",
+      "file": "euhfc.json",
+      "name": "EU HF Championship",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 3,
+      "sha256": "e566843b48ceef616a40f145c056e4881ed32808bbdb2464331e4822a0664cc5"
+    },
+    {
+      "id": "iaru-hf",
+      "file": "iaru-hf.json",
+      "name": "IARU HF World Championship",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 3,
+      "sha256": "be1c4b38a0bfc8413ac96be46dc4e37a5f99924191c5da38cdee7b368498abc9"
     },
     {
       "id": "wpx-cw",

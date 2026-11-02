@@ -28,6 +28,9 @@ in the program; a file only says which building blocks a contest uses and with w
 | `cq160-ssb.json` | CQ WW 160 m SSB | 1 | 2026-11 |
 | `arrl-dx-cw.json` | ARRL International DX CW | 1 | 2026-11 |
 | `arrl-dx-ssb.json` | ARRL International DX SSB | 1 | 2026-11 |
+| `arrl-10.json` | ARRL 10 m (SSB/CW) | 1 | 2026-11 |
+| `iaru-hf.json` | IARU HF World Championship | 1 | 2026-11 |
+| `euhfc.json` | EU HF Championship | 1 | 2026-11 |
 
 `index.json` ist das Inhaltsverzeichnis (Revision und SHA-256-Prüfsumme je Datei), das
 GoGoHam zuerst abfragt. *`index.json` is the table of contents GoGoHam reads first.*
@@ -39,7 +42,7 @@ Alle Angaben sind im GoGoHam-Handbuch (Kapitel „Regel-Dateien“) erklärt. Ku
 
 | Key | Bedeutung / meaning |
 |---|---|
-| `format` | Format-Version: 1, oder 2 für Bausteine ab GoGoHam 0.7 (ältere Versionen überspringen diese Dateien) |
+| `format` | Format-Version: 1; 2 für Bausteine ab GoGoHam 0.7.0, 3 ab 0.7.1 (ältere Versionen überspringen solche Dateien) |
 | `revision` | Stand der Datei – bei jeder Änderung +1 / increase by 1 on every change |
 | `id`, `name`, `cabrillo_name` | Kurzname, Anzeigename, Contest-Name im Cabrillo-Log |
 | `rules_url`, `rules_checked` | offizielle Ausschreibung, zuletzt geprüft (JJJJ-MM) |
@@ -48,7 +51,8 @@ Alle Angaben sind im GoGoHam-Handbuch (Kapitel „Regel-Dateien“) erklärt. Ku
 | `bands`, `modes`, `rig_modes` | Bänder (`160` … `2`, `70cm` … `3cm`), Modes `PH CW RY DG` |
 | `dupe` | `band` oder `band_mode` |
 | `exchange` | `rst` + eines von `cq_zone`, `serial`, `grid4`, `location` (Format 2: je Herkunft `us`/`ve`/`dx`/`mm` eines von `state`, `province`, `cq_zone`, `power`, `serial`) |
-| `contacts` | `all` oder `w_ve_dx` (DX arbeitet nur W/VE und umgekehrt) |
+| `contacts` | `all`, `w_ve_dx` (DX arbeitet nur W/VE und umgekehrt) oder `eu_only` (nur Europa–Europa) |
+| `mode_limits`, `max_changes_per_hour` | Frequenzgrenzen je Mode (z. B. CW < 28300 kHz); Höchstzahl Band-/Modewechsel je Stunde |
 | `points` | `fixed`, `continent` (`own_country`, `same_continent`, `same_continent_na`, `other_continent`), `distance` (`base`, `per_km`) – Zahl oder Tabelle je Band mit `default` |
 | `multipliers` | `cq_zone`, `country`, `wpx_prefix`, `grid_field`, `us_state`, `ve_province` – `per`: `band` oder `once`; wahlweise `when` (`dx`/`w_ve`), `states` (`48dc`/`50dc`), `exclude`, `dxcc_only` |
 | `score` | `points_x_mults` |
