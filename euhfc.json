@@ -1,0 +1,24 @@
+{
+  "format": 3,
+  "revision": 1,
+  "id": "euhfc",
+  "name": "EU HF Championship",
+  "cabrillo_name": "EUHFC",
+  "rules_url": "https://euhf.s5cc.eu/euhfc_rules/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "saturday", "nth": 1, "month": 8, "start_hour": 12, "hours": 12},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["PH", "CW"],
+  "dupe": "band_mode",
+  "contacts": "eu_only",
+  "max_changes_per_hour": 10,
+  "exchange": [{"field": "rst"}, {"field": "lic_year", "label": "Jahr"}],
+  "points": {"type": "fixed", "value": 1},
+  "multipliers": [{"type": "lic_year", "per": "band"}],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}

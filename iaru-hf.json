@@ -1,0 +1,22 @@
+{
+  "format": 3,
+  "revision": 1,
+  "id": "iaru-hf",
+  "name": "IARU HF World Championship",
+  "cabrillo_name": "IARU-HF",
+  "rules_url": "https://www.arrl.org/iaru-hf-world-championship",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 2, "month": 7, "start_hour": 12, "hours": 24},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["PH", "CW"],
+  "dupe": "band_mode",
+  "exchange": [{"field": "rst"}, {"field": "iaru", "label": "Zone"}],
+  "points": {"type": "iaru", "same_zone": 1, "hq": 1, "same_continent": 3, "other": 5},
+  "multipliers": [{"type": "itu_zone", "per": "band"}, {"type": "iaru_hq", "per": "band"}],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}
