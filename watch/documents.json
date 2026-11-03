@@ -114,6 +114,46 @@
       ],
       "checked": "2026-11-03",
       "fingerprint": "e5f7b41b863ca9b18df06665dcd330b47e9b2689461bbbea6ef2cef5a9f47d44"
+    },
+    {
+      "id": "wag",
+      "url": "https://www.darc.de/der-club/referate/conteste/wag-contest/regeln/",
+      "watch": "text",
+      "contests": [
+        "wag"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "e7a9fc9562ed222fc5e8fcb79ec09293c6d7f9d1962ece538c1c115b21dd03b0"
+    },
+    {
+      "id": "darc-10m",
+      "url": "https://www.darc.de/der-club/referate/conteste/darc-10m-contest/regeln/",
+      "watch": "text",
+      "contests": [
+        "darc-10m"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "32072c5e3321f2ebf3f09425f1f275a9bf1e804b4e13cce96ec517258644d3f0"
+    },
+    {
+      "id": "darc-xmas",
+      "url": "https://www.darc.de/der-club/referate/conteste/weihnachtswettbewerb/regeln/",
+      "watch": "text",
+      "contests": [
+        "darc-xmas"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "ffe64418557583752ed0b05f9c80796fcd010fb58145b5dcabb9efcebb589d8d"
+    },
+    {
+      "id": "darc-easter",
+      "url": "https://www.darc.de/der-club/referate/conteste/ostercontest/regeln/",
+      "watch": "text",
+      "contests": [
+        "darc-easter"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "a5544e5560e862a36d287684b7a7ac8157bf6b64287cc6c7a39fb6bf15a0df7b"
     }
   ]
 }

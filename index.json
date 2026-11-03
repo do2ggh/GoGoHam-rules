@@ -65,6 +65,33 @@
       "sha256": "9dc75935815622e92c275bc57130b6369b0c17ae3ee4179942ed80317ad8ba2d"
     },
     {
+      "id": "darc-10m",
+      "file": "darc-10m.json",
+      "name": "DARC 10 m",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 4,
+      "sha256": "a4c95d7f838c844028636218b0f7543e3149736c77d7594db781fef1a0a3621d"
+    },
+    {
+      "id": "darc-easter",
+      "file": "darc-easter.json",
+      "name": "DARC Ostercontest (Easter)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 4,
+      "sha256": "448562f8e6ce461837ba907f8e8b6c6b486546bb31db04a4c04dcc4f5787c712"
+    },
+    {
+      "id": "darc-xmas",
+      "file": "darc-xmas.json",
+      "name": "DARC Weihnachtswettbewerb (XMAS)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 4,
+      "sha256": "926f9fef422fd8c72e39412ca0b6f0aec2ca6acc761592bd823b5218b8dfc309"
+    },
+    {
       "id": "euhfc",
       "file": "euhfc.json",
       "name": "EU HF Championship",
@@ -81,6 +108,15 @@
       "rules_checked": "2026-11",
       "format": 3,
       "sha256": "be1c4b38a0bfc8413ac96be46dc4e37a5f99924191c5da38cdee7b368498abc9"
+    },
+    {
+      "id": "wag",
+      "file": "wag.json",
+      "name": "WAG (Worked All Germany)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 4,
+      "sha256": "9150b4654c2fb4ee71cd6e2fb7ad384d5c834a5da39a5a7ca185f78cad1f3eee"
     },
     {
       "id": "wpx-cw",

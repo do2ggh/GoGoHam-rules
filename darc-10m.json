@@ -1,0 +1,32 @@
+{
+  "format": 4,
+  "revision": 1,
+  "id": "darc-10m",
+  "name": "DARC 10 m",
+  "cabrillo_name": "DARC-10",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/darc-10m-contest/regeln/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "sunday", "nth": 2, "month": 1, "start_hour": 9, "hours": 2},
+  "bands": ["10"],
+  "modes": ["CW", "PH"],
+  "dupe": "mode",
+  "band_segments": {
+    "CW": {"allowed": [[28000, 28190]]},
+    "PH": {"allowed": [[28300, 28700]]}
+  },
+  "exchange": [
+    {"field": "rst"},
+    {"field": "location", "label": "Nr/DOK", "by_region": {"dl": "serial_dok", "dx": "serial"}}
+  ],
+  "points": {"type": "fixed", "value": 1},
+  "multipliers": [
+    {"type": "country", "per": "mode"},
+    {"type": "dok", "per": "mode"}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}
