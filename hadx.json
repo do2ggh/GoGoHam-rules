@@ -1,0 +1,52 @@
+{
+  "format": 7,
+  "revision": 1,
+  "id": "hadx",
+  "name": "HA DX Contest",
+  "cabrillo_name": "HA-DX",
+  "rules_url": "https://ha-dx.com/en/contest-rules",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 3, "month": 1, "start_hour": 12, "hours": 24},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["PH", "CW"],
+  "dupe": "band_mode",
+  "host": {
+    "countries": ["HA"],
+    "codes": [
+      "BA", "BE", "BN", "BO", "BP", "CS", "FE", "GY", "HB", "HE", "SZ", "KO", "NG",
+      "PE", "SO", "SA", "TO", "VA", "VE", "ZA"
+    ]
+  },
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "Nr/Kom",
+      "by_region": {"host": "district", "dx": "serial"}
+    }
+  ],
+  "points": {
+    "type": "continent",
+    "host": 10,
+    "host_host": 10,
+    "own_country": 2,
+    "same_continent": 2,
+    "same_continent_na": 2,
+    "other_continent": 5,
+    "maritime": 2
+  },
+  "multipliers": [
+    {"type": "district", "per": "band"},
+    {
+      "type": "country",
+      "per": "band",
+      "exclude": ["HA"]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}
