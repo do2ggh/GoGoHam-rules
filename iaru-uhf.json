@@ -1,0 +1,22 @@
+{
+  "format": 8,
+  "revision": 1,
+  "id": "iaru-uhf",
+  "name": "IARU Region 1 UHF/Mikrowellen",
+  "rules_url": "https://www.iaru-r1.org/about-us/committees-and-working-groups/vhf-uhf-shf-committee-c5/vhf-up-contesting/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "saturday", "nth": 1, "month": 10, "start_hour": 14, "hours": 24},
+  "bands": ["70cm", "23cm", "13cm", "9cm", "6cm", "3cm"],
+  "modes": ["PH", "CW"],
+  "dupe": "band",
+  "serial_per_band": true,
+  "exchange": [{"field": "rst"}, {"field": "serial_grid6"}],
+  "points": {"type": "km"},
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "edi",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "km", "pts"
+  ]
+}

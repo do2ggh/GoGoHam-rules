@@ -237,6 +237,17 @@
       ],
       "checked": "2026-11-03",
       "fingerprint": "f7e490b79efefb258bdb59165b46d7d68e8ca993c45e85ba6783889197f66d71"
+    },
+    {
+      "id": "iaru-ukw",
+      "url": "https://www.iaru-r1.org/about-us/committees-and-working-groups/vhf-uhf-shf-committee-c5/vhf-up-contesting/",
+      "watch": "text",
+      "contests": [
+        "iaru-vhf",
+        "iaru-uhf"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "a80a0b6c126176fa1af4466e539de437f1f59abec0557cac18177f1471909f35"
     }
   ]
 }

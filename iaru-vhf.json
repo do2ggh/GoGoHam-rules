@@ -1,0 +1,22 @@
+{
+  "format": 8,
+  "revision": 1,
+  "id": "iaru-vhf",
+  "name": "IARU Region 1 VHF (145 MHz)",
+  "rules_url": "https://www.iaru-r1.org/about-us/committees-and-working-groups/vhf-uhf-shf-committee-c5/vhf-up-contesting/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "saturday", "nth": 1, "month": 9, "start_hour": 14, "hours": 24},
+  "bands": ["2"],
+  "modes": ["PH", "CW"],
+  "dupe": "band",
+  "serial_per_band": true,
+  "exchange": [{"field": "rst"}, {"field": "serial_grid6"}],
+  "points": {"type": "km"},
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "edi",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "km", "pts"
+  ]
+}
