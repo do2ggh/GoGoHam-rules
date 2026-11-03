@@ -1,0 +1,36 @@
+{
+  "format": 6,
+  "revision": 1,
+  "id": "rdxc",
+  "name": "Russian DX Contest",
+  "cabrillo_name": "RDXC",
+  "rules_url": "https://rdxc.org/rules_eng",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 3, "month": 3, "start_hour": 12, "hours": 24},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["PH", "CW"],
+  "dupe": "band_mode",
+  "exchange": [
+    {"field": "rst"},
+    {"field": "location", "label": "Nr/Oblast", "by_region": {"ru": "oblast", "dx": "serial"}}
+  ],
+  "points": {
+    "type": "continent",
+    "ru": 10,
+    "own_country": 2,
+    "same_continent": 3,
+    "same_continent_na": 3,
+    "other_continent": 5,
+    "maritime": 5
+  },
+  "multipliers": [
+    {"type": "ru_oblast", "per": "band"},
+    {"type": "country", "per": "band"}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}
