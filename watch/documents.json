@@ -154,6 +154,17 @@
       ],
       "checked": "2026-11-03",
       "fingerprint": "a5544e5560e862a36d287684b7a7ac8157bf6b64287cc6c7a39fb6bf15a0df7b"
+    },
+    {
+      "id": "wae",
+      "url": "https://www.darc.de/der-club/referate/conteste/wae-dx-contest/en/wae-rules/",
+      "watch": "text",
+      "contests": [
+        "wae-cw",
+        "wae-ssb"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "69ab1d7417d26af2abca5102aac047538f067e548fd0f05f6431cec6f7932b3b"
     }
   ]
 }

@@ -1,0 +1,140 @@
+{
+  "format": 5,
+  "revision": 1,
+  "id": "wae-ssb",
+  "name": "WAE DX SSB",
+  "cabrillo_name": "DARC-WAEDC-SSB",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/wae-dx-contest/en/wae-rules/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 2,
+    "month": 9,
+    "start_hour": 0,
+    "hours": 48
+  },
+  "operating_time": {
+    "single_op_hours": 36,
+    "min_break_minutes": 60
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
+  "dupe": "band",
+  "contacts": "eu_dx",
+  "band_segments": {
+    "PH": {
+      "allowed": [
+        [
+          3650,
+          3700
+        ],
+        [
+          7040,
+          7060
+        ],
+        [
+          7100,
+          7130
+        ],
+        [
+          14100,
+          14125
+        ],
+        [
+          14300,
+          14350
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial"
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band",
+      "when": "eu",
+      "dxcc_only": true,
+      "exclude": [
+        "K",
+        "VE",
+        "VK",
+        "ZL",
+        "ZS",
+        "JA",
+        "BY",
+        "PY",
+        "UA9"
+      ]
+    },
+    {
+      "type": "call_area",
+      "per": "band",
+      "when": "eu",
+      "areas": {
+        "K": "W",
+        "VE": "VE",
+        "VK": "VK",
+        "ZL": "ZL",
+        "ZS": "ZS",
+        "JA": "JA",
+        "BY": "BY",
+        "PY": "PY",
+        "UA9": {
+          "name": "RA",
+          "digits": "890"
+        }
+      }
+    },
+    {
+      "type": "country",
+      "per": "band",
+      "when": "non_eu"
+    }
+  ],
+  "mult_factor": {
+    "80": 4,
+    "40": 3,
+    "default": 2
+  },
+  "qtc": {
+    "max_per_station": 10,
+    "points": 1
+  },
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

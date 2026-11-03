@@ -110,6 +110,24 @@
       "sha256": "be1c4b38a0bfc8413ac96be46dc4e37a5f99924191c5da38cdee7b368498abc9"
     },
     {
+      "id": "wae-cw",
+      "file": "wae-cw.json",
+      "name": "WAE DX CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 5,
+      "sha256": "5e76e0d711de276109ad2b4f4e8363fd320463ee40b694666a6a108f7a9547ab"
+    },
+    {
+      "id": "wae-ssb",
+      "file": "wae-ssb.json",
+      "name": "WAE DX SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 5,
+      "sha256": "e6bc12c9836ac1b92f4ee4d357cbb508a94c1c0db058a7f24eccbcfbeaa22264"
+    },
+    {
       "id": "wag",
       "file": "wag.json",
       "name": "WAG (Worked All Germany)",
