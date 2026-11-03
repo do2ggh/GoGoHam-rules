@@ -137,6 +137,24 @@
       "sha256": "be1c4b38a0bfc8413ac96be46dc4e37a5f99924191c5da38cdee7b368498abc9"
     },
     {
+      "id": "iaru-uhf",
+      "file": "iaru-uhf.json",
+      "name": "IARU Region 1 UHF/Mikrowellen",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 8,
+      "sha256": "c8e70c8ab99918e7a657ac35d772e300345c1dac3da5da93252e23f6982fe5f2"
+    },
+    {
+      "id": "iaru-vhf",
+      "file": "iaru-vhf.json",
+      "name": "IARU Region 1 VHF (145 MHz)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 8,
+      "sha256": "a8c495d4895d2b8da5ccf1224b5758dc853937a0e67c5949eeae99f95da16102"
+    },
+    {
       "id": "iota",
       "file": "iota.json",
       "name": "RSGB IOTA Contest",
