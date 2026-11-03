@@ -35,6 +35,8 @@ in the program; a file only says which building blocks a contest uses and with w
 | `darc-10m.json` | DARC 10 m | 1 | 2026-11 |
 | `darc-xmas.json` | DARC Weihnachtswettbewerb (XMAS) | 1 | 2026-11 |
 | `darc-easter.json` | DARC Ostercontest (Easter) | 1 | 2026-11 |
+| `wae-cw.json` | WAE DX CW (mit QTC) | 1 | 2026-11 |
+| `wae-ssb.json` | WAE DX SSB (mit QTC) | 1 | 2026-11 |
 
 `index.json` ist das Inhaltsverzeichnis (Revision und SHA-256-Prüfsumme je Datei), das
 GoGoHam zuerst abfragt. *`index.json` is the table of contents GoGoHam reads first.*
@@ -46,7 +48,7 @@ Alle Angaben sind im GoGoHam-Handbuch (Kapitel „Regel-Dateien“) erklärt. Ku
 
 | Key | Bedeutung / meaning |
 |---|---|
-| `format` | Format-Version: 1; 2 für Bausteine ab GoGoHam 0.7.0, 3 ab 0.7.1, 4 ab 0.8.4 (ältere Versionen überspringen solche Dateien) |
+| `format` | Format-Version: 1; 2 für Bausteine ab GoGoHam 0.7.0, 3 ab 0.7.1, 4 ab 0.8.4, 5 ab 0.8.5 (ältere Versionen überspringen solche Dateien) |
 | `revision` | Stand der Datei – bei jeder Änderung +1 / increase by 1 on every change |
 | `id`, `name`, `cabrillo_name` | Kurzname, Anzeigename, Contest-Name im Cabrillo-Log |
 | `rules_url`, `rules_checked` | offizielle Ausschreibung, zuletzt geprüft (JJJJ-MM) |
