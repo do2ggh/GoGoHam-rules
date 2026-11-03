@@ -1,0 +1,101 @@
+{
+  "format": 7,
+  "revision": 1,
+  "id": "uba-ssb",
+  "name": "UBA DX SSB",
+  "cabrillo_name": "UBA-DX-SSB",
+  "rules_url": "https://www.uba.be/en/hf/contest-rules/uba-dx-contest",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "saturday", "nth": -1, "month": 1, "start_hour": 13, "hours": 24},
+  "bands": ["80", "40", "20", "15", "10"],
+  "modes": ["PH"],
+  "dupe": "band",
+  "host": {
+    "countries": ["ON"],
+    "codes": [
+      "AAA", "ACC", "ALT", "ARA", "ARC", "ATH", "ATO", "BDX", "BLW", "BRC", "BSE",
+      "BTS", "BXE", "CDZ", "CLR", "CPN", "CRD", "DNZ", "DRC", "DST", "EKO", "ERA",
+      "GBN", "GBX", "GDV", "GNT", "GTM", "HAC", "HCC", "HOB", "HRT", "IPR", "KSD",
+      "KTK", "LGE", "LIR", "LLV", "LUS", "LVN", "MCL", "MLB", "MNS", "MTT", "MWV",
+      "NBT", "NLB", "NMR", "NNV", "NOK", "NOL", "OBR", "ODE", "ONZ", "ORA", "OSA",
+      "OSB", "OST", "PHI", "RAC", "RAF", "RAM", "RAT", "RBO", "RCA", "RCN", "REM",
+      "RST", "RSX", "SNW", "TLS", "TOR", "TRA", "TRC", "TWS", "UBA", "VHF", "WLD",
+      "WRA", "WRC", "WTO", "XXX", "ZLB", "ZLZ", "ZTM"
+    ],
+    "none_codes": ["XXX"]
+  },
+  "blocked_countries": ["UA", "UA2", "UA9", "R1FJ", "EU"],
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "Nr/Sek",
+      "by_region": {"host": "serial_district", "dx": "serial"}
+    }
+  ],
+  "points": {
+    "type": "by_region",
+    "host": {
+      "type": "continent",
+      "host_host": 1,
+      "group": {
+        "countries": [
+          "5B", "9A", "9H", "CT", "CT3", "CU", "DL", "EA", "EA6", "EA8", "EI", "ES",
+          "F", "FG", "FM", "FR", "FY", "HA", "I", "IS", "LX", "LY", "LZ", "OE", "OH",
+          "OH0", "OJ0", "OK", "OM", "OZ", "PA", "S5", "SM", "SP", "SV", "SV5", "SV9",
+          "SV/a", "TK", "YL", "YO"
+        ],
+        "points": 2
+      },
+      "own_country": 1,
+      "same_continent": 3,
+      "same_continent_na": 3,
+      "other_continent": 3
+    },
+    "dx": {
+      "type": "continent",
+      "host": 10,
+      "group": {
+        "countries": [
+          "5B", "9A", "9H", "CT", "CT3", "CU", "DL", "EA", "EA6", "EA8", "EI", "ES",
+          "F", "FG", "FM", "FR", "FY", "HA", "I", "IS", "LX", "LY", "LZ", "OE", "OH",
+          "OH0", "OJ0", "OK", "OM", "OZ", "PA", "S5", "SM", "SP", "SV", "SV5", "SV9",
+          "SV/a", "TK", "YL", "YO"
+        ],
+        "points": 3
+      },
+      "own_country": 1,
+      "same_continent": 1,
+      "same_continent_na": 1,
+      "other_continent": 1
+    }
+  },
+  "multipliers": [
+    {"type": "district", "per": "band"},
+    {"type": "country", "per": "band", "when": "host", "dxcc_only": true},
+    {
+      "type": "wpx_prefix",
+      "per": "band",
+      "when": "non_host",
+      "countries": ["ON"]
+    },
+    {
+      "type": "country",
+      "per": "band",
+      "when": "non_host",
+      "dxcc_only": true,
+      "countries": [
+        "5B", "9A", "9H", "CT", "CT3", "CU", "DL", "EA", "EA6", "EA8", "EI", "ES",
+        "F", "FG", "FM", "FR", "FY", "HA", "I", "IS", "LX", "LY", "LZ", "OE", "OH",
+        "OH0", "OJ0", "OK", "OM", "OZ", "PA", "S5", "SM", "SP", "SV", "SV5", "SV9",
+        "SV/a", "TK", "YL", "YO"
+      ]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}

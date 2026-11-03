@@ -1,0 +1,50 @@
+{
+  "format": 7,
+  "revision": 1,
+  "id": "okom-cw",
+  "name": "OK/OM DX CW",
+  "cabrillo_name": "OK-OM-DX",
+  "rules_url": "https://okomdx.crk.cz/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 2, "month": 11, "start_hour": 12, "hours": 24},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["CW"],
+  "dupe": "band",
+  "host": {
+    "countries": ["OK", "OM"],
+    "pattern": "[A-Z]{3}"
+  },
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "Nr/Bez",
+      "by_region": {"host": "district", "dx": "serial"}
+    }
+  ],
+  "points": {
+    "type": "by_region",
+    "host": {
+      "type": "continent",
+      "own_country": 2,
+      "same_continent": 3,
+      "same_continent_na": 3,
+      "other_continent": 5
+    },
+    "dx": {
+      "type": "continent",
+      "host": 10,
+      "own_country": 1,
+      "same_continent": 3,
+      "same_continent_na": 3,
+      "other_continent": 5
+    }
+  },
+  "multipliers": [{"type": "district", "per": "band"}, {"type": "country", "per": "band"}],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "format": 7,
+  "revision": 1,
+  "id": "spdx",
+  "name": "SP DX Contest",
+  "cabrillo_name": "SPDX",
+  "rules_url": "https://spdxcontest.pzk.org.pl/2026/rules.php",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 1, "month": 4, "start_hour": 15, "hours": 24},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["PH", "CW"],
+  "dupe": "band_mode",
+  "contacts": "host_only",
+  "host": {
+    "countries": ["SP"],
+    "codes": ["B", "C", "D", "F", "G", "J", "K", "L", "M", "O", "P", "R", "S", "U", "W", "Z"]
+  },
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "Nr/Prov",
+      "by_region": {"host": "district", "dx": "serial"}
+    }
+  ],
+  "points": {
+    "type": "by_region",
+    "host": {
+      "type": "continent",
+      "own_country": 0,
+      "same_continent": 1,
+      "same_continent_na": 1,
+      "other_continent": 3
+    },
+    "dx": {
+      "type": "continent",
+      "host": 3,
+      "own_country": 0,
+      "same_continent": 0,
+      "same_continent_na": 0,
+      "other_continent": 0
+    }
+  },
+  "multipliers": [
+    {"type": "district", "per": "band", "when": "non_host"},
+    {
+      "type": "country",
+      "per": "band",
+      "when": "host",
+      "dxcc_only": true,
+      "exclude": ["SP"]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}

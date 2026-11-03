@@ -196,6 +196,47 @@
       ],
       "checked": "2026-11-03",
       "fingerprint": "df51b98ad01b7b511054be94da47ebcdbe384ff6d1a931a756a89dfe36a8fb19"
+    },
+    {
+      "id": "hadx",
+      "url": "https://ha-dx.com/en/contest-rules",
+      "watch": "text",
+      "contests": [
+        "hadx"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "ea93e13eacaadf8a37837866d218c267d0b06bffd2f3c25c8df90e791fc7cfb1"
+    },
+    {
+      "id": "uba",
+      "url": "https://www.uba.be/en/hf/contest-rules/uba-dx-contest",
+      "watch": "text",
+      "contests": [
+        "uba-cw",
+        "uba-ssb"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "d40c3a888983f35df011edd579c38ae0b0a780dedbd65a64d56ea2bb8f13d02e"
+    },
+    {
+      "id": "pacc",
+      "url": "https://veron.nl/vereniging/commissies-en-werkgroepen/traffic-bureau/hf-contesten/pacc-rules/",
+      "watch": "text",
+      "contests": [
+        "pacc"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "10c0fc5020348d6a27fc0a5a82f10ecd79e7ca2e44aa10268d1f884bb4de8dda"
+    },
+    {
+      "id": "spdx",
+      "url": "https://spdxcontest.pzk.org.pl/2026/rules.php",
+      "watch": "text",
+      "contests": [
+        "spdx"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "f7e490b79efefb258bdb59165b46d7d68e8ca993c45e85ba6783889197f66d71"
     }
   ]
 }

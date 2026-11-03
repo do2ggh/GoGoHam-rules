@@ -1,0 +1,68 @@
+{
+  "format": 7,
+  "revision": 1,
+  "id": "pacc",
+  "name": "PACC Contest",
+  "cabrillo_name": "PACC",
+  "rules_url": "https://veron.nl/vereniging/commissies-en-werkgroepen/traffic-bureau/hf-contesten/pacc-rules/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 2, "month": 2, "start_hour": 12, "hours": 24},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["PH", "CW"],
+  "dupe": "band_mode",
+  "contacts": "host_only",
+  "host": {
+    "countries": ["PA"],
+    "codes": ["DR", "FL", "FR", "GD", "GR", "LB", "NB", "NH", "OV", "UT", "ZH", "ZL"]
+  },
+  "band_segments": {
+    "CW": {
+      "allowed": [[1810, 1840], [3500, 3560], [7000, 7040], [14000, 14060]]
+    },
+    "PH": {
+      "allowed": [[1840, 1880], [3600, 3650], [3700, 3800], [7060, 7100], [7130, 7200], [14125, 14300]]
+    }
+  },
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "Nr/Prov",
+      "by_region": {"host": "district", "dx": "serial"}
+    }
+  ],
+  "points": {"type": "fixed", "value": 1},
+  "multipliers": [
+    {"type": "district", "per": "band_mode", "when": "non_host"},
+    {
+      "type": "country",
+      "per": "band_mode",
+      "when": "host",
+      "dxcc_only": true,
+      "exclude": ["UA9", "CE", "JA", "LU", "PY", "VE", "K", "VK", "ZS", "ZL"]
+    },
+    {
+      "type": "call_area",
+      "per": "band_mode",
+      "when": "host",
+      "areas": {
+        "UA9": {"name": "UA", "digits": "890"},
+        "CE": "CE",
+        "JA": "JA",
+        "LU": "LU",
+        "PY": "PY",
+        "VE": "VE",
+        "K": "W",
+        "VK": "VK",
+        "ZS": "ZS",
+        "ZL": "ZL"
+      }
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}
