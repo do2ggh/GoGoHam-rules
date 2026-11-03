@@ -1,0 +1,39 @@
+{
+  "format": 4,
+  "revision": 1,
+  "id": "wag",
+  "name": "WAG (Worked All Germany)",
+  "cabrillo_name": "WAG",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/wag-contest/regeln/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 3, "month": 10, "start_hour": 15, "hours": 24},
+  "bands": ["80", "40", "20", "15", "10"],
+  "modes": ["CW", "PH"],
+  "dupe": "band_mode",
+  "contacts": "dl_dx",
+  "band_segments": {
+    "CW": {"forbidden": [[3560, 3800], [7040, 7200], [14060, 14350]]},
+    "PH": {"forbidden": [[3650, 3700], [7080, 7130], [14100, 14125], [14280, 14350],
+                         [21350, 21450], [28225, 28400]]}
+  },
+  "exchange": [
+    {"field": "rst"},
+    {"field": "location", "label": "DOK/Nr", "by_region": {"dl": "dok", "dx": "serial"}}
+  ],
+  "points": {
+    "type": "by_region",
+    "dl": {"type": "continent", "own_country": 1, "same_continent": 3,
+           "same_continent_na": 5, "other_continent": 5},
+    "dx": {"type": "fixed", "value": 3}
+  },
+  "multipliers": [
+    {"type": "country", "per": "band_mode", "when": "dl"},
+    {"type": "dok_district", "per": "band_mode", "when": "non_dl"}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}

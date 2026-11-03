@@ -1,0 +1,33 @@
+{
+  "format": 4,
+  "revision": 1,
+  "id": "darc-easter",
+  "name": "DARC Ostercontest (Easter)",
+  "cabrillo_name": "DARC-EASTER",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/ostercontest/regeln/",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "easter", "offset": 1, "start_hour": 15, "hours": 2, "minutes": 30},
+  "bands": ["80", "40"],
+  "modes": ["CW", "PH"],
+  "dupe": "band_mode",
+  "max_changes_total": 20,
+  "band_segments": {
+    "CW": {"allowed": [[3510, 3560], [7010, 7040]]},
+    "PH": {"allowed": [[3610, 3650], [3700, 3775], [7060, 7100], [7130, 7200]]}
+  },
+  "exchange": [
+    {"field": "rst"},
+    {"field": "location", "label": "DOK/Nr", "by_region": {"dl": "dok", "dx": "serial"}}
+  ],
+  "points": {"type": "fixed", "value": 1},
+  "multipliers": [
+    {"type": "dok", "per": "band_mode"},
+    {"type": "wpx_prefix", "per": "band_mode"}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "prefix", "pts", "gain", "mult"
+  ]
+}
