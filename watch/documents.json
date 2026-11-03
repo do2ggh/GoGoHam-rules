@@ -1,0 +1,119 @@
+{
+  "documents": [
+    {
+      "id": "cqww",
+      "url": "https://www.cqww.com/rules/",
+      "watch": "text",
+      "contests": [
+        "cqww-ssb",
+        "cqww-cw"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "6cca46d8a6e7db0b0588da7c9c30961c38b27dbc7086acd95ebf2aa00ae40c8c"
+    },
+    {
+      "id": "cqwpx",
+      "url": "https://cqwpx.com/rules/",
+      "watch": "text",
+      "contests": [
+        "wpx-ssb",
+        "wpx-cw"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "f2840bc20870196a3aecca4fb432566371cf7e60543accfae2423e0156392f7b"
+    },
+    {
+      "id": "ww-digi",
+      "url": "https://ww-digi.com/rules/",
+      "watch": "text",
+      "contests": [
+        "ww-digi"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "9c7917931f9db4e4c7e2963e8731a0b8c22c9a90fd4f6b2cdabee34da73dfb8b"
+    },
+    {
+      "id": "cq160",
+      "url": "https://www.cq160.com/rules/rules_cq160_2026.pdf",
+      "watch": "text",
+      "contests": [
+        "cq160-cw",
+        "cq160-ssb"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "1858abe4d0b863afbfda4a8fc5203af69117a07453480f7f5f1e8286ac9007ad"
+    },
+    {
+      "id": "cq160-links",
+      "url": "https://www.cq160.com/rules/",
+      "watch": "pdf_links",
+      "contests": [
+        "cq160-cw",
+        "cq160-ssb"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "e22ff75acf4893b9867076230e08a4ea97290d77b6001d7dab8b920eff4d6af2"
+    },
+    {
+      "id": "arrl-dx",
+      "url": "https://contests.arrl.org/ContestRules/DX-Rules.pdf",
+      "watch": "text",
+      "contests": [
+        "arrl-dx-cw",
+        "arrl-dx-ssb"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "793242907d2c28000361c49a6e2b76cdd8a123df0a6af83018ad4b8c561b8a94"
+    },
+    {
+      "id": "arrl-10",
+      "url": "https://www.arrl.org/files/file/Contest%20Rules%20PDFs/2026/10%20Meter%20Rules%20v%202_0%20-%202026.pdf",
+      "watch": "text",
+      "contests": [
+        "arrl-10"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "30d70dd83d1b8c74eb7837f8a443667dcb88876cafe33cbfc91d63c4753f702c"
+    },
+    {
+      "id": "arrl-10-links",
+      "url": "https://www.arrl.org/10-meter",
+      "watch": "pdf_links",
+      "contests": [
+        "arrl-10"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "5985ed1a78ca9859cf1cc21e364cbfe4765dd830067b6ba7dace16772629398f"
+    },
+    {
+      "id": "xe-mults",
+      "url": "http://www.dxxe.org/concurso/xe-mults.pdf",
+      "watch": "text",
+      "contests": [
+        "arrl-10"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "76a9699591bb5afd498a52d0a9a701ed2916b2c0a4894ef7e8b6fede67ae8389"
+    },
+    {
+      "id": "iaru-hf",
+      "url": "https://contests.arrl.org/ContestRules/IARU-HF-Rules.pdf",
+      "watch": "text",
+      "contests": [
+        "iaru-hf"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "185be6feb8eee3f773c10a4fb29e291a9ef49e25577b3e047d9e53338337cdbc"
+    },
+    {
+      "id": "euhfc",
+      "url": "https://euhf.s5cc.eu/rules/euhfc_rules_latest.pdf",
+      "watch": "text",
+      "contests": [
+        "euhfc"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "e5f7b41b863ca9b18df06665dcd330b47e9b2689461bbbea6ef2cef5a9f47d44"
+    }
+  ]
+}

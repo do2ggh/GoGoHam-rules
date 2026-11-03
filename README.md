@@ -59,6 +59,21 @@ Alle Angaben sind im GoGoHam-Handbuch (Kapitel „Regel-Dateien“) erklärt. Ku
 | `log_format` | `cabrillo`, `adif` (`edi` geplant) |
 | `columns` | Standard-Spalten der Log-Tabelle |
 
+## Wächter / rules watch
+
+Jeden Montag prüft GitHub automatisch, ob sich eine der offiziellen Ausschreibungen
+geändert hat (`.github/workflows/watch.yml`). Die überwachten Dokumente stehen in
+[`watch/documents.json`](watch/documents.json), der zuletzt geprüfte Stand in `watch/snapshots/` – nur als Wortliste, nicht als Text
+(die Ausschreibungen gehören den Veranstaltern).
+Verglichen werden Wörter und Zahlen – ein anderer Zeilenumbruch zählt nicht als Änderung.
+Bei einer Änderung oder wenn ein Dokument nicht erreichbar ist, entsteht ein *Issue* mit dem
+Etikett `wächter`. Nach dem Anpassen der Regeln: `python3 watch/watch_rules.py --update`.
+
+*Every Monday GitHub checks whether any of the official contest rules have changed. Watched
+documents: `watch/documents.json`; last checked state: `watch/snapshots/` (word lists only, not the text itself). Words and numbers are
+compared, so different line breaks do not count. A change (or an unreachable document) opens an
+issue labelled `wächter`.*
+
 ## Mitmachen / contributing
 
 Fehler gefunden oder ein Contest fehlt? Bitte ein *Issue* öffnen – am besten mit Link zur
@@ -71,7 +86,9 @@ ideally with a link to the official rules.*
 
 Diese Regel-Dateien stehen unter der **Creative Commons Namensnennung 4.0 International
 (CC BY 4.0)** – siehe [`LICENSE`](LICENSE). Jede Nutzung ist erlaubt, auch in anderen
-Programmen, solange „GoGoHam / DO2GGH“ als Quelle genannt wird.
+Programmen, solange „GoGoHam / DO2GGH“ als Quelle genannt wird. Das Prüf-Programm im
+Ordner `watch/` steht wie GoGoHam unter der **GPL-3.0**.
 
 *These rule files are licensed under **CC BY 4.0** – see [`LICENSE`](LICENSE). Any use is
-permitted, also in other programs, as long as "GoGoHam / DO2GGH" is credited.*
+permitted, also in other programs, as long as "GoGoHam / DO2GGH" is credited. The watch program in `watch/` is licensed
+under the **GPL-3.0**, like GoGoHam.*
