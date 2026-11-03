@@ -1,0 +1,32 @@
+# Wächter: prüft jede Woche, ob sich offizielle Contest-Ausschreibungen geändert haben.
+# Bei einer Änderung (oder wenn ein Dokument nicht erreichbar ist) legt er eine Meldung
+# (Issue) mit dem Etikett „wächter“ an – GitHub schickt dazu eine E-Mail.
+# Von Hand starten: Reiter „Actions“ → „Wächter“ → „Run workflow“.
+name: Wächter
+
+on:
+  schedule:
+    - cron: "23 4 * * 1"        # jeden Montag 04:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: pdftotext installieren
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+      - name: Wächter-Tests
+        run: python -m pip install -q pytest && python -m pytest -q -p no:cacheprovider watch/
+      - name: Ausschreibungen prüfen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python watch/watch_rules.py --issues
