@@ -165,6 +165,37 @@
       ],
       "checked": "2026-11-03",
       "fingerprint": "69ab1d7417d26af2abca5102aac047538f067e548fd0f05f6431cec6f7932b3b"
+    },
+    {
+      "id": "rdxc",
+      "url": "https://rdxc.org/rules_eng",
+      "watch": "text",
+      "contests": [
+        "rdxc"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "3dcd827de720fb2949a7be59162bc4cc6f95f5ed7eb801439c9ad2e2d3b88751"
+    },
+    {
+      "id": "iota",
+      "url": "https://www.rsgbcc.org/hf/iota.shtml",
+      "watch": "text",
+      "contests": [
+        "iota"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "0c90c382c5a7d3fd5df46ec1f3815d546630d193f84396bbe2935beb580ef0cb"
+    },
+    {
+      "id": "aadx",
+      "url": "https://www.jarl.org/English/4_Library/A-4-3_Contests/2025AA_rule.htm",
+      "watch": "text",
+      "contests": [
+        "aa-cw",
+        "aa-ssb"
+      ],
+      "checked": "2026-11-03",
+      "fingerprint": "df51b98ad01b7b511054be94da47ebcdbe384ff6d1a931a756a89dfe36a8fb19"
     }
   ]
 }

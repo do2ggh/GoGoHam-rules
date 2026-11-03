@@ -1,0 +1,34 @@
+{
+  "format": 6,
+  "revision": 1,
+  "id": "iota",
+  "name": "RSGB IOTA Contest",
+  "cabrillo_name": "RSGB-IOTA",
+  "rules_url": "https://www.rsgbcc.org/hf/iota.shtml",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "last_full", "month": 7, "start_hour": 12, "hours": 24},
+  "bands": ["80", "40", "20", "15", "10"],
+  "modes": ["PH", "CW"],
+  "dupe": "band_mode",
+  "exchange": [
+    {"field": "rst"},
+    {"field": "location", "label": "Nr/IOTA", "by_region": {"dx": "serial_iota"}}
+  ],
+  "points": {
+    "type": "iota",
+    "island_world": 5,
+    "island_same": 5,
+    "island_island": 15,
+    "world_world": 2,
+    "world_island": 15
+  },
+  "multipliers": [
+    {"type": "iota_ref", "per": "band_mode"}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}

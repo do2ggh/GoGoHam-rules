@@ -1,0 +1,42 @@
+{
+  "format": 6,
+  "revision": 1,
+  "id": "aa-cw",
+  "name": "All Asian DX CW",
+  "cabrillo_name": "AADX-CW",
+  "rules_url": "https://www.jarl.org/English/4_Library/A-4-3_Contests/2025AA_rule.htm",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "saturday", "nth": 3, "month": 6, "start_hour": 0, "hours": 48},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["CW"],
+  "dupe": "band",
+  "contacts": "asia",
+  "exchange": [{"field": "rst"}, {"field": "age"}],
+  "points": {
+    "type": "by_region",
+    "as": {
+      "type": "continent",
+      "own_country": 0,
+      "same_continent": {"160": 3, "80": 2, "10": 2, "default": 1},
+      "same_continent_na": {"160": 3, "80": 2, "10": 2, "default": 1},
+      "other_continent": {"160": 9, "80": 6, "10": 6, "default": 3}
+    },
+    "non_as": {
+      "type": "continent",
+      "own_country": 0,
+      "same_continent": 0,
+      "same_continent_na": 0,
+      "other_continent": {"160": 3, "80": 2, "10": 2, "default": 1}
+    }
+  },
+  "multipliers": [
+    {"type": "country", "per": "band", "when": "as", "dxcc_only": true},
+    {"type": "wpx_prefix", "per": "band", "when": "non_as", "cont": "AS"}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}
