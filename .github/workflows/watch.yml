@@ -12,6 +12,7 @@ on:
 permissions:
   contents: read
   issues: write
+  actions: write        # nur für „eingeschaltet lassen“ (siehe letzter Schritt)
 
 jobs:
   watch:
@@ -30,3 +31,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python watch/watch_rules.py --issues
+      # GitHub schaltet geplante Abläufe in öffentlichen Projekten nach 60 Tagen ohne
+      # Commit ab. Jeder Lauf schaltet den Wächter deshalb selbst wieder ein – das setzt
+      # die Frist zurück, ohne etwas ins Projekt zu schreiben.
+      - name: Ablauf eingeschaltet lassen (60-Tage-Regel)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/watch.yml/enable"

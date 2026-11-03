@@ -68,6 +68,8 @@ geändert hat (`.github/workflows/watch.yml`). Die überwachten Dokumente stehen
 Verglichen werden Wörter und Zahlen – ein anderer Zeilenumbruch zählt nicht als Änderung.
 Bei einer Änderung oder wenn ein Dokument nicht erreichbar ist, entsteht ein *Issue* mit dem
 Etikett `wächter`. Nach dem Anpassen der Regeln: `python3 watch/watch_rules.py --update`.
+Jeder Lauf schaltet den Wächter selbst wieder ein, damit GitHub ihn nicht nach 60 Tagen
+ohne Commit abschaltet.
 
 *Every Monday GitHub checks whether any of the official contest rules have changed. Watched
 documents: `watch/documents.json`; last checked state: `watch/snapshots/` (word lists only, not the text itself). Words and numbers are
