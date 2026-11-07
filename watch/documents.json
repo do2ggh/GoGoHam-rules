@@ -156,6 +156,47 @@
       "fingerprint": "a5544e5560e862a36d287684b7a7ac8157bf6b64287cc6c7a39fb6bf15a0df7b"
     },
     {
+      "id": "darc-fd",
+      "url": "https://www.darc.de/der-club/referate/conteste/iaru-region-1-fieldday/regeln/",
+      "watch": "text",
+      "contests": [
+        "darc-fd-cw",
+        "darc-fd-ssb"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "50916cc4265ee1a20ffd8a64bf18f3aae87b8c19a8e2d5e1a67937ceb2c798dc"
+    },
+    {
+      "id": "darc-ft4",
+      "url": "https://www.darc.de/der-club/referate/conteste/ft4-contest/ft4-rules/",
+      "watch": "text",
+      "contests": [
+        "darc-ft4"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "852cdb53defdb9a4d202d5af059d75bf7f1065d6bbaa167ab99a57368813efb3"
+    },
+    {
+      "id": "darc-cwa",
+      "url": "https://www.darc.de/der-club/referate/conteste/cwa/darc-cwa-ausschreibung/",
+      "watch": "text",
+      "contests": [
+        "darc-cwa"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "a80440ed9f9efa6e636d52e12d9bb150676c288b7847941d315c0f0748587553"
+    },
+    {
+      "id": "darc-ac",
+      "url": "https://www.darc.de/der-club/referate/conteste/ausbildungscontest/ac-ausschreibung/",
+      "watch": "text",
+      "contests": [
+        "darc-ac"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "d816866ae160a8bf6f826370bfdab460b2c3f9f374619b484d1de72fbaf639ae"
+    },
+    {
       "id": "wae",
       "url": "https://www.darc.de/der-club/referate/conteste/wae-dx-contest/en/wae-rules/",
       "watch": "text",

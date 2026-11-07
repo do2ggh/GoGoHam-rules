@@ -1,0 +1,68 @@
+{
+  "format": 9,
+  "revision": 1,
+  "id": "darc-fd-cw",
+  "name": "IARU Region 1 Fieldday CW (DARC)",
+  "cabrillo_name": "IARU-FD-R1-DARC-CW",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/iaru-region-1-fieldday/regeln/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 1,
+    "month": 6,
+    "start_hour": 15,
+    "hours": 24
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial"
+    }
+  ],
+  "points": {
+    "type": "portable",
+    "fixed_eu": 2,
+    "fixed_dx": 3,
+    "portable_eu": 4,
+    "portable_dx": 6,
+    "fixed_fixed": 0
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

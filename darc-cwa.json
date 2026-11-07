@@ -1,0 +1,75 @@
+{
+  "format": 9,
+  "revision": 1,
+  "id": "darc-cwa",
+  "name": "DARC CW-Ausbildungscontest (CWA)",
+  "cabrillo_name": "DARC-CWA",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/cwa/darc-cwa-ausschreibung/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "weekday",
+    "weekday": 1,
+    "nth": 2,
+    "months": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "start_hour": 18,
+    "hours": 1
+  },
+  "bands": [
+    "80"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "DOK/Nr",
+      "by_region": {
+        "dl": "dok",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "dok",
+      "per": "once"
+    },
+    {
+      "type": "wpx_prefix",
+      "per": "once"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "prefix",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

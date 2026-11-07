@@ -1,0 +1,98 @@
+{
+  "format": 9,
+  "revision": 1,
+  "id": "darc-ac",
+  "name": "DARC Ausbildungscontest (AC)",
+  "cabrillo_name": "WAG",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/ausbildungscontest/ac-ausschreibung/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 10,
+    "start_hour": 12,
+    "hours": 2,
+    "minutes": 30
+  },
+  "bands": [
+    "80",
+    "40"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_mode",
+  "band_segments": {
+    "CW": {
+      "forbidden": [
+        [
+          3560,
+          3800
+        ],
+        [
+          7040,
+          7200
+        ]
+      ]
+    },
+    "PH": {
+      "forbidden": [
+        [
+          3650,
+          3700
+        ],
+        [
+          7080,
+          7130
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "DOK/Nr",
+      "by_region": {
+        "dl": "dok",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1,
+    "trainee": 2
+  },
+  "multipliers": [
+    {
+      "type": "dok_district",
+      "per": "band_mode"
+    },
+    {
+      "type": "country",
+      "per": "band_mode"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}
