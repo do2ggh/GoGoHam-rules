@@ -410,6 +410,36 @@
       ],
       "checked": "2026-11-07",
       "fingerprint": "a58a53b2c07001c73369a9f5e727f9b026bab36aa1cf991f8b88adec9181c1ba"
+    },
+    {
+      "id": "yodx",
+      "url": "https://yodx.ro/rules.php",
+      "watch": "text",
+      "contests": [
+        "yodx"
+      ],
+      "checked": "2026-11-08",
+      "fingerprint": "c28e5468f905d63b04672b344962a0a1b8f3cec419f88d731c7b7f018fbe7f8e"
+    },
+    {
+      "id": "ea-majestad-cw",
+      "url": "https://concursos.ure.es/en/?p=63",
+      "watch": "text",
+      "contests": [
+        "ea-majestad-cw"
+      ],
+      "checked": "2026-11-08",
+      "fingerprint": "e0da4ec206ce579a850e5444f55fa99db7706b3c7005bcc808d93d4dc09c91b5"
+    },
+    {
+      "id": "ea-majestad-ssb",
+      "url": "https://concursos.ure.es/en/s-m-el-rey-de-espana-ssb/",
+      "watch": "text",
+      "contests": [
+        "ea-majestad-ssb"
+      ],
+      "checked": "2026-11-08",
+      "fingerprint": "e850a2a3c31f7ff5e8bb40caf9ce75ee0110e616e7a1824faa8754a6c6128303"
     }
   ]
 }

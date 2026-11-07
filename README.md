@@ -47,6 +47,9 @@ in the program; a file only says which building blocks a contest uses and with w
 | `agcw-hny.json` | AGCW Happy New Year Contest | 1 | 2026-11 |
 | `ref-cw.json` | REF Contest CW (Coupe du REF) | 1 | 2026-11 |
 | `ref-ssb.json` | REF Contest SSB (Coupe du REF) | 1 | 2026-11 |
+| `yodx.json` | YO DX HF Contest | 1 | 2026-11 |
+| `ea-majestad-cw.json` | S.M. El Rey de España CW (King of Spain) | 1 | 2026-11 |
+| `ea-majestad-ssb.json` | S.M. El Rey de España SSB (King of Spain) | 1 | 2026-11 |
 
 `index.json` ist das Inhaltsverzeichnis (Revision und SHA-256-Prüfsumme je Datei), das
 GoGoHam zuerst abfragt. *`index.json` is the table of contents GoGoHam reads first.*

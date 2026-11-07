@@ -218,6 +218,24 @@
       "sha256": "926f9fef422fd8c72e39412ca0b6f0aec2ca6acc761592bd823b5218b8dfc309"
     },
     {
+      "id": "ea-majestad-cw",
+      "file": "ea-majestad-cw.json",
+      "name": "S.M. El Rey de España CW (King of Spain)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 7,
+      "sha256": "66ebf53a2e9e60e4136d7c953d161fade3f3fafed4856b648bdd303d78df10ed"
+    },
+    {
+      "id": "ea-majestad-ssb",
+      "file": "ea-majestad-ssb.json",
+      "name": "S.M. El Rey de España SSB (King of Spain)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 7,
+      "sha256": "23867c6e0cbf8bc54db4343498737f2691fbb4438e5ee43a3ba052278999ae61"
+    },
+    {
       "id": "euhfc",
       "file": "euhfc.json",
       "name": "EU HF Championship",
@@ -423,6 +441,15 @@
       "rules_checked": "2026-11",
       "format": 1,
       "sha256": "3464bcd8eda2fa6789e38344f224a05c0fd9b6646d47e7b0681d4276c62778d8"
+    },
+    {
+      "id": "yodx",
+      "file": "yodx.json",
+      "name": "YO DX HF Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 7,
+      "sha256": "d8666a629987eb66da889cc35a2046495965ff4ab15711f14b8faa07c69a6672"
     }
   ]
 }

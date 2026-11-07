@@ -1,0 +1,148 @@
+{
+  "format": 7,
+  "revision": 1,
+  "id": "ea-majestad-ssb",
+  "name": "S.M. El Rey de España SSB (King of Spain)",
+  "cabrillo_name": "EA-MAJESTAD-SSB",
+  "rules_url": "https://concursos.ure.es/en/s-m-el-rey-de-espana-ssb/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 4,
+    "month": 6,
+    "start_hour": 12,
+    "hours": 24
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
+  "dupe": "band",
+  "host": {
+    "countries": [
+      "EA",
+      "EA6",
+      "EA8",
+      "EA9"
+    ],
+    "codes": [
+      "AV",
+      "BU",
+      "C",
+      "LE",
+      "LO",
+      "LU",
+      "O",
+      "OU",
+      "P",
+      "PO",
+      "S",
+      "SA",
+      "SG",
+      "SO",
+      "VA",
+      "ZA",
+      "BI",
+      "HU",
+      "NA",
+      "SS",
+      "TE",
+      "VI",
+      "Z",
+      "B",
+      "GI",
+      "L",
+      "T",
+      "BA",
+      "CC",
+      "CR",
+      "CU",
+      "GU",
+      "M",
+      "TO",
+      "A",
+      "AB",
+      "CS",
+      "MU",
+      "V",
+      "IB",
+      "AL",
+      "CA",
+      "CO",
+      "GR",
+      "H",
+      "J",
+      "MA",
+      "SE",
+      "GC",
+      "TF",
+      "CE",
+      "ML",
+      "SMR"
+    ]
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Nr/Prov",
+      "by_region": {
+        "host": "district",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "continent",
+    "host": 3,
+    "host_host": 2,
+    "own_country": 1,
+    "same_continent": 1,
+    "same_continent_na": 1,
+    "other_continent": 1
+  },
+  "multipliers": [
+    {
+      "type": "district",
+      "per": "band"
+    },
+    {
+      "type": "country",
+      "per": "band",
+      "dxcc_only": true,
+      "exclude": [
+        "EA",
+        "EA6",
+        "EA8",
+        "EA9"
+      ]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

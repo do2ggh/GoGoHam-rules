@@ -1,0 +1,141 @@
+{
+  "format": 7,
+  "revision": 1,
+  "id": "yodx",
+  "name": "YO DX HF Contest",
+  "cabrillo_name": "YODX",
+  "rules_url": "https://yodx.ro/rules.php",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 4,
+    "month": 8,
+    "start_hour": 12,
+    "hours": 24
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_mode",
+  "host": {
+    "countries": [
+      "YO"
+    ],
+    "codes": [
+      "AR",
+      "CS",
+      "HD",
+      "TM",
+      "BU",
+      "IF",
+      "CT",
+      "BR",
+      "GL",
+      "TL",
+      "VN",
+      "AB",
+      "BH",
+      "BN",
+      "CJ",
+      "SM",
+      "SJ",
+      "MM",
+      "BV",
+      "CV",
+      "HR",
+      "MS",
+      "SB",
+      "AG",
+      "DJ",
+      "GJ",
+      "MH",
+      "OT",
+      "VL",
+      "BC",
+      "BT",
+      "IS",
+      "NT",
+      "SV",
+      "VS",
+      "BZ",
+      "CL",
+      "DB",
+      "GR",
+      "IL",
+      "PH",
+      "TR"
+    ]
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Nr/Kreis",
+      "by_region": {
+        "host": "district",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "by_region",
+    "host": {
+      "type": "continent",
+      "host_host": 0,
+      "own_country": 0,
+      "same_continent": 4,
+      "same_continent_na": 4,
+      "other_continent": 8,
+      "maritime": 4
+    },
+    "dx": {
+      "type": "continent",
+      "host": 8,
+      "own_country": 1,
+      "same_continent": 2,
+      "same_continent_na": 2,
+      "other_continent": 4,
+      "maritime": 4
+    }
+  },
+  "multipliers": [
+    {
+      "type": "district",
+      "per": "band",
+      "when": "non_host"
+    },
+    {
+      "type": "country",
+      "per": "band",
+      "dxcc_only": true
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}
