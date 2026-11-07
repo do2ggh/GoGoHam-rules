@@ -1,0 +1,94 @@
+{
+  "format": 10,
+  "revision": 1,
+  "id": "darc-ukw-fd-winter",
+  "name": "DARC UKW-Winter-Fieldday",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest007/tnukwcontest0070/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 1,
+    "month": 2,
+    "start_hour": 9,
+    "hours": 28
+  },
+  "bands": [
+    "2",
+    "70cm",
+    "23cm",
+    "13cm",
+    "9cm",
+    "6cm"
+  ],
+  "modes": [
+    "PH",
+    "CW"
+  ],
+  "dupe": "band",
+  "serial_per_band": true,
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_grid6"
+    }
+  ],
+  "points": {
+    "type": "km"
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "edi",
+  "band_windows": [
+    {
+      "weekday": 5,
+      "from": "0900",
+      "to": "1059",
+      "bands": [
+        "23cm"
+      ]
+    },
+    {
+      "weekday": 5,
+      "from": "1100",
+      "to": "1329",
+      "bands": [
+        "13cm",
+        "9cm",
+        "6cm"
+      ]
+    },
+    {
+      "weekday": 6,
+      "from": "0900",
+      "to": "1059",
+      "bands": [
+        "70cm"
+      ]
+    },
+    {
+      "weekday": 6,
+      "from": "1100",
+      "to": "1259",
+      "bands": [
+        "2"
+      ]
+    }
+  ],
+  "require_portable": true,
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "format": 10,
+  "revision": 1,
+  "id": "darc-ukw-spring",
+  "name": "DARC UKW-Frühlingswettbewerb",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest001/tnukwcontest007000/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 1,
+    "month": 4,
+    "start_hour": 12,
+    "hours": 4
+  },
+  "bands": [
+    "2",
+    "70cm",
+    "23cm",
+    "13cm",
+    "9cm",
+    "6cm",
+    "3cm",
+    "1.25cm",
+    "6mm",
+    "4mm",
+    "2.5mm",
+    "2mm",
+    "1mm",
+    "submm"
+  ],
+  "modes": [
+    "PH",
+    "CW"
+  ],
+  "dupe": "band",
+  "serial_per_band": true,
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_grid6"
+    }
+  ],
+  "points": {
+    "type": "km"
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "edi",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts"
+  ]
+}
