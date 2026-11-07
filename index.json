@@ -146,6 +146,51 @@
       "sha256": "b6fe8e6f9b425f3fdaa5298e5ff010b70dc7bcee1d9ed503e703fb39ebb37431"
     },
     {
+      "id": "darc-microwave",
+      "file": "darc-microwave.json",
+      "name": "DARC Mikrowellen-Wettbewerb (Juni)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "b176bda8f5cbd91f66d89b80673f18b1b7a2cb2034fc8efb2b9e6cdad7b4c655"
+    },
+    {
+      "id": "darc-ukw-fd-summer",
+      "file": "darc-ukw-fd-summer.json",
+      "name": "DARC UKW-Sommer-Fieldday",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "94b387d9a2afcc343f27c0a68ca868da2299ba992c8a145aa7b62dd22da0e183"
+    },
+    {
+      "id": "darc-ukw-fd-winter",
+      "file": "darc-ukw-fd-winter.json",
+      "name": "DARC UKW-Winter-Fieldday",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "5e9f1ff3c86bf8dc832fadac1d7e7d5f73bb13f05b368de8630a69168e579162"
+    },
+    {
+      "id": "darc-ukw-spring",
+      "file": "darc-ukw-spring.json",
+      "name": "DARC UKW-Frühlingswettbewerb",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "79d40534ea6c6a4efe3bd5aa3e491427edf1bfb5bfee77056e2aa4cd301c207b"
+    },
+    {
+      "id": "darc-vhf",
+      "file": "darc-vhf.json",
+      "name": "DARC VHF-/UHF-/SHF-Wettbewerb (März, Mai, Juli)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "ccc9aa1d751df7953f61498b1e48e9ce3fd84b0997a5323448dac5792ee70f19"
+    },
+    {
       "id": "darc-xmas",
       "file": "darc-xmas.json",
       "name": "DARC Weihnachtswettbewerb (XMAS)",
@@ -207,6 +252,15 @@
       "rules_checked": "2026-11",
       "format": 6,
       "sha256": "d2f36e28feb52b0529569c03acf249326294efc90ec67024b935ffb3eb494ab6"
+    },
+    {
+      "id": "marconi-vhf",
+      "file": "marconi-vhf.json",
+      "name": "IARU Region 1 Marconi Memorial Contest VHF (CW)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "01a3e377074ed8d07ad87c7b1d19d99b0db293e4c0a1e8a5a32e26903c1959ad"
     },
     {
       "id": "okom-cw",

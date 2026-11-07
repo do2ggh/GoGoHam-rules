@@ -8,7 +8,7 @@
         "cqww-ssb",
         "cqww-cw"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "6cca46d8a6e7db0b0588da7c9c30961c38b27dbc7086acd95ebf2aa00ae40c8c"
     },
     {
@@ -19,7 +19,7 @@
         "wpx-ssb",
         "wpx-cw"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "f2840bc20870196a3aecca4fb432566371cf7e60543accfae2423e0156392f7b"
     },
     {
@@ -29,7 +29,7 @@
       "contests": [
         "ww-digi"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "9c7917931f9db4e4c7e2963e8731a0b8c22c9a90fd4f6b2cdabee34da73dfb8b"
     },
     {
@@ -40,7 +40,7 @@
         "cq160-cw",
         "cq160-ssb"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "1858abe4d0b863afbfda4a8fc5203af69117a07453480f7f5f1e8286ac9007ad"
     },
     {
@@ -51,7 +51,7 @@
         "cq160-cw",
         "cq160-ssb"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "e22ff75acf4893b9867076230e08a4ea97290d77b6001d7dab8b920eff4d6af2"
     },
     {
@@ -62,7 +62,7 @@
         "arrl-dx-cw",
         "arrl-dx-ssb"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "793242907d2c28000361c49a6e2b76cdd8a123df0a6af83018ad4b8c561b8a94"
     },
     {
@@ -72,7 +72,7 @@
       "contests": [
         "arrl-10"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "30d70dd83d1b8c74eb7837f8a443667dcb88876cafe33cbfc91d63c4753f702c"
     },
     {
@@ -82,8 +82,8 @@
       "contests": [
         "arrl-10"
       ],
-      "checked": "2026-11-03",
-      "fingerprint": "5985ed1a78ca9859cf1cc21e364cbfe4765dd830067b6ba7dace16772629398f"
+      "checked": "2026-11-07",
+      "fingerprint": "b82ebd11652ce9946c7258f2646d29d8d565a8ffaaf5bcbb3397495dcb7d2559"
     },
     {
       "id": "xe-mults",
@@ -92,7 +92,7 @@
       "contests": [
         "arrl-10"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "76a9699591bb5afd498a52d0a9a701ed2916b2c0a4894ef7e8b6fede67ae8389"
     },
     {
@@ -102,7 +102,7 @@
       "contests": [
         "iaru-hf"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "185be6feb8eee3f773c10a4fb29e291a9ef49e25577b3e047d9e53338337cdbc"
     },
     {
@@ -112,7 +112,7 @@
       "contests": [
         "euhfc"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "e5f7b41b863ca9b18df06665dcd330b47e9b2689461bbbea6ef2cef5a9f47d44"
     },
     {
@@ -122,7 +122,7 @@
       "contests": [
         "wag"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "e7a9fc9562ed222fc5e8fcb79ec09293c6d7f9d1962ece538c1c115b21dd03b0"
     },
     {
@@ -132,7 +132,7 @@
       "contests": [
         "darc-10m"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "32072c5e3321f2ebf3f09425f1f275a9bf1e804b4e13cce96ec517258644d3f0"
     },
     {
@@ -142,7 +142,7 @@
       "contests": [
         "darc-xmas"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "ffe64418557583752ed0b05f9c80796fcd010fb58145b5dcabb9efcebb589d8d"
     },
     {
@@ -152,7 +152,7 @@
       "contests": [
         "darc-easter"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "a5544e5560e862a36d287684b7a7ac8157bf6b64287cc6c7a39fb6bf15a0df7b"
     },
     {
@@ -204,7 +204,7 @@
         "wae-cw",
         "wae-ssb"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "69ab1d7417d26af2abca5102aac047538f067e548fd0f05f6431cec6f7932b3b"
     },
     {
@@ -214,7 +214,7 @@
       "contests": [
         "rdxc"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "3dcd827de720fb2949a7be59162bc4cc6f95f5ed7eb801439c9ad2e2d3b88751"
     },
     {
@@ -224,7 +224,7 @@
       "contests": [
         "iota"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "0c90c382c5a7d3fd5df46ec1f3815d546630d193f84396bbe2935beb580ef0cb"
     },
     {
@@ -235,7 +235,7 @@
         "aa-cw",
         "aa-ssb"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "df51b98ad01b7b511054be94da47ebcdbe384ff6d1a931a756a89dfe36a8fb19"
     },
     {
@@ -245,7 +245,7 @@
       "contests": [
         "hadx"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "ea93e13eacaadf8a37837866d218c267d0b06bffd2f3c25c8df90e791fc7cfb1"
     },
     {
@@ -256,7 +256,7 @@
         "uba-cw",
         "uba-ssb"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "d40c3a888983f35df011edd579c38ae0b0a780dedbd65a64d56ea2bb8f13d02e"
     },
     {
@@ -266,7 +266,7 @@
       "contests": [
         "pacc"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "10c0fc5020348d6a27fc0a5a82f10ecd79e7ca2e44aa10268d1f884bb4de8dda"
     },
     {
@@ -276,7 +276,7 @@
       "contests": [
         "spdx"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "f7e490b79efefb258bdb59165b46d7d68e8ca993c45e85ba6783889197f66d71"
     },
     {
@@ -287,8 +287,88 @@
         "iaru-vhf",
         "iaru-uhf"
       ],
-      "checked": "2026-11-03",
+      "checked": "2026-11-07",
       "fingerprint": "a80a0b6c126176fa1af4466e539de437f1f59abec0557cac18177f1471909f35"
+    },
+    {
+      "id": "darc-vhf-maerz",
+      "url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest000/tnukwcontest00700/",
+      "watch": "text",
+      "contests": [
+        "darc-vhf"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "3bf61bdd0fc65143d980a1b28645a2b088e06115d5511023b26839a27bf85ca6"
+    },
+    {
+      "id": "darc-vhf-mai",
+      "url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest002/tnukwcontest007001/",
+      "watch": "text",
+      "contests": [
+        "darc-vhf"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "ff19b8f44646c797d168effb459ecc8ab4df7ff81de3f27ce05c88f41d0a8f38"
+    },
+    {
+      "id": "darc-vhf-juli",
+      "url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest0011/tnukwcontest007003/",
+      "watch": "text",
+      "contests": [
+        "darc-vhf"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "137aa824420cbe4fd13bcc115e736e55d702be81b6deb129676da43f05aa6c94"
+    },
+    {
+      "id": "darc-ukw-spring",
+      "url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest001/tnukwcontest007000/",
+      "watch": "text",
+      "contests": [
+        "darc-ukw-spring"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "be4a0b6af20cf7065a966f3bc3b5e588e00fb68e25af3f2076c407322ed7028d"
+    },
+    {
+      "id": "darc-microwave",
+      "url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest0010/tnukwcontest007002/",
+      "watch": "text",
+      "contests": [
+        "darc-microwave"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "6468df51eaa1cfd9476f8942a116b42c0246afbc2360f15edb54eebdba191d08"
+    },
+    {
+      "id": "marconi-vhf",
+      "url": "https://www.darc.de/index.php?id=56192",
+      "watch": "text",
+      "contests": [
+        "marconi-vhf"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "26e00642a2c92a9576291e4cf5223f8190b3d089798ec022c07bae197a080137"
+    },
+    {
+      "id": "darc-ukw-fd-winter",
+      "url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest007/tnukwcontest0070/",
+      "watch": "text",
+      "contests": [
+        "darc-ukw-fd-winter"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "7522e812e4bb6a1fce45cece67d1a9a2978fd1ae7df8044fec7cfcc2127ebcab"
+    },
+    {
+      "id": "darc-ukw-fd-summer",
+      "url": "https://www.darc.de/der-club/referate/conteste/ukw/tnukwcontest003/tnukwcontest007004/",
+      "watch": "text",
+      "contests": [
+        "darc-ukw-fd-summer"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "1ab55b1176f421ab170a7cc443ebb537b3e26aaf94557ccd37077f682e83f0fc"
     }
   ]
 }
