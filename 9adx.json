@@ -1,0 +1,60 @@
+{
+  "format": 11,
+  "revision": 1,
+  "id": "9adx",
+  "name": "9A DX Contest (Croatian DX)",
+  "cabrillo_name": "9A-DX",
+  "rules_url": "https://9adx-contest.com/rules.php",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 3, "month": 12, "start_hour": 14, "hours": 24},
+  "bands": ["160", "80", "40", "20", "15", "10"],
+  "modes": ["CW", "PH"],
+  "dupe": "band_mode",
+  "host": {
+    "countries": ["9A"],
+    "codes": [
+      "BJ", "BM", "CK", "DA", "DE", "DJ", "DU", "GS", "IM", "KA", "KC", "KR", "KT", "KZ",
+      "MA", "NA", "NG", "OG", "OS", "PU", "PZ", "RI", "SB", "SI", "SK", "SL", "ST", "VK",
+      "VT", "VU", "VZ", "ZD", "ZG", "ZU"
+    ]
+  },
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "Zone/Kürz",
+      "by_region": {"host": "district", "dx": "itu_zone"}
+    }
+  ],
+  "points": {
+    "type": "by_region",
+    "host": {
+      "type": "continent",
+      "host_host": 1,
+      "own_country": 1,
+      "same_continent": {"160": 4, "80": 4, "default": 2},
+      "same_continent_na": {"160": 4, "80": 4, "default": 2},
+      "other_continent": {"160": 10, "80": 10, "40": 8, "default": 6}
+    },
+    "dx": {
+      "type": "continent",
+      "host": {"160": 10, "80": 10, "40": 10, "default": 6},
+      "own_country": {"160": 2, "80": 2, "40": 2, "default": 1},
+      "same_continent": {"160": 2, "80": 2, "40": 2, "default": 1},
+      "same_continent_na": {"160": 2, "80": 2, "40": 2, "default": 1},
+      "other_continent": {"160": 6, "80": 6, "40": 6, "default": 3}
+    }
+  },
+  "time_bonus": {"from": "2300", "to": "0500", "points": 2},
+  "multipliers": [
+    {"type": "district", "per": "band_mode"},
+    {"type": "itu_zone", "per": "band_mode"},
+    {"type": "country", "per": "band_mode"}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}

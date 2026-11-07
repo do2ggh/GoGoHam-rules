@@ -1,0 +1,48 @@
+{
+  "format": 11,
+  "revision": 1,
+  "id": "lzdx",
+  "name": "LZ DX Contest",
+  "cabrillo_name": "LZ-DX",
+  "rules_url": "https://lzdx.bfra.bg/rulesen.html",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": -2, "month": 11, "start_hour": 12, "hours": 24},
+  "bands": ["80", "40", "20", "15", "10"],
+  "modes": ["CW", "PH"],
+  "dupe": "band_mode",
+  "host": {
+    "countries": ["LZ"],
+    "codes": [
+      "BU", "BL", "VN", "VT", "VD", "VR", "GA", "DO", "KA", "KD", "LV", "MN", "PA", "PK",
+      "PL", "PD", "RZ", "RS", "SS", "SL", "SM", "SF", "SO", "SZ", "TA", "HA", "SN", "YA"
+    ]
+  },
+  "exchange": [
+    {"field": "rst"},
+    {
+      "field": "location",
+      "label": "Zone/Bez",
+      "by_region": {"host": "district", "dx": "itu_zone"}
+    }
+  ],
+  "points": {
+    "type": "continent",
+    "host": 10,
+    "host_host": 1,
+    "own_country": 1,
+    "same_continent": 1,
+    "same_continent_na": 1,
+    "other_continent": 3
+  },
+  "multipliers": [
+    {"type": "itu_zone", "per": "band"},
+    {"type": "district", "per": "band", "when": "non_host"},
+    {"type": "country", "per": "band", "when": "host", "dxcc_only": true}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr", "utc", "band", "mode", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r",
+    "land", "pts", "gain", "mult"
+  ]
+}

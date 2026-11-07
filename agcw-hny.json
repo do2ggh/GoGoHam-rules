@@ -1,0 +1,79 @@
+{
+  "format": 11,
+  "revision": 1,
+  "id": "agcw-hny",
+  "name": "AGCW Happy New Year Contest",
+  "cabrillo_name": "AGCW-HNY",
+  "rules_url": "https://www.agcw.de/contest/hnyc/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "date",
+    "month": 1,
+    "day": 1,
+    "start_hour": 9,
+    "hours": 3
+  },
+  "bands": [
+    "80",
+    "40",
+    "20"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          3510,
+          3560
+        ],
+        [
+          7010,
+          7040
+        ],
+        [
+          14000,
+          14060
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_member"
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "member",
+      "per": "band"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

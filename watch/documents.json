@@ -369,6 +369,47 @@
       ],
       "checked": "2026-11-07",
       "fingerprint": "1ab55b1176f421ab170a7cc443ebb537b3e26aaf94557ccd37077f682e83f0fc"
+    },
+    {
+      "id": "lzdx",
+      "url": "https://lzdx.bfra.bg/rulesen.html",
+      "watch": "text",
+      "contests": [
+        "lzdx"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "982db558a5db17b997ce709a5a157b0e5d032f6ed1282475248987b91d882772"
+    },
+    {
+      "id": "9adx",
+      "url": "https://9adx-contest.com/rules.php",
+      "watch": "text",
+      "contests": [
+        "9adx"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "fe5e8e7c411705f29a04fee01b9d64d0f174bc65db180eeb5ea98db04e3bfd6e"
+    },
+    {
+      "id": "agcw-hny",
+      "url": "https://www.agcw.de/contest/hnyc/",
+      "watch": "text",
+      "contests": [
+        "agcw-hny"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "14c5f95910cedcfa5e499a83cc6528fa13ec3b3436a4cd0c7952a9b0d65e57d8"
+    },
+    {
+      "id": "ref",
+      "url": "https://concours.r-e-f.org/contest/a-propos/",
+      "watch": "text",
+      "contests": [
+        "ref-cw",
+        "ref-ssb"
+      ],
+      "checked": "2026-11-07",
+      "fingerprint": "a58a53b2c07001c73369a9f5e727f9b026bab36aa1cf991f8b88adec9181c1ba"
     }
   ]
 }
