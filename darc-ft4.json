@@ -1,0 +1,69 @@
+{
+  "format": 9,
+  "revision": 1,
+  "id": "darc-ft4",
+  "name": "DARC FT4 Contest",
+  "cabrillo_name": "DARC-FT4",
+  "rules_url": "https://www.darc.de/der-club/referate/conteste/ft4-contest/ft4-rules/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "weekday",
+    "weekday": 1,
+    "nth": 2,
+    "months": [
+      2,
+      5,
+      8,
+      11
+    ],
+    "start_hour": 19,
+    "hours": 1,
+    "minutes": 30
+  },
+  "bands": [
+    "80",
+    "40"
+  ],
+  "modes": [
+    "DG"
+  ],
+  "rig_modes": [
+    "FT4",
+    "MFSK",
+    "DG",
+    "PKTUSB",
+    "DATA"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "grid4"
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "wpx_prefix",
+      "per": "band"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "call",
+    "ex_s",
+    "ex_r",
+    "land",
+    "prefix",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

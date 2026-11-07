@@ -92,6 +92,24 @@
       "sha256": "a4c95d7f838c844028636218b0f7543e3149736c77d7594db781fef1a0a3621d"
     },
     {
+      "id": "darc-ac",
+      "file": "darc-ac.json",
+      "name": "DARC Ausbildungscontest (AC)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 9,
+      "sha256": "56a2803d501dade29c99a869c30f62e772b5c754af684bb4ce69367bfe9e3f6d"
+    },
+    {
+      "id": "darc-cwa",
+      "file": "darc-cwa.json",
+      "name": "DARC CW-Ausbildungscontest (CWA)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 9,
+      "sha256": "926dfec1d218d1d5af7f1d2decf579485690113e0df166516f1bb6f61638cc10"
+    },
+    {
       "id": "darc-easter",
       "file": "darc-easter.json",
       "name": "DARC Ostercontest (Easter)",
@@ -99,6 +117,33 @@
       "rules_checked": "2026-11",
       "format": 4,
       "sha256": "448562f8e6ce461837ba907f8e8b6c6b486546bb31db04a4c04dcc4f5787c712"
+    },
+    {
+      "id": "darc-fd-cw",
+      "file": "darc-fd-cw.json",
+      "name": "IARU Region 1 Fieldday CW (DARC)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 9,
+      "sha256": "9b0319cd6ed5cde9a05a4a9c63d89c5a02b399443a9a406c75e5d3de59ae6040"
+    },
+    {
+      "id": "darc-fd-ssb",
+      "file": "darc-fd-ssb.json",
+      "name": "IARU Region 1 Fieldday SSB (DARC)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 9,
+      "sha256": "0b3bea775eec504816b68ba4c9dd744a8939df9d638c87dd48003931708b5694"
+    },
+    {
+      "id": "darc-ft4",
+      "file": "darc-ft4.json",
+      "name": "DARC FT4 Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 9,
+      "sha256": "b6fe8e6f9b425f3fdaa5298e5ff010b70dc7bcee1d9ed503e703fb39ebb37431"
     },
     {
       "id": "darc-xmas",
