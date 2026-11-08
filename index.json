@@ -50,19 +50,19 @@
       "id": "arrl-dx-cw",
       "file": "arrl-dx-cw.json",
       "name": "ARRL International DX CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 2,
-      "sha256": "79cc77474a9228fd2acfdf90b28eff5d2baa5168d31114f4144aca2d6cf62146"
+      "format": 12,
+      "sha256": "b650014a49285cf685097f7776b957113e9d86121533bde9eeb20ef4222005b5"
     },
     {
       "id": "arrl-dx-ssb",
       "file": "arrl-dx-ssb.json",
       "name": "ARRL International DX SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 2,
-      "sha256": "5736254b168fa21468d50e2d44b58e8dfd6895a023908013eb5662f57b6c1ba3"
+      "format": 12,
+      "sha256": "cefe87d80d347b6fc1e78f68e5f8513bcd408c85bd2a78c7449455e7776988ba"
     },
     {
       "id": "cq160-cw",
@@ -86,19 +86,19 @@
       "id": "cqww-cw",
       "file": "cqww-cw.json",
       "name": "CQ WW DX CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 1,
-      "sha256": "3aea6057c7a4c592306b3a2e6dc8f496acfb34643c2125e0661c56a7f771022e"
+      "format": 12,
+      "sha256": "b1fedfb8e969fda4e519fc8d82e7365dbec089bc0c633eaf40cd152d5f2cc011"
     },
     {
       "id": "cqww-ssb",
       "file": "cqww-ssb.json",
       "name": "CQ WW DX SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 1,
-      "sha256": "9dc75935815622e92c275bc57130b6369b0c17ae3ee4179942ed80317ad8ba2d"
+      "format": 12,
+      "sha256": "e504ef3d20166b3f7e4d92c3d6390d7999eff5d96f191cd71f447ac1769a9ef8"
     },
     {
       "id": "darc-10m",
@@ -257,10 +257,10 @@
       "id": "iaru-hf",
       "file": "iaru-hf.json",
       "name": "IARU HF World Championship",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 3,
-      "sha256": "be1c4b38a0bfc8413ac96be46dc4e37a5f99924191c5da38cdee7b368498abc9"
+      "format": 12,
+      "sha256": "e20df7cdfb84491339f7748bc385887c8c116bd9b0b903ae7572e9781261c35b"
     },
     {
       "id": "iaru-uhf",
@@ -419,19 +419,19 @@
       "id": "wpx-cw",
       "file": "wpx-cw.json",
       "name": "CQ WPX CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 1,
-      "sha256": "ea7ba74d672d81e916e0b4be0663791d3a85a0a7f3b10592818ba3db87815651"
+      "format": 12,
+      "sha256": "a2c4e613d3477f99a6c13a58ce5ef261c019c04b23e1679a28f8d48c48efa2fe"
     },
     {
       "id": "wpx-ssb",
       "file": "wpx-ssb.json",
       "name": "CQ WPX SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 1,
-      "sha256": "59ad30400ecdc0bc0ffa25caebb9109be02a7e1cdbc65c5528a6d9a7def29a41"
+      "format": 12,
+      "sha256": "bc507fc14d98beb97316d36f39fb23d777873b71bf2cb83d0282cc68c02ab569"
     },
     {
       "id": "ww-digi",

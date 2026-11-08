@@ -1,40 +1,97 @@
 {
-  "format": 2,
-  "revision": 1,
+  "format": 12,
+  "revision": 2,
   "id": "arrl-dx-ssb",
   "name": "ARRL International DX SSB",
   "cabrillo_name": "ARRL-DX-SSB",
   "rules_url": "https://www.arrl.org/arrl-dx",
   "rules_checked": "2026-11",
-  "schedule": {"weekend": "full", "nth": 1, "month": 3, "start_hour": 0, "hours": 48},
-  "bands": ["160", "80", "40", "20", "15", "10"],
-  "modes": ["PH"],
+  "schedule": {
+    "weekend": "full",
+    "nth": 1,
+    "month": 3,
+    "start_hour": 0,
+    "hours": 48
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
   "dupe": "band",
   "contacts": "w_ve_dx",
   "exchange": [
-    {"field": "rst"},
+    {
+      "field": "rst"
+    },
     {
       "field": "location",
       "label": "St/Pwr",
-      "by_region": {"us": "state", "ve": "province", "dx": "power"}
+      "by_region": {
+        "us": "state",
+        "ve": "province",
+        "dx": "power"
+      }
     }
   ],
-  "points": {"type": "fixed", "value": 3},
+  "points": {
+    "type": "fixed",
+    "value": 3
+  },
   "multipliers": [
-    {"type": "us_state", "per": "band", "states": "48dc", "when": "dx"},
-    {"type": "ve_province", "per": "band", "when": "dx"},
+    {
+      "type": "us_state",
+      "per": "band",
+      "states": "48dc",
+      "when": "dx"
+    },
+    {
+      "type": "ve_province",
+      "per": "band",
+      "when": "dx"
+    },
     {
       "type": "country",
       "per": "band",
       "when": "w_ve",
       "dxcc_only": true,
-      "exclude": ["K", "VE"]
+      "exclude": [
+        "K",
+        "VE"
+      ]
     }
   ],
   "score": "points_x_mults",
   "log_format": "cabrillo",
   "columns": [
-    "nr", "utc", "band", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r", "land",
-    "pts", "gain", "mult"
-  ]
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ],
+  "multi": {
+    "MS": {
+      "per_hour": 10
+    },
+    "M2": {
+      "tx_id": true,
+      "per_hour": 6
+    },
+    "MM": {}
+  }
 }

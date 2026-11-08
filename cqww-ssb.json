@@ -1,16 +1,38 @@
 {
-  "format": 1,
-  "revision": 1,
+  "format": 12,
+  "revision": 2,
   "id": "cqww-ssb",
   "name": "CQ WW DX SSB",
   "cabrillo_name": "CQ-WW-SSB",
   "rules_url": "https://www.cqww.com/rules/",
   "rules_checked": "2026-11",
-  "schedule": {"weekend": "last_full", "month": 10, "start_hour": 0, "hours": 48},
-  "bands": ["160", "80", "40", "20", "15", "10"],
-  "modes": ["PH"],
+  "schedule": {
+    "weekend": "last_full",
+    "month": 10,
+    "start_hour": 0,
+    "hours": 48
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
   "dupe": "band",
-  "exchange": [{"field": "rst"}, {"field": "cq_zone", "prefill": "country"}],
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "cq_zone",
+      "prefill": "country"
+    }
+  ],
   "points": {
     "type": "continent",
     "own_country": 0,
@@ -18,11 +40,45 @@
     "same_continent_na": 2,
     "other_continent": 3
   },
-  "multipliers": [{"type": "cq_zone", "per": "band"}, {"type": "country", "per": "band"}],
+  "multipliers": [
+    {
+      "type": "cq_zone",
+      "per": "band"
+    },
+    {
+      "type": "country",
+      "per": "band"
+    }
+  ],
   "score": "points_x_mults",
   "log_format": "cabrillo",
   "columns": [
-    "nr", "utc", "band", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r", "land",
-    "pts", "gain", "mult"
-  ]
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ],
+  "multi": {
+    "MS": {
+      "tx_id": true,
+      "dwell": {
+        "minutes": 10
+      },
+      "mult_station": true
+    },
+    "M2": {
+      "tx_id": true,
+      "per_hour": 8
+    },
+    "MM": {}
+  }
 }
