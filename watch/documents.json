@@ -82,7 +82,7 @@
       "contests": [
         "arrl-10"
       ],
-      "checked": "2026-11-07",
+      "checked": "2026-11-08",
       "fingerprint": "b82ebd11652ce9946c7258f2646d29d8d565a8ffaaf5bcbb3397495dcb7d2559"
     },
     {
@@ -266,8 +266,8 @@
       "contests": [
         "pacc"
       ],
-      "checked": "2026-11-07",
-      "fingerprint": "10c0fc5020348d6a27fc0a5a82f10ecd79e7ca2e44aa10268d1f884bb4de8dda"
+      "checked": "2026-11-08",
+      "fingerprint": "dc681471a248ba614866cbc597732361de5af75184fbd1b9cdbacc4558d1eda0"
     },
     {
       "id": "spdx",
