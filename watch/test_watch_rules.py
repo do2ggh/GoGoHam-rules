@@ -124,3 +124,20 @@ def test_pdf_links_issue(tmp_path, monkeypatch):
     title, body = w.issue_for(res)
     assert "neue Ausschreibung" in body and "rules_cq160_2027.pdf" in body
     assert "**Weggefallen:**\nhttps://www.cq160.com/rules/rules_cq160_2026.pdf" in body
+
+
+def test_license_page_issue(tmp_path, monkeypatch):
+    monkeypatch.setattr(w, "SNAP_DIR", tmp_path)
+    doc = {"id": "gnu", "kind": "license", "name": "GNU-Lizenzen (GPL)",
+           "url": "https://example.org/licenses", "watch": "text", "contests": []}
+    old = "The GNU General Public License version 3"
+    w.snapshot_path(doc).write_text(w.counts_text(w.tokens(doc, old)), encoding="utf-8")
+    res = w.check([doc], fetch_text=lambda d: old + " and version 4")[0]
+    assert res["status"] == "changed"
+    title, body = w.issue_for(res)
+    assert title == "Wächter: Lizenzseite geändert – GNU-Lizenzen (GPL)"
+    assert "GPL-3.0-only" in body and "4" in body
+    same = w.check([doc], fetch_text=lambda d: old)[0]
+    assert w.issue_for(same) is None
+    err = w.issue_for({"doc": doc, "status": "error", "error": "HTTP 404"})
+    assert err[0] == "Wächter: Lizenzseite nicht erreichbar – GNU-Lizenzen (GPL)"

@@ -89,11 +89,13 @@ Bei einer Änderung oder wenn ein Dokument nicht erreichbar ist, entsteht ein *I
 Etikett `wächter`. Nach dem Anpassen der Regeln: `python3 watch/watch_rules.py --update`.
 Jeder Lauf schaltet den Wächter selbst wieder ein, damit GitHub ihn nicht nach 60 Tagen
 ohne Commit abschaltet.
+Außerdem beobachtet er die Lizenz-Übersichten von **GNU** und **Creative Commons** und meldet
+sich, wenn sich dort etwas ändert – etwa bei einer neuen Version der GPL oder von CC BY.
 
 *Every Monday GitHub checks whether any of the official contest rules have changed. Watched
 documents: `watch/documents.json`; last checked state: `watch/snapshots/` (word lists only, not the text itself). Words and numbers are
 compared, so different line breaks do not count. A change (or an unreachable document) opens an
-issue labelled `wächter`.*
+issue labelled `wächter`. It also watches the GNU and Creative Commons license overviews, e.g. for a new GPL or CC BY version.*
 
 ## Mitmachen / contributing
 

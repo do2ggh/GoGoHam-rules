@@ -440,6 +440,26 @@
       ],
       "checked": "2026-11-08",
       "fingerprint": "e850a2a3c31f7ff5e8bb40caf9ce75ee0110e616e7a1824faa8754a6c6128303"
+    },
+    {
+      "id": "gnu-licenses",
+      "kind": "license",
+      "name": "GNU-Lizenzen (GPL)",
+      "url": "https://www.gnu.org/licenses/licenses.html",
+      "watch": "text",
+      "contests": [],
+      "checked": "2026-11-08",
+      "fingerprint": "279ffcd5aaceb5dea4dde6c988f390bcd274429195c46239b44fbfd7551a9f4b"
+    },
+    {
+      "id": "cc-licenses",
+      "kind": "license",
+      "name": "Creative-Commons-Lizenzen (CC BY)",
+      "url": "https://creativecommons.org/licenses/list.en",
+      "watch": "text",
+      "contests": [],
+      "checked": "2026-11-08",
+      "fingerprint": "461ba25192965f73240b3f659c2459144e798947762fbb7b2e8bf557474ccda9"
     }
   ]
 }

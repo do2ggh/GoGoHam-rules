@@ -19,6 +19,11 @@ Arten („watch“):
   pdf_links  – nur die Liste der verlinkten PDF-Dateien einer Übersichtsseite
                (für Ausschreibungen, die jedes Jahr als neues PDF erscheinen)
 
+Lizenzseiten („kind“: „license“, mit „name“, ohne Contests): Übersichtsseiten von GNU und
+Creative Commons – meldet sich, wenn dort z. B. eine neue Version der GPL oder von CC BY
+erscheint. GoGoHam bleibt bei GPL-3.0-only und CC BY 4.0, bis über eine Umstellung
+entschieden ist.
+
 Nur Python-Standardbibliothek; für PDFs wird pdftotext (poppler) gebraucht.
 
 © 2026 Franz, DO2GGH · gogoham@bluemailx.com · Lizenz: GPL-3.0
@@ -215,6 +220,8 @@ def check(docs: list[dict], fetch_text=current_text) -> list[dict]:
 # ------------------------------------------------------------------ Bericht / Meldung
 def issue_for(res: dict) -> tuple[str, str] | None:
     doc = res["doc"]
+    if doc.get("kind") == "license":
+        return license_issue(res)
     names = contest_names(doc["contests"])
     if res["status"] == "error":
         title = f"Wächter: Ausschreibung nicht erreichbar – {names}"
@@ -244,6 +251,34 @@ def issue_for(res: dict) -> tuple[str, str] | None:
              "`rules_checked`), dann `python3 watch/watch_rules.py --update` ausführen und alles "
              "hochladen. Danach diese Meldung schließen.")
     return title, body
+
+
+def license_issue(res: dict) -> tuple[str, str] | None:
+    """Meldung für eine überwachte Lizenzseite (GNU, Creative Commons)."""
+    doc = res["doc"]
+    name = doc.get("name", doc["id"])
+    if res["status"] == "error":
+        return (f"Wächter: Lizenzseite nicht erreichbar – {name}",
+                f"Die Seite **{doc['url']}** ließ sich auch nach drei Versuchen nicht laden:\n\n"
+                f"```\n{res['error']}\n```\n\nBitte im Browser nachsehen und ggf. den Link in "
+                "`watch/documents.json` anpassen.")
+    if res["status"] != "changed":
+        return None
+    gone, added = word_changes(res["old"], tokens(doc, res["text"]))
+    ctx = "\n".join(context_lines(doc, res["text"], added))
+    body = (f"Die Lizenzseite **{name}** hat sich geändert – vielleicht gibt es eine neue "
+            f"Lizenzversion, vielleicht nur eine kleine Textänderung.\n\n**Seite:** {doc['url']}\n"
+            f"**Zuletzt geprüft:** {doc.get('checked', '?')}\n\n"
+            f"**Weggefallen:** {' '.join(gone[:MAX_WORDS]) or '–'}\n\n"
+            f"**Neu:** {' '.join(added[:MAX_WORDS]) or '–'}\n\n")
+    if ctx:
+        body += (f"<details><summary>Zeilen mit neuen Wörtern</summary>\n\n"
+                 f"```\n{ctx}\n```\n</details>\n\n")
+    body += ("**Was tun?** Nachsehen, ob eine neue Version der GPL bzw. von CC BY erschienen ist. "
+             "GoGoHam steht unter **GPL-3.0-only**, die Regel-Dateien unter **CC BY 4.0** – das "
+             "bleibt so, bis entschieden ist, ob umgestellt wird. Danach "
+             "`python3 watch/watch_rules.py --update` ausführen, hochladen und diese Meldung schließen.")
+    return f"Wächter: Lizenzseite geändert – {name}", body
 
 
 def report(results: list[dict]) -> str:
