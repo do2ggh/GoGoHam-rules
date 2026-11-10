@@ -202,9 +202,10 @@
       "watch": "text",
       "contests": [
         "wae-cw",
-        "wae-ssb"
+        "wae-ssb",
+        "wae-rtty"
       ],
-      "checked": "2026-11-07",
+      "checked": "2026-11-10",
       "fingerprint": "69ab1d7417d26af2abca5102aac047538f067e548fd0f05f6431cec6f7932b3b"
     },
     {
@@ -460,6 +461,46 @@
       "contests": [],
       "checked": "2026-11-08",
       "fingerprint": "461ba25192965f73240b3f659c2459144e798947762fbb7b2e8bf557474ccda9"
+    },
+    {
+      "id": "cqww-rtty",
+      "url": "https://www.cqwwrtty.com/rules.htm",
+      "watch": "text",
+      "contests": [
+        "cqww-rtty"
+      ],
+      "checked": "2026-11-10",
+      "fingerprint": "8d139c4daddb27bebd54634287e6aacbb604686c2d7b3c07c555e5c07ec50edd"
+    },
+    {
+      "id": "wpx-rtty",
+      "url": "https://www.cqwpxrtty.com/rules.htm",
+      "watch": "text",
+      "contests": [
+        "wpx-rtty"
+      ],
+      "checked": "2026-11-10",
+      "fingerprint": "cc097ea2fce55b6a6f16e0a0ec32337ba28bf8719aa86ddb9f271f36a1afe4b7"
+    },
+    {
+      "id": "arrl-rtty",
+      "url": "https://contests.arrl.org/ContestRules/RTTY-RU-Rules.pdf",
+      "watch": "text",
+      "contests": [
+        "arrl-rtty"
+      ],
+      "checked": "2026-11-10",
+      "fingerprint": "3a45924df0b073aede526d3d11ab6a93d98358e3e29331cfb59aa5c503c2cc3a"
+    },
+    {
+      "id": "arrl-rtty-links",
+      "url": "https://www.arrl.org/rtty-roundup",
+      "watch": "pdf_links",
+      "contests": [
+        "arrl-rtty"
+      ],
+      "checked": "2026-11-10",
+      "fingerprint": "3b3b3018eb903433a1d7c836ce1deb2d0f79191207ea386e7b573f3cac096468"
     }
   ]
 }

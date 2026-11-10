@@ -65,6 +65,15 @@
       "sha256": "cefe87d80d347b6fc1e78f68e5f8513bcd408c85bd2a78c7449455e7776988ba"
     },
     {
+      "id": "arrl-rtty",
+      "file": "arrl-rtty.json",
+      "name": "ARRL RTTY Roundup",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 13,
+      "sha256": "d74f9304e26ed1256227618cb93849ac2d05ed983f3e5d88f1b60a3229fe3165"
+    },
+    {
       "id": "cq160-cw",
       "file": "cq160-cw.json",
       "name": "CQ WW 160 m CW",
@@ -90,6 +99,15 @@
       "rules_checked": "2026-11",
       "format": 12,
       "sha256": "b1fedfb8e969fda4e519fc8d82e7365dbec089bc0c633eaf40cd152d5f2cc011"
+    },
+    {
+      "id": "cqww-rtty",
+      "file": "cqww-rtty.json",
+      "name": "CQ WW DX RTTY",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 13,
+      "sha256": "55d37fd1a38143e2a79959390114a8bc43f3482a34b98b63de9b78b6e33e99b6"
     },
     {
       "id": "cqww-ssb",
@@ -398,6 +416,15 @@
       "sha256": "5e76e0d711de276109ad2b4f4e8363fd320463ee40b694666a6a108f7a9547ab"
     },
     {
+      "id": "wae-rtty",
+      "file": "wae-rtty.json",
+      "name": "WAE DX Contest RTTY",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 13,
+      "sha256": "ce7d9e47d62c6cf142e490f1c1b3462ec02a69ef99638ebfb222cc9d7b723a39"
+    },
+    {
       "id": "wae-ssb",
       "file": "wae-ssb.json",
       "name": "WAE DX SSB",
@@ -423,6 +450,15 @@
       "rules_checked": "2026-11",
       "format": 12,
       "sha256": "a2c4e613d3477f99a6c13a58ce5ef261c019c04b23e1679a28f8d48c48efa2fe"
+    },
+    {
+      "id": "wpx-rtty",
+      "file": "wpx-rtty.json",
+      "name": "CQ WPX RTTY",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 12,
+      "sha256": "bb9f811688dd435fc971a2b13c7965d26f54f21c96bbcbd806078525aab95116"
     },
     {
       "id": "wpx-ssb",

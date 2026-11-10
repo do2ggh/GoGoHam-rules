@@ -1,0 +1,87 @@
+{
+  "format": 12,
+  "revision": 1,
+  "id": "wpx-rtty",
+  "name": "CQ WPX RTTY",
+  "cabrillo_name": "CQ-WPX-RTTY",
+  "rules_url": "https://www.cqwpxrtty.com/rules.htm",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 2,
+    "start_hour": 0,
+    "hours": 48
+  },
+  "operating_time": {
+    "single_op_hours": 30,
+    "classic_hours": 24,
+    "min_break_minutes": 60
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "RY"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial"
+    }
+  ],
+  "points": {
+    "type": "continent",
+    "own_country": {
+      "default": 1,
+      "80": 2,
+      "40": 2
+    },
+    "same_continent": {
+      "default": 2,
+      "80": 4,
+      "40": 4
+    },
+    "same_continent_na": {
+      "default": 2,
+      "80": 4,
+      "40": 4
+    },
+    "other_continent": {
+      "default": 3,
+      "80": 6,
+      "40": 6
+    }
+  },
+  "multipliers": [
+    {
+      "type": "wpx_prefix",
+      "per": "once"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "prefix",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

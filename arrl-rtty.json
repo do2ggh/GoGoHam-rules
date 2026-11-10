@@ -1,0 +1,87 @@
+{
+  "format": 13,
+  "revision": 1,
+  "id": "arrl-rtty",
+  "name": "ARRL RTTY Roundup",
+  "cabrillo_name": "ARRL-RTTY",
+  "rules_url": "https://www.arrl.org/rtty-roundup",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 1,
+    "skip_day": 1,
+    "month": 1,
+    "start_hour": 18,
+    "hours": 30
+  },
+  "operating_time": {
+    "single_op_hours": 24,
+    "min_break_minutes": 30
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "RY"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "St/Nr",
+      "by_region": {
+        "us": "state",
+        "ve": "province",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "us_state",
+      "per": "once",
+      "states": "48dc"
+    },
+    {
+      "type": "ve_province",
+      "per": "once"
+    },
+    {
+      "type": "country",
+      "per": "once",
+      "dxcc_only": true,
+      "exclude": [
+        "K",
+        "VE"
+      ]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

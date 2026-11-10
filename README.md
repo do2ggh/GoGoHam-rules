@@ -61,7 +61,7 @@ Alle Angaben sind im GoGoHam-Handbuch (Kapitel „Regel-Dateien“) erklärt. Ku
 
 | Key | Bedeutung / meaning |
 |---|---|
-| `format` | Format-Version: 1; 2 für Bausteine ab GoGoHam 0.7.0, 3 ab 0.7.1, 4 ab 0.8.4, 5 ab 0.8.5, 6 ab 0.8.6, 7 ab 0.8.7, 8 ab 0.8.8, 9 ab 0.8.24, 10 ab 0.8.25, 11 ab 0.8.31 (ältere Versionen überspringen solche Dateien) |
+| `format` | Format-Version: 1; 2 für Bausteine ab GoGoHam 0.7.0, 3 ab 0.7.1, 4 ab 0.8.4, 5 ab 0.8.5, 6 ab 0.8.6, 7 ab 0.8.7, 8 ab 0.8.8, 9 ab 0.8.24, 10 ab 0.8.25, 11 ab 0.8.31, 12 ab 0.10.2, 13 ab 0.10.7 (ältere Versionen überspringen solche Dateien) |
 | `revision` | Stand der Datei – bei jeder Änderung +1 / increase by 1 on every change |
 | `id`, `name`, `cabrillo_name` | Kurzname, Anzeigename, Contest-Name im Cabrillo-Log |
 | `rules_url`, `rules_checked` | offizielle Ausschreibung, zuletzt geprüft (JJJJ-MM) |
@@ -77,6 +77,10 @@ Alle Angaben sind im GoGoHam-Handbuch (Kapitel „Regel-Dateien“) erklärt. Ku
 | `score` | `points_x_mults` |
 | `log_format` | `cabrillo`, `adif` (`edi` geplant) |
 | `columns` | Standard-Spalten der Log-Tabelle |
+| `cqww-rtty.json` | CQ WW DX RTTY | 1 | 2026-11 |
+| `wpx-rtty.json` | CQ WPX RTTY | 1 | 2026-11 |
+| `arrl-rtty.json` | ARRL RTTY Roundup | 1 | 2026-11 |
+| `wae-rtty.json` | WAE DX RTTY (mit QTC in beide Richtungen) | 1 | 2026-11 |
 
 ## Wächter / rules watch
 
