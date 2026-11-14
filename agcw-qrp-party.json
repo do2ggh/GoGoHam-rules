@@ -1,0 +1,108 @@
+{
+  "format": 14,
+  "revision": 1,
+  "id": "agcw-qrp-party",
+  "name": "AGCW QRP/QRP-Party",
+  "cabrillo_name": "AGCW QRP",
+  "rules_url": "https://www.agcw.de/contest/qrp-qrp/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "date",
+    "month": 5,
+    "day": 1,
+    "start_hour": 13,
+    "hours": 6
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          3510,
+          3560
+        ],
+        [
+          7000,
+          7040
+        ],
+        [
+          14000,
+          14060
+        ],
+        [
+          21000,
+          21070
+        ],
+        [
+          28000,
+          28070
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_class"
+    }
+  ],
+  "classes": [
+    "A",
+    "B",
+    "QRO"
+  ],
+  "own_classes": [
+    "A",
+    "B"
+  ],
+  "points": {
+    "type": "class",
+    "table": {
+      "*": {
+        "A": 2,
+        "B": 1,
+        "QRO": 0
+      }
+    }
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band",
+      "classes": [
+        "A",
+        "B"
+      ]
+    }
+  ],
+  "score": "band_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

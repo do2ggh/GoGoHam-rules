@@ -1,0 +1,78 @@
+{
+  "format": 14,
+  "revision": 1,
+  "id": "franken-c",
+  "name": "Frankencontest – Klasse C: 80 m CW, 100 Watt",
+  "cabrillo_name": "DARC-FRANKEN",
+  "rules_url": "https://www.darc.de/der-club/distrikte/b/frankencontest/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 5,
+    "start_day": 1,
+    "start_hour": 7,
+    "hours": 3
+  },
+  "bands": [
+    "80"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          3510,
+          3560
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "DOK",
+      "by_region": {
+        "dl": "dok",
+        "dx": "dok"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "same_dok_zero": true,
+  "multipliers": [
+    {
+      "type": "dok",
+      "per": "band",
+      "dok_pattern": "B(0[1-9]|[1-3][0-9]|4[0-4])|Z(15|51|52|61)",
+      "special_doks": true
+    }
+  ],
+  "score": "points_x_mults_or_points",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

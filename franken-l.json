@@ -1,0 +1,85 @@
+{
+  "format": 14,
+  "revision": 1,
+  "id": "franken-l",
+  "name": "Frankencontest – Klasse L: 70 cm",
+  "cabrillo_name": "DARC-FRANKEN",
+  "rules_url": "https://www.darc.de/der-club/distrikte/b/frankencontest/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 5,
+    "start_hour": 18,
+    "hours": 1
+  },
+  "bands": [
+    "70cm"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          432000,
+          432100
+        ]
+      ]
+    },
+    "PH": {
+      "allowed": [
+        [
+          432100,
+          432400
+        ],
+        [
+          433050,
+          433988
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "dok_grid6"
+    }
+  ],
+  "points": {
+    "type": "km",
+    "add": 0
+  },
+  "same_dok_zero": true,
+  "multipliers": [
+    {
+      "type": "dok",
+      "per": "band",
+      "dok_pattern": "B(0[1-9]|[1-3][0-9]|4[0-4])|Z(15|51|52|61)",
+      "special_doks": true
+    }
+  ],
+  "score": "points_x_mults_or_points",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

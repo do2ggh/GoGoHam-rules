@@ -38,6 +38,24 @@
       "sha256": "fd571f0d4124e20507185b7253fc1a7af12b63ddf762ad2c4ed900f0459e9f04"
     },
     {
+      "id": "agcw-qrp-party",
+      "file": "agcw-qrp-party.json",
+      "name": "AGCW QRP/QRP-Party",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "2544408532f08a002f850cc4b40b1efc9267a523c8c285dc1c9c08a19b68d359"
+    },
+    {
+      "id": "agcw-qrp",
+      "file": "agcw-qrp.json",
+      "name": "AGCW QRP-Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "89279ca8998df30a605d8bc33144c453a1ca54351c267809c07b3fa8c91d4730"
+    },
+    {
       "id": "arrl-10",
       "file": "arrl-10.json",
       "name": "ARRL 10 m (SSB/CW)",
@@ -72,6 +90,42 @@
       "rules_checked": "2026-11",
       "format": 13,
       "sha256": "d74f9304e26ed1256227618cb93849ac2d05ed983f3e5d88f1b60a3229fe3165"
+    },
+    {
+      "id": "bbt-summer-1",
+      "file": "bbt-summer-1.json",
+      "name": "Bayerischer Bergtag – Sommer (Mai), 10 GHz und ab 24 GHz",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "48b832d08cdbb6995f769f5d4cfa4dc8124abd88a1ce1e9d85958b5b77de0459"
+    },
+    {
+      "id": "bbt-summer-2",
+      "file": "bbt-summer-2.json",
+      "name": "Bayerischer Bergtag – Sommer (August), 2 m bis 6 cm",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "475922f42fbb68d40d7ec840b003960f08cfe86ce7f1bc2b0b668c644cc548f5"
+    },
+    {
+      "id": "bbt-winter-1",
+      "file": "bbt-winter-1.json",
+      "name": "Bayerischer Bergtag – Winter, 2 m bis 6 cm",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "3d055c31991726f4f47ec81bdedcfcff1af671e69c91c660eabc4062cffed2c3"
+    },
+    {
+      "id": "bbt-winter-2",
+      "file": "bbt-winter-2.json",
+      "name": "Bayerischer Bergtag – Winter, 10 GHz und ab 24 GHz",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 10,
+      "sha256": "857dcee0a5ac7b94bd9d7c890ec3b127dcff491f504cb4232c385c6f6da77c2a"
     },
     {
       "id": "cq160-cw",
@@ -261,6 +315,78 @@
       "rules_checked": "2026-11",
       "format": 3,
       "sha256": "e566843b48ceef616a40f145c056e4881ed32808bbdb2464331e4822a0664cc5"
+    },
+    {
+      "id": "franken-a",
+      "file": "franken-a.json",
+      "name": "Frankencontest – Klasse A: 80/40 m CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "504fc48b498ea70b02b99df67cc78def315e5b03caa3615cd51d0a6a60c22c06"
+    },
+    {
+      "id": "franken-b",
+      "file": "franken-b.json",
+      "name": "Frankencontest – Klasse B: 80/40 m SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "79211f1d591fa59d19ed4d0857fdd937d9a5dd51320d8512a9f3c7c9d0243168"
+    },
+    {
+      "id": "franken-c",
+      "file": "franken-c.json",
+      "name": "Frankencontest – Klasse C: 80 m CW, 100 Watt",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "e1042d402f7fc4b763a7000fdaefeec96623e52668d001dd380fe0427f213f4a"
+    },
+    {
+      "id": "franken-d",
+      "file": "franken-d.json",
+      "name": "Frankencontest – Klasse D: 80 m SSB, 100 Watt",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "439879f5f75beec263ad07e2751d61352f940a4d8e3f73b151b25451a03ead9b"
+    },
+    {
+      "id": "franken-e",
+      "file": "franken-e.json",
+      "name": "Frankencontest – Klasse E: 10 m CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "292736a99a05dc7df8263c5e99e206b855567e6aba0ec3055900979f3c0e81dc"
+    },
+    {
+      "id": "franken-f",
+      "file": "franken-f.json",
+      "name": "Frankencontest – Klasse F: 10 m SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "7bb0e91acbf2ea5b306905d42096e367caae65d6d71cba918f91070c460aa016"
+    },
+    {
+      "id": "franken-k",
+      "file": "franken-k.json",
+      "name": "Frankencontest – Klasse K: 2 m",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "72b7964b466240ea2e8e196e109197859ad50e0db4b7b0852df1e5f8f9d1a1da"
+    },
+    {
+      "id": "franken-l",
+      "file": "franken-l.json",
+      "name": "Frankencontest – Klasse L: 70 cm",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 14,
+      "sha256": "e76861d80f275479e2d7785ad34f490272ce4f894e7a248fbd70f681a687eca4"
     },
     {
       "id": "hadx",

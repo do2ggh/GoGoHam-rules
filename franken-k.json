@@ -1,0 +1,85 @@
+{
+  "format": 14,
+  "revision": 1,
+  "id": "franken-k",
+  "name": "Frankencontest – Klasse K: 2 m",
+  "cabrillo_name": "DARC-FRANKEN",
+  "rules_url": "https://www.darc.de/der-club/distrikte/b/frankencontest/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 5,
+    "start_hour": 16,
+    "hours": 2
+  },
+  "bands": [
+    "2"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          144000,
+          144110
+        ]
+      ]
+    },
+    "PH": {
+      "allowed": [
+        [
+          144150,
+          144400
+        ],
+        [
+          145225,
+          145550
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "dok_grid6"
+    }
+  ],
+  "points": {
+    "type": "km",
+    "add": 0
+  },
+  "same_dok_zero": true,
+  "multipliers": [
+    {
+      "type": "dok",
+      "per": "band",
+      "dok_pattern": "B(0[1-9]|[1-3][0-9]|4[0-4])|Z(15|51|52|61)",
+      "special_doks": true
+    }
+  ],
+  "score": "points_x_mults_or_points",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

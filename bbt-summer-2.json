@@ -1,0 +1,93 @@
+{
+  "format": 10,
+  "revision": 1,
+  "id": "bbt-summer-2",
+  "name": "Bayerischer Bergtag – Sommer (August), 2 m bis 6 cm",
+  "rules_url": "https://www.bergtag.de/ausschr.html",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 1,
+    "month": 8,
+    "start_hour": 7,
+    "hours": 29
+  },
+  "bands": [
+    "2",
+    "70cm",
+    "23cm",
+    "13cm",
+    "9cm",
+    "6cm"
+  ],
+  "modes": [
+    "PH",
+    "CW"
+  ],
+  "dupe": "band",
+  "serial_per_band": true,
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_grid6"
+    }
+  ],
+  "points": {
+    "type": "km"
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "edi",
+  "band_windows": [
+    {
+      "weekday": 5,
+      "from": "0700",
+      "to": "0929",
+      "bands": [
+        "23cm"
+      ]
+    },
+    {
+      "weekday": 5,
+      "from": "0930",
+      "to": "1229",
+      "bands": [
+        "13cm",
+        "9cm",
+        "6cm"
+      ]
+    },
+    {
+      "weekday": 6,
+      "from": "0700",
+      "to": "0929",
+      "bands": [
+        "70cm"
+      ]
+    },
+    {
+      "weekday": 6,
+      "from": "0930",
+      "to": "1159",
+      "bands": [
+        "2"
+      ]
+    }
+  ],
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts"
+  ]
+}

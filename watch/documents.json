@@ -501,6 +501,99 @@
       ],
       "checked": "2026-11-10",
       "fingerprint": "3b3b3018eb903433a1d7c836ce1deb2d0f79191207ea386e7b573f3cac096468"
+    },
+    {
+      "id": "agcw-qrp",
+      "url": "https://www.agcw.de/contest/qrp/",
+      "watch": "text",
+      "contests": [
+        "agcw-qrp"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "fbf1de79429e8a3e0216233da53554d85d582ba5db7b796977f60a9fce05550e"
+    },
+    {
+      "id": "agcw-qrp-party",
+      "url": "https://www.agcw.de/contest/qrp-qrp/",
+      "watch": "text",
+      "contests": [
+        "agcw-qrp-party"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "fbf1de79429e8a3e0216233da53554d85d582ba5db7b796977f60a9fce05550e"
+    },
+    {
+      "id": "franken",
+      "url": "https://www.darc.de/fileadmin/filemounts/distrikte/b/Frankencontest/Ausschreibungen/Ausschreibung_Frankencontest_2026.pdf",
+      "watch": "text",
+      "contests": [
+        "franken-a",
+        "franken-b",
+        "franken-c",
+        "franken-d",
+        "franken-e",
+        "franken-f",
+        "franken-k",
+        "franken-l"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "6fb2a1033ac14cad5346e287eea99b883f2344590d0f77e1c8bf1116ba548fea"
+    },
+    {
+      "id": "franken-links",
+      "url": "https://www.darc.de/der-club/distrikte/b/frankencontest/",
+      "watch": "pdf_links",
+      "contests": [
+        "franken-a",
+        "franken-b",
+        "franken-c",
+        "franken-d",
+        "franken-e",
+        "franken-f",
+        "franken-k",
+        "franken-l"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "dfee3a52dc898d21ba44fb2c199ac5a7cbd4c51e0def6bdae8c98ee26133c681"
+    },
+    {
+      "id": "bbt",
+      "url": "http://bergtag.de/pdf/BBT_Ausschreibung_2026.pdf",
+      "watch": "text",
+      "contests": [
+        "bbt-winter-1",
+        "bbt-winter-2",
+        "bbt-summer-1",
+        "bbt-summer-2"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "6b5e26c5d31b2c06dfcaa3cdcb887ab6518876e64b5026214320504529787ca0"
+    },
+    {
+      "id": "bbt-links",
+      "url": "https://www.bergtag.de/ausschr.html",
+      "watch": "pdf_links",
+      "contests": [
+        "bbt-winter-1",
+        "bbt-winter-2",
+        "bbt-summer-1",
+        "bbt-summer-2"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "a82b87292b26e04202cf826166b070fccbca6e20a8f9dab6c228f95ca26810e3"
+    },
+    {
+      "id": "bbt-termine",
+      "url": "https://www.bergtag.de/termine.html",
+      "watch": "text",
+      "contests": [
+        "bbt-winter-1",
+        "bbt-winter-2",
+        "bbt-summer-1",
+        "bbt-summer-2"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "e926a1b63da787af2923847b12d274a9e9c726d3cfeaa2042d2dbd4558b56b46"
     }
   ]
 }

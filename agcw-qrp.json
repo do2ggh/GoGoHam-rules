@@ -1,0 +1,120 @@
+{
+  "format": 14,
+  "revision": 1,
+  "id": "agcw-qrp",
+  "name": "AGCW QRP-Contest",
+  "cabrillo_name": "AGCW-QRP",
+  "rules_url": "https://www.agcw.de/contest/qrp/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 2,
+    "month": 3,
+    "start_hour": 14,
+    "hours": 6
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          3510,
+          3560
+        ],
+        [
+          7010,
+          7040
+        ],
+        [
+          14000,
+          14060
+        ],
+        [
+          21000,
+          21070
+        ],
+        [
+          28000,
+          28070
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_class_member"
+    }
+  ],
+  "classes": [
+    "VLP",
+    "QRP",
+    "MP",
+    "QRO"
+  ],
+  "points": {
+    "type": "class",
+    "table": {
+      "QRO": {
+        "QRO": 0,
+        "MP": 2,
+        "QRP": 2,
+        "VLP": 2
+      },
+      "MP": {
+        "QRO": 2,
+        "MP": 2,
+        "QRP": 2,
+        "VLP": 2
+      },
+      "QRP": {
+        "QRO": 2,
+        "MP": 2,
+        "QRP": 3,
+        "VLP": 3
+      },
+      "VLP": {
+        "QRO": 2,
+        "MP": 2,
+        "QRP": 3,
+        "VLP": 3
+      }
+    }
+  },
+  "multipliers": [
+    {
+      "type": "member",
+      "per": "band"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

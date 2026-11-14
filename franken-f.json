@@ -1,0 +1,77 @@
+{
+  "format": 14,
+  "revision": 1,
+  "id": "franken-f",
+  "name": "Frankencontest – Klasse F: 10 m SSB",
+  "cabrillo_name": "DARC-FRANKEN",
+  "rules_url": "https://www.darc.de/der-club/distrikte/b/frankencontest/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 5,
+    "start_hour": 15,
+    "hours": 1
+  },
+  "bands": [
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "PH": {
+      "allowed": [
+        [
+          28300,
+          28700
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "DOK",
+      "by_region": {
+        "dl": "dok",
+        "dx": "dok"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "same_dok_zero": true,
+  "multipliers": [
+    {
+      "type": "dok",
+      "per": "band",
+      "dok_pattern": "B(0[1-9]|[1-3][0-9]|4[0-4])|Z(15|51|52|61)",
+      "special_doks": true
+    }
+  ],
+  "score": "points_x_mults_or_points",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

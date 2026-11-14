@@ -1,0 +1,82 @@
+{
+  "format": 10,
+  "revision": 1,
+  "id": "bbt-winter-2",
+  "name": "Bayerischer Bergtag – Winter, 10 GHz und ab 24 GHz",
+  "rules_url": "https://www.bergtag.de/ausschr.html",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "last_full",
+    "month": 2,
+    "start_hour": 9,
+    "hours": 28
+  },
+  "bands": [
+    "3cm",
+    "1.25cm",
+    "6mm",
+    "4mm",
+    "2.5mm",
+    "2mm",
+    "1mm",
+    "submm"
+  ],
+  "modes": [
+    "PH",
+    "CW"
+  ],
+  "dupe": "band",
+  "serial_per_band": true,
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_grid6"
+    }
+  ],
+  "points": {
+    "type": "km"
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "edi",
+  "band_windows": [
+    {
+      "weekday": 5,
+      "from": "0900",
+      "to": "1259",
+      "bands": [
+        "1.25cm",
+        "6mm",
+        "4mm",
+        "2.5mm",
+        "2mm",
+        "1mm",
+        "submm"
+      ]
+    },
+    {
+      "weekday": 6,
+      "from": "0900",
+      "to": "1259",
+      "bands": [
+        "3cm"
+      ]
+    }
+  ],
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts"
+  ]
+}

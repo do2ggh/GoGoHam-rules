@@ -81,6 +81,20 @@ Alle Angaben sind im GoGoHam-Handbuch (Kapitel „Regel-Dateien“) erklärt. Ku
 | `wpx-rtty.json` | CQ WPX RTTY | 1 | 2026-11 |
 | `arrl-rtty.json` | ARRL RTTY Roundup | 1 | 2026-11 |
 | `wae-rtty.json` | WAE DX RTTY (mit QTC in beide Richtungen) | 1 | 2026-11 |
+| `agcw-qrp.json` | AGCW QRP-Contest | 1 | 2026-11 |
+| `agcw-qrp-party.json` | AGCW QRP/QRP-Party | 1 | 2026-11 |
+| `franken-a.json` | Frankencontest – Klasse A: 80/40 m CW | 1 | 2026-11 |
+| `franken-b.json` | Frankencontest – Klasse B: 80/40 m SSB | 1 | 2026-11 |
+| `franken-c.json` | Frankencontest – Klasse C: 80 m CW, 100 Watt | 1 | 2026-11 |
+| `franken-d.json` | Frankencontest – Klasse D: 80 m SSB, 100 Watt | 1 | 2026-11 |
+| `franken-e.json` | Frankencontest – Klasse E: 10 m CW | 1 | 2026-11 |
+| `franken-f.json` | Frankencontest – Klasse F: 10 m SSB | 1 | 2026-11 |
+| `franken-k.json` | Frankencontest – Klasse K: 2 m | 1 | 2026-11 |
+| `franken-l.json` | Frankencontest – Klasse L: 70 cm | 1 | 2026-11 |
+| `bbt-winter-1.json` | Bayerischer Bergtag – Winter, 2 m bis 6 cm | 1 | 2026-11 |
+| `bbt-winter-2.json` | Bayerischer Bergtag – Winter, 10 GHz und ab 24 GHz | 1 | 2026-11 |
+| `bbt-summer-1.json` | Bayerischer Bergtag – Sommer (Mai), 10 GHz und ab 24 GHz | 1 | 2026-11 |
+| `bbt-summer-2.json` | Bayerischer Bergtag – Sommer (August), 2 m bis 6 cm | 1 | 2026-11 |
 
 ## Wächter / rules watch
 
