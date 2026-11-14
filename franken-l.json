@@ -1,6 +1,6 @@
 {
-  "format": 14,
-  "revision": 1,
+  "format": 16,
+  "revision": 2,
   "id": "franken-l",
   "name": "Frankencontest – Klasse L: 70 cm",
   "cabrillo_name": "DARC-FRANKEN",
@@ -38,7 +38,7 @@
         ],
         [
           433050,
-          433988
+          433987
         ]
       ]
     }
@@ -56,6 +56,7 @@
     "add": 0
   },
   "same_dok_zero": true,
+  "dok_only_dl": true,
   "multipliers": [
     {
       "type": "dok",

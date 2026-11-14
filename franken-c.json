@@ -1,6 +1,6 @@
 {
-  "format": 14,
-  "revision": 1,
+  "format": 16,
+  "revision": 2,
   "id": "franken-c",
   "name": "Frankencontest – Klasse C: 80 m CW, 100 Watt",
   "cabrillo_name": "DARC-FRANKEN",
@@ -49,6 +49,7 @@
     "value": 1
   },
   "same_dok_zero": true,
+  "dok_only_dl": true,
   "multipliers": [
     {
       "type": "dok",

@@ -1,6 +1,6 @@
 {
-  "format": 14,
-  "revision": 1,
+  "format": 16,
+  "revision": 2,
   "id": "franken-f",
   "name": "Frankencontest – Klasse F: 10 m SSB",
   "cabrillo_name": "DARC-FRANKEN",
@@ -48,6 +48,7 @@
     "value": 1
   },
   "same_dok_zero": true,
+  "dok_only_dl": true,
   "multipliers": [
     {
       "type": "dok",

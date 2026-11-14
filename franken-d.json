@@ -1,6 +1,6 @@
 {
-  "format": 14,
-  "revision": 1,
+  "format": 16,
+  "revision": 2,
   "id": "franken-d",
   "name": "Frankencontest – Klasse D: 80 m SSB, 100 Watt",
   "cabrillo_name": "DARC-FRANKEN",
@@ -53,6 +53,7 @@
     "value": 1
   },
   "same_dok_zero": true,
+  "dok_only_dl": true,
   "multipliers": [
     {
       "type": "dok",

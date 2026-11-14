@@ -1,6 +1,6 @@
 {
-  "format": 14,
-  "revision": 1,
+  "format": 16,
+  "revision": 2,
   "id": "franken-k",
   "name": "Frankencontest – Klasse K: 2 m",
   "cabrillo_name": "DARC-FRANKEN",
@@ -56,6 +56,7 @@
     "add": 0
   },
   "same_dok_zero": true,
+  "dok_only_dl": true,
   "multipliers": [
     {
       "type": "dok",

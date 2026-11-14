@@ -61,7 +61,7 @@ Alle Angaben sind im GoGoHam-Handbuch (Kapitel „Regel-Dateien“) erklärt. Ku
 
 | Key | Bedeutung / meaning |
 |---|---|
-| `format` | Format-Version: 1; 2 für Bausteine ab GoGoHam 0.7.0, 3 ab 0.7.1, 4 ab 0.8.4, 5 ab 0.8.5, 6 ab 0.8.6, 7 ab 0.8.7, 8 ab 0.8.8, 9 ab 0.8.24, 10 ab 0.8.25, 11 ab 0.8.31, 12 ab 0.10.2, 13 ab 0.10.7, 14 ab 0.10.23, 15 ab 0.10.26, 16 ab 0.10.28 (ältere Versionen überspringen solche Dateien) |
+| `format` | Format-Version: 1; 2 für Bausteine ab GoGoHam 0.7.0, 3 ab 0.7.1, 4 ab 0.8.4, 5 ab 0.8.5, 6 ab 0.8.6, 7 ab 0.8.7, 8 ab 0.8.8, 9 ab 0.8.24, 10 ab 0.8.25, 11 ab 0.8.31, 12 ab 0.10.2, 13 ab 0.10.7, 14 ab 0.10.23, 15 ab 0.10.26, 16 ab 0.10.28 bzw. 0.10.28.2 (ältere Versionen überspringen solche Dateien) |
 | `revision` | Stand der Datei – bei jeder Änderung +1 / increase by 1 on every change |
 | `id`, `name`, `cabrillo_name` | Kurzname, Anzeigename, Contest-Name im Cabrillo-Log |
 | `rules_url`, `rules_checked` | offizielle Ausschreibung, zuletzt geprüft (JJJJ-MM) |

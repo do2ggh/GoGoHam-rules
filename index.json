@@ -320,73 +320,73 @@
       "id": "franken-a",
       "file": "franken-a.json",
       "name": "Frankencontest – Klasse A: 80/40 m CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 14,
-      "sha256": "504fc48b498ea70b02b99df67cc78def315e5b03caa3615cd51d0a6a60c22c06"
+      "format": 16,
+      "sha256": "c86b998fe01c484f75aef80bd9b2e1ff92500e56517021993943ca9e0daa47b5"
     },
     {
       "id": "franken-b",
       "file": "franken-b.json",
       "name": "Frankencontest – Klasse B: 80/40 m SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 14,
-      "sha256": "79211f1d591fa59d19ed4d0857fdd937d9a5dd51320d8512a9f3c7c9d0243168"
+      "format": 16,
+      "sha256": "16eeadd81ad1033e5ba7e6a4533dd8695ef99ac568c6c5629cb0107dee8754cb"
     },
     {
       "id": "franken-c",
       "file": "franken-c.json",
       "name": "Frankencontest – Klasse C: 80 m CW, 100 Watt",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 14,
-      "sha256": "e1042d402f7fc4b763a7000fdaefeec96623e52668d001dd380fe0427f213f4a"
+      "format": 16,
+      "sha256": "cde0c5658e98034593185d4615dbe961f4bed33722c5cbd56b0a4e99f5f99ba6"
     },
     {
       "id": "franken-d",
       "file": "franken-d.json",
       "name": "Frankencontest – Klasse D: 80 m SSB, 100 Watt",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 14,
-      "sha256": "439879f5f75beec263ad07e2751d61352f940a4d8e3f73b151b25451a03ead9b"
+      "format": 16,
+      "sha256": "5b534b2695a8c22b43fb3d582a06a0cce669a467caeb961a958a8d239d409c4f"
     },
     {
       "id": "franken-e",
       "file": "franken-e.json",
       "name": "Frankencontest – Klasse E: 10 m CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 14,
-      "sha256": "292736a99a05dc7df8263c5e99e206b855567e6aba0ec3055900979f3c0e81dc"
+      "format": 16,
+      "sha256": "623430815171e253190711148727badcb28a035325312c6942dd437817f80dc8"
     },
     {
       "id": "franken-f",
       "file": "franken-f.json",
       "name": "Frankencontest – Klasse F: 10 m SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 14,
-      "sha256": "7bb0e91acbf2ea5b306905d42096e367caae65d6d71cba918f91070c460aa016"
+      "format": 16,
+      "sha256": "e06bb96d328d30e14257518500add4d0a00e85d5e0a7fa57fec96055b7c70221"
     },
     {
       "id": "franken-k",
       "file": "franken-k.json",
       "name": "Frankencontest – Klasse K: 2 m",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 14,
-      "sha256": "72b7964b466240ea2e8e196e109197859ad50e0db4b7b0852df1e5f8f9d1a1da"
+      "format": 16,
+      "sha256": "85441f0a039eaefb9570756874abf33872725a6b0da99b39769c69b6c39ae799"
     },
     {
       "id": "franken-l",
       "file": "franken-l.json",
       "name": "Frankencontest – Klasse L: 70 cm",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 14,
-      "sha256": "e76861d80f275479e2d7785ad34f490272ce4f894e7a248fbd70f681a687eca4"
+      "format": 16,
+      "sha256": "b11d721500a99da869f9fce1674f64fcf46da484198e2a0e13e7afded665cbf5"
     },
     {
       "id": "hadx",
