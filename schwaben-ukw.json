@@ -1,0 +1,108 @@
+{
+  "format": 15,
+  "revision": 1,
+  "id": "schwaben-ukw",
+  "name": "Schwaben-Contest – UKW (2 m/70 cm)",
+  "cabrillo_name": "Schwaben Contest",
+  "rules_url": "https://www.schwaben-contest.de/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 1,
+    "month": 1,
+    "start_hour": 12,
+    "hours": 4,
+    "skip_day": 1
+  },
+  "bands": [
+    "2",
+    "70cm"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_opmode",
+  "band_windows": [
+    {
+      "weekday": 5,
+      "from": "1200",
+      "to": "1329",
+      "bands": [
+        "2"
+      ],
+      "modes": [
+        "CW",
+        "SSB"
+      ]
+    },
+    {
+      "weekday": 5,
+      "from": "1330",
+      "to": "1429",
+      "bands": [
+        "2"
+      ],
+      "modes": [
+        "FM"
+      ]
+    },
+    {
+      "weekday": 5,
+      "from": "1430",
+      "to": "1529",
+      "bands": [
+        "70cm"
+      ],
+      "modes": [
+        "CW",
+        "SSB"
+      ]
+    },
+    {
+      "weekday": 5,
+      "from": "1530",
+      "to": "1559",
+      "bands": [
+        "70cm"
+      ],
+      "modes": [
+        "FM"
+      ]
+    }
+  ],
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "dok_grid6",
+      "no_dok": "serial"
+    }
+  ],
+  "points": {
+    "type": "dok",
+    "dok_pattern": "T\\d\\d|Z30",
+    "default": 1,
+    "match": 5,
+    "club": 10,
+    "trainee": 10
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts"
+  ]
+}

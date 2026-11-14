@@ -1,18 +1,34 @@
 {
   "format": 7,
-  "revision": 1,
+  "revision": 2,
   "id": "okom-cw",
   "name": "OK/OM DX CW",
   "cabrillo_name": "OK-OM-DX",
-  "rules_url": "https://okomdx.crk.cz/",
+  "rules_url": "http://okomdx.crk.cz/",
   "rules_checked": "2026-11",
   "schedule": {"weekend": "full", "nth": 2, "month": 11, "start_hour": 12, "hours": 24},
   "bands": ["160", "80", "40", "20", "15", "10"],
   "modes": ["CW"],
   "dupe": "band",
+  "blocked_countries": ["UA", "UA2", "UA9", "R1FJ", "EU"],
   "host": {
     "countries": ["OK", "OM"],
-    "pattern": "[A-Z]{3}"
+    "codes": [
+      "APA", "APB", "APC", "APD", "APE", "APF", "APG", "APH", "API", "APJ", "BAA", "BAB",
+      "BAC", "BAD", "BAE", "BAN", "BAR", "BBE", "BBN", "BBY", "BKD", "BKH", "BKO", "BMB",
+      "BME", "BNY", "BPB", "BPV", "BPZ", "BRA", "BRE", "BST", "BYT", "CAD", "CBU", "CCK",
+      "CJH", "CPE", "CPI", "CPR", "CST", "CTA", "DCH", "DDO", "DET", "DKL", "DKU", "DKV",
+      "DPJ", "DPM", "DPS", "DRO", "DSO", "DST", "DTA", "ECH", "ECL", "EDE", "EJA", "ELI",
+      "ELO", "ELT", "EMO", "ETE", "EUL", "FCR", "FHB", "FHK", "FJI", "FNA", "FPA", "FRK",
+      "FSE", "FSV", "FTR", "FUO", "GAL", "GBL", "GBM", "GBR", "GBV", "GEL", "GHO", "GJI",
+      "GKR", "GPR", "GTR", "GUH", "GVY", "GZL", "GZN", "GZS", "HBR", "HFM", "HJE", "HKA",
+      "HLO", "HNJ", "HOL", "HOP", "HOS", "HPR", "HSU", "HUM", "HVS", "ILA", "KEA", "KEB",
+      "KEC", "KED", "KEO", "KEZ", "KNM", "KOM", "KRU", "LEV", "LMI", "LUC", "LVC", "MAL",
+      "MAR", "MED", "MIC", "MYJ", "NAM", "NIT", "NMV", "NZA", "PAR", "PBY", "PEZ", "PIE",
+      "POL", "POP", "PRE", "PRI", "PUC", "REV", "ROZ", "RSO", "RUZ", "SAB", "SAL", "SEA",
+      "SEN", "SKA", "SLU", "SNI", "SNV", "SOB", "STR", "SVI", "TNC", "TOP", "TRE", "TRN",
+      "TTE", "TVR", "VKR", "VRT", "ZAR", "ZIH", "ZIL", "ZMO", "ZVO"
+    ]
   },
   "exchange": [
     {"field": "rst"},
@@ -29,7 +45,8 @@
       "own_country": 2,
       "same_continent": 3,
       "same_continent_na": 3,
-      "other_continent": 5
+      "other_continent": 5,
+      "maritime": 5
     },
     "dx": {
       "type": "continent",
@@ -37,7 +54,8 @@
       "own_country": 1,
       "same_continent": 3,
       "same_continent_na": 3,
-      "other_continent": 5
+      "other_continent": 5,
+      "maritime": 5
     }
   },
   "multipliers": [{"type": "district", "per": "band"}, {"type": "country", "per": "band"}],

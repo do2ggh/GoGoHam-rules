@@ -1,6 +1,6 @@
 {
   "format": 5,
-  "revision": 1,
+  "revision": 2,
   "id": "wae-ssb",
   "name": "WAE DX SSB",
   "cabrillo_name": "DARC-WAEDC-SSB",
@@ -31,7 +31,7 @@
   "contacts": "eu_dx",
   "band_segments": {
     "PH": {
-      "allowed": [
+      "forbidden": [
         [
           3650,
           3700

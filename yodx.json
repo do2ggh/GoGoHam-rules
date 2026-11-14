@@ -1,9 +1,9 @@
 {
   "format": 7,
-  "revision": 1,
+  "revision": 2,
   "id": "yodx",
   "name": "YO DX HF Contest",
-  "cabrillo_name": "YODX",
+  "cabrillo_name": "YO-DX-HF",
   "rules_url": "https://yodx.ro/rules.php",
   "rules_checked": "2026-11",
   "schedule": {

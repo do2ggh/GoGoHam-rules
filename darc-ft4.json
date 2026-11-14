@@ -1,9 +1,9 @@
 {
   "format": 9,
-  "revision": 1,
+  "revision": 2,
   "id": "darc-ft4",
   "name": "DARC FT4 Contest",
-  "cabrillo_name": "DARC-FT4",
+  "cabrillo_name": "FT4",
   "rules_url": "https://www.darc.de/der-club/referate/conteste/ft4-contest/ft4-rules/",
   "rules_checked": "2026-11",
   "schedule": {

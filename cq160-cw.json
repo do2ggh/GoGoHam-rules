@@ -1,14 +1,13 @@
 {
   "format": 2,
-  "revision": 1,
+  "revision": 2,
   "id": "cq160-cw",
   "name": "CQ WW 160 m CW",
   "cabrillo_name": "CQ-160-CW",
   "rules_url": "https://www.cq160.com/rules/",
   "rules_checked": "2026-11",
   "schedule": {
-    "weekend": "saturday",
-    "nth": 4,
+    "weekend": "last_full",
     "month": 1,
     "start_day": -1,
     "start_hour": 22,

@@ -594,6 +594,38 @@
       ],
       "checked": "2026-11-14",
       "fingerprint": "e926a1b63da787af2923847b12d274a9e9c726d3cfeaa2042d2dbd4558b56b46"
+    },
+    {
+      "id": "hsc",
+      "url": "https://hsc.lima-city.de/en/contests.html",
+      "watch": "text",
+      "contests": [
+        "hsc"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "b5708713843e0ace1b2a391982ef7f10e9d6e5beed331c3872b750ed3d43b127"
+    },
+    {
+      "id": "schwaben",
+      "url": "https://www.schwaben-contest.de/",
+      "watch": "text",
+      "contests": [
+        "schwaben-kw",
+        "schwaben-ukw"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "ae7b62fad6efe6cddc6731eb917682e86e03db40cf8d17539ddb769a2884acbf"
+    },
+    {
+      "id": "schwaben-musterlog",
+      "url": "https://www.schwaben-contest.de/musterlog",
+      "watch": "text",
+      "contests": [
+        "schwaben-kw",
+        "schwaben-ukw"
+      ],
+      "checked": "2026-11-14",
+      "fingerprint": "a3c93b2d28350d860fad97901e7afde90a69de8121b2dafa3d325a4db138c416"
     }
   ]
 }

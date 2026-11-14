@@ -1,6 +1,6 @@
 {
-  "format": 7,
-  "revision": 1,
+  "format": 16,
+  "revision": 2,
   "id": "pacc",
   "name": "PACC Contest",
   "cabrillo_name": "PACC",
@@ -51,7 +51,7 @@
         "JA": "JA",
         "LU": "LU",
         "PY": "PY",
-        "VE": "VE",
+        "VE": {"name": "VE", "keep": ["VO", "VY"]},
         "K": "W",
         "VK": "VK",
         "ZS": "ZS",

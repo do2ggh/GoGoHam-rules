@@ -1,6 +1,6 @@
 {
   "format": 6,
-  "revision": 1,
+  "revision": 2,
   "id": "aa-ssb",
   "name": "All Asian DX SSB",
   "cabrillo_name": "AADX-SSB",
@@ -19,7 +19,8 @@
       "own_country": 0,
       "same_continent": {"160": 3, "80": 2, "10": 2, "default": 1},
       "same_continent_na": {"160": 3, "80": 2, "10": 2, "default": 1},
-      "other_continent": {"160": 9, "80": 6, "10": 6, "default": 3}
+      "other_continent": {"160": 9, "80": 6, "10": 6, "default": 3},
+      "maritime": {"160": 3, "80": 2, "10": 2, "default": 1}
     },
     "non_as": {
       "type": "continent",

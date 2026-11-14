@@ -1,6 +1,6 @@
 {
   "format": 13,
-  "revision": 1,
+  "revision": 2,
   "id": "wae-rtty",
   "name": "WAE DX Contest RTTY",
   "cabrillo_name": "DARC-WAEDC-RTTY",
@@ -27,6 +27,7 @@
   "modes": [
     "RY"
   ],
+  "band_segments": {"RY": {"forbidden": [[14099, 14101]]}},
   "dupe": "band",
   "exchange": [
     {

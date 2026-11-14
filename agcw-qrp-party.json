@@ -1,6 +1,6 @@
 {
   "format": 14,
-  "revision": 1,
+  "revision": 2,
   "id": "agcw-qrp-party",
   "name": "AGCW QRP/QRP-Party",
   "cabrillo_name": "AGCW QRP",
@@ -81,6 +81,7 @@
     {
       "type": "country",
       "per": "band",
+      "dxcc_only": true,
       "classes": [
         "A",
         "B"

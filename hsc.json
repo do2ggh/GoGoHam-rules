@@ -1,0 +1,73 @@
+{
+  "format": 15,
+  "revision": 1,
+  "id": "hsc",
+  "name": "HSC CW Contest (High Speed Club)",
+  "cabrillo_name": "HSC",
+  "rules_url": "https://hsc.lima-city.de/en/contests.html",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "sunday",
+    "nth": -1,
+    "month": 2,
+    "start_hour": 14,
+    "hours": 3,
+    "also": [
+      {
+        "weekend": "sunday",
+        "nth": 1,
+        "month": 11,
+        "start_hour": 14,
+        "hours": 3
+      }
+    ]
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "member"
+    }
+  ],
+  "points": {
+    "type": "member",
+    "member": 5,
+    "non_member": 2
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

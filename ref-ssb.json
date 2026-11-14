@@ -1,6 +1,6 @@
 {
-  "format": 11,
-  "revision": 1,
+  "format": 16,
+  "revision": 2,
   "id": "ref-ssb",
   "name": "REF Contest SSB (Coupe du REF)",
   "cabrillo_name": "REF-SSB",
@@ -176,11 +176,25 @@
     }
   ],
   "points": {
-    "type": "continent",
-    "own_country": 1,
-    "same_continent": 1,
-    "same_continent_na": 1,
-    "other_continent": 3
+    "type": "by_region",
+    "host": {
+      "type": "continent",
+      "host_host": 6,
+      "host_host_other": 15,
+      "own_country": 6,
+      "same_continent": 1,
+      "same_continent_na": 1,
+      "other_continent": 2,
+      "maritime": 3
+    },
+    "dx": {
+      "type": "continent",
+      "own_country": 1,
+      "same_continent": 1,
+      "same_continent_na": 1,
+      "other_continent": 3,
+      "maritime": 3
+    }
   },
   "multipliers": [
     {
@@ -191,6 +205,7 @@
       "type": "country",
       "per": "band",
       "when": "host",
+      "dxcc_only": true,
       "exclude": [
         "F",
         "TK",

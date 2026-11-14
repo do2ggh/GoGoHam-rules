@@ -14,19 +14,19 @@
       "id": "aa-cw",
       "file": "aa-cw.json",
       "name": "All Asian DX CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 6,
-      "sha256": "1d055ddd8e30b362cfd36642b50bb82e2ce77e11272dee2f20644aa41f9e0595"
+      "sha256": "652cf5685bcb2fab8b367dc70c5da31e7b3eb466809c93282684d510c79b992b"
     },
     {
       "id": "aa-ssb",
       "file": "aa-ssb.json",
       "name": "All Asian DX SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 6,
-      "sha256": "7f639b4a50705c5c8ea1b25a8a017db8904d0371e6e4c46d688c1c0223276857"
+      "sha256": "82221518ee45d8cc7a4f14cd6df0853bb0101ce45e65f471529bdb99328c0392"
     },
     {
       "id": "agcw-hny",
@@ -41,10 +41,10 @@
       "id": "agcw-qrp-party",
       "file": "agcw-qrp-party.json",
       "name": "AGCW QRP/QRP-Party",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 14,
-      "sha256": "2544408532f08a002f850cc4b40b1efc9267a523c8c285dc1c9c08a19b68d359"
+      "sha256": "80f5df3d942108fd35012852fca37061f749d11d7b3dc51c125856a4bdc1c654"
     },
     {
       "id": "agcw-qrp",
@@ -131,10 +131,10 @@
       "id": "cq160-cw",
       "file": "cq160-cw.json",
       "name": "CQ WW 160 m CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 2,
-      "sha256": "3ba1448ad19ed62b3fcdf4ff6cb6b93bcb00f907005b2d63a07162d60611c89c"
+      "sha256": "0b531d9631807770a6a6c591cdaf95b538d67f0e4742d14a23018d88a9b653e5"
     },
     {
       "id": "cq160-ssb",
@@ -203,10 +203,10 @@
       "id": "darc-easter",
       "file": "darc-easter.json",
       "name": "DARC Ostercontest (Easter)",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 4,
-      "sha256": "448562f8e6ce461837ba907f8e8b6c6b486546bb31db04a4c04dcc4f5787c712"
+      "sha256": "e5b7e792a0a169fa3c1861e926bcd33789a76f460ce0a007e10d89e6be01cd3e"
     },
     {
       "id": "darc-fd-cw",
@@ -230,10 +230,10 @@
       "id": "darc-ft4",
       "file": "darc-ft4.json",
       "name": "DARC FT4 Contest",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 9,
-      "sha256": "b6fe8e6f9b425f3fdaa5298e5ff010b70dc7bcee1d9ed503e703fb39ebb37431"
+      "sha256": "e17d0198cdf7d10cb2bce96efe1258036947a6322510e78a63fa807c29e21be5"
     },
     {
       "id": "darc-microwave",
@@ -284,10 +284,10 @@
       "id": "darc-xmas",
       "file": "darc-xmas.json",
       "name": "DARC Weihnachtswettbewerb (XMAS)",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 4,
-      "sha256": "926f9fef422fd8c72e39412ca0b6f0aec2ca6acc761592bd823b5218b8dfc309"
+      "sha256": "baa0b7802bd3d7ee3f01e4fff6aadfeba16455000e2ab57d38f7625592713d1e"
     },
     {
       "id": "ea-majestad-cw",
@@ -398,6 +398,15 @@
       "sha256": "4385ecd19c1c7a23a55606eddac2554fb094bcd68547d5ae203d93b54b5945f6"
     },
     {
+      "id": "hsc",
+      "file": "hsc.json",
+      "name": "HSC CW Contest (High Speed Club)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 15,
+      "sha256": "50a7edfdfee0249a43cd3028732a00d89ac17e2cf73d8c4c6296b5d91d2f6249"
+    },
+    {
       "id": "iaru-hf",
       "file": "iaru-hf.json",
       "name": "IARU HF World Championship",
@@ -455,28 +464,28 @@
       "id": "okom-cw",
       "file": "okom-cw.json",
       "name": "OK/OM DX CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 7,
-      "sha256": "ce218ce16d04d23710075f5770461bd085b95a20a09311b8b4077e5596184a50"
+      "sha256": "6e7c07f18ea06bf217d235caff51089dfb950a51005bc3e1f6f0b6d87872f32b"
     },
     {
       "id": "okom-ssb",
       "file": "okom-ssb.json",
       "name": "OK/OM DX SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 7,
-      "sha256": "0cf895f123c75ac5f595a8c25e3dc255861046a5cd59dfb2a0345921d24935fb"
+      "sha256": "c65b9604e8434045ce2dd2102e545e1b7e3313df10dddf68030eff52d6818b23"
     },
     {
       "id": "pacc",
       "file": "pacc.json",
       "name": "PACC Contest",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 7,
-      "sha256": "3c8807c2f8999935fb607e99e6909901a40476312e3c398f79a8638fd9be7fb9"
+      "format": 16,
+      "sha256": "f74294d51f5afbb996642e21051dd458b7e69f6c8b2015dc53a047f417db8662"
     },
     {
       "id": "rdxc",
@@ -491,19 +500,37 @@
       "id": "ref-cw",
       "file": "ref-cw.json",
       "name": "REF Contest CW (Coupe du REF)",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
-      "format": 11,
-      "sha256": "48695845fa4998eedba1511fa005541f8d67f28e8f7450f8c7672b72a9819f6b"
+      "format": 16,
+      "sha256": "c366d38f9ce4981c726694d244fcfc11d92ab6ffb4f77c8273c51cc87127a90b"
     },
     {
       "id": "ref-ssb",
       "file": "ref-ssb.json",
       "name": "REF Contest SSB (Coupe du REF)",
+      "revision": 2,
+      "rules_checked": "2026-11",
+      "format": 16,
+      "sha256": "606e8dc0ee4de9c47082df357ef18a619938b31fac58ab63ef5df3e5ab3ebad9"
+    },
+    {
+      "id": "schwaben-kw",
+      "file": "schwaben-kw.json",
+      "name": "Schwaben-Contest – Kurzwelle (80/40 m)",
       "revision": 1,
       "rules_checked": "2026-11",
-      "format": 11,
-      "sha256": "1cc6467b2019ea078926c7355f95140952f0279872704ca2e35486f4c2e2f1f6"
+      "format": 15,
+      "sha256": "d41bc1ed65d6d9be517f9df486a0d5fdb58b09aa7094c0ca5a6b73a8bf21b0c2"
+    },
+    {
+      "id": "schwaben-ukw",
+      "file": "schwaben-ukw.json",
+      "name": "Schwaben-Contest – UKW (2 m/70 cm)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 15,
+      "sha256": "5fc5e964cf05f7766b2d6531573535e29b082d91a382de6d4429e59600511889"
     },
     {
       "id": "spdx",
@@ -536,28 +563,28 @@
       "id": "wae-cw",
       "file": "wae-cw.json",
       "name": "WAE DX CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 5,
-      "sha256": "5e76e0d711de276109ad2b4f4e8363fd320463ee40b694666a6a108f7a9547ab"
+      "sha256": "45ab9183d51bc405e751543d9c9d1974a9b255998f85993f627ea2eebb67d359"
     },
     {
       "id": "wae-rtty",
       "file": "wae-rtty.json",
       "name": "WAE DX Contest RTTY",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 13,
-      "sha256": "ce7d9e47d62c6cf142e490f1c1b3462ec02a69ef99638ebfb222cc9d7b723a39"
+      "sha256": "d102a0a6ffdc4b4e34b6d7baeaa2e96a86db21ce1048c63d01e379515c1eff49"
     },
     {
       "id": "wae-ssb",
       "file": "wae-ssb.json",
       "name": "WAE DX SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 5,
-      "sha256": "e6bc12c9836ac1b92f4ee4d357cbb508a94c1c0db058a7f24eccbcfbeaa22264"
+      "sha256": "e0206f39af851fce0294efefcbfd735aadc9ebc83c669c73293e5108282df6b1"
     },
     {
       "id": "wag",
@@ -608,10 +635,10 @@
       "id": "yodx",
       "file": "yodx.json",
       "name": "YO DX HF Contest",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 7,
-      "sha256": "d8666a629987eb66da889cc35a2046495965ff4ab15711f14b8faa07c69a6672"
+      "sha256": "f4ab25d24422662597ed8eddf38674c2ba6662536e5dcb995c3a7d4d82657043"
     }
   ]
 }

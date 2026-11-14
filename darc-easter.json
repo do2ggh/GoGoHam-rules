@@ -1,9 +1,9 @@
 {
   "format": 4,
-  "revision": 1,
+  "revision": 2,
   "id": "darc-easter",
   "name": "DARC Ostercontest (Easter)",
-  "cabrillo_name": "DARC-EASTER",
+  "cabrillo_name": "EASTER",
   "rules_url": "https://www.darc.de/der-club/referate/conteste/ostercontest/regeln/",
   "rules_checked": "2026-11",
   "schedule": {"weekend": "easter", "offset": 1, "start_hour": 15, "hours": 2, "minutes": 30},

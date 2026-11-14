@@ -1,0 +1,110 @@
+{
+  "format": 15,
+  "revision": 1,
+  "id": "schwaben-kw",
+  "name": "Schwaben-Contest – Kurzwelle (80/40 m)",
+  "cabrillo_name": "Schwaben Contest",
+  "rules_url": "https://www.schwaben-contest.de/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 1,
+    "month": 1,
+    "start_hour": 7,
+    "hours": 4,
+    "skip_day": 1
+  },
+  "bands": [
+    "80",
+    "40"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_opmode",
+  "band_windows": [
+    {
+      "weekday": 5,
+      "from": "0700",
+      "to": "0759",
+      "bands": [
+        "80"
+      ],
+      "modes": [
+        "CW"
+      ]
+    },
+    {
+      "weekday": 5,
+      "from": "0800",
+      "to": "0859",
+      "bands": [
+        "80"
+      ],
+      "modes": [
+        "SSB"
+      ]
+    },
+    {
+      "weekday": 5,
+      "from": "0900",
+      "to": "0959",
+      "bands": [
+        "40"
+      ],
+      "modes": [
+        "CW"
+      ]
+    },
+    {
+      "weekday": 5,
+      "from": "1000",
+      "to": "1059",
+      "bands": [
+        "40"
+      ],
+      "modes": [
+        "SSB"
+      ]
+    }
+  ],
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "DOK/Nr",
+      "by_region": {
+        "dl": "dok_or_serial",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "dok",
+    "dok_pattern": "T\\d\\d|Z30",
+    "default": 1,
+    "match": 5,
+    "club": 10,
+    "trainee": 10
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "format": 5,
-  "revision": 1,
+  "revision": 2,
   "id": "wae-cw",
   "name": "WAE DX CW",
   "cabrillo_name": "DARC-WAEDC-CW",
@@ -31,7 +31,7 @@
   "contacts": "eu_dx",
   "band_segments": {
     "CW": {
-      "allowed": [
+      "forbidden": [
         [
           3570,
           3800

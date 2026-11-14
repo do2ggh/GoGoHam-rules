@@ -1,9 +1,9 @@
 {
   "format": 4,
-  "revision": 1,
+  "revision": 2,
   "id": "darc-xmas",
   "name": "DARC Weihnachtswettbewerb (XMAS)",
-  "cabrillo_name": "DARC-XMAS",
+  "cabrillo_name": "XMAS",
   "rules_url": "https://www.darc.de/der-club/referate/conteste/weihnachtswettbewerb/regeln/",
   "rules_checked": "2026-11",
   "schedule": {"weekend": "date", "month": 12, "day": 26, "start_hour": 8, "start_minute": 30,
