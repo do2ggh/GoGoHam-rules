@@ -1,0 +1,67 @@
+{
+  "format": 19,
+  "revision": 1,
+  "id": "af-all-mode",
+  "name": "Africa All Mode International DX Contest (SARL)",
+  "cabrillo_name": "AF-ALL-MODE-DX",
+  "rules_url": "https://mysarl.org.za/wp-content/uploads/2026/10/2027-Africa-All-Mode-International-DX-Contest.pdf",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 4,
+    "month": 3,
+    "start_hour": 12,
+    "hours": 24
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_mode",
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial"
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band_mode",
+      "cont": "AF",
+      "dxcc_only": true
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

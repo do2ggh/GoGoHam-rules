@@ -1,0 +1,82 @@
+{
+  "format": 19,
+  "revision": 1,
+  "id": "makrothen",
+  "name": "Makrothen RTTY Contest",
+  "cabrillo_name": "MAKROTHEN-RTTY",
+  "rules_url": "https://www.pl259.org/makrothen/makrothen-rules/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 10,
+    "start_hour": 0,
+    "hours": 8,
+    "also": [
+      {
+        "weekend": "full",
+        "nth": 2,
+        "month": 10,
+        "start_hour": 16,
+        "hours": 8
+      },
+      {
+        "weekend": "full",
+        "nth": 2,
+        "month": 10,
+        "start_day": 1,
+        "start_hour": 8,
+        "hours": 8
+      }
+    ]
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "RY"
+  ],
+  "rig_modes": [
+    "RTTY",
+    "RTTYR",
+    "PKTLSB",
+    "PKTUSB",
+    "LSB",
+    "USB"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "grid4"
+    }
+  ],
+  "points": {
+    "type": "grid_km",
+    "radius": 6378.16,
+    "factor": {
+      "80": 2.0,
+      "40": 1.5,
+      "default": 1
+    },
+    "same_grid": 100
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "ex_s",
+    "ex_r",
+    "land",
+    "km",
+    "pts"
+  ]
+}

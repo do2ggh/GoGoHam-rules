@@ -29,6 +29,15 @@
       "sha256": "82221518ee45d8cc7a4f14cd6df0853bb0101ce45e65f471529bdb99328c0392"
     },
     {
+      "id": "af-all-mode",
+      "file": "af-all-mode.json",
+      "name": "Africa All Mode International DX Contest (SARL)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "b841102d8408c714aa42813277649a53b3384972eae57a8c1ef978d787c2ad6e"
+    },
+    {
       "id": "agcw-hny",
       "file": "agcw-hny.json",
       "name": "AGCW Happy New Year Contest",
@@ -54,6 +63,15 @@
       "rules_checked": "2026-11",
       "format": 14,
       "sha256": "89279ca8998df30a605d8bc33144c453a1ca54351c267809c07b3fa8c91d4730"
+    },
+    {
+      "id": "alpe-adria-uhf",
+      "file": "alpe-adria-uhf.json",
+      "name": "Alpe Adria UHF/SHF Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "b1a046151095aca9ec4351f2c7ba058aa674d58b23f4571811341173ef0ff342"
     },
     {
       "id": "alpe-adria-vhf",
@@ -126,6 +144,51 @@
       "rules_checked": "2026-11",
       "format": 13,
       "sha256": "d74f9304e26ed1256227618cb93849ac2d05ed983f3e5d88f1b60a3229fe3165"
+    },
+    {
+      "id": "arrl-ss-cw",
+      "file": "arrl-ss-cw.json",
+      "name": "ARRL November Sweepstakes CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "784276694ba4f8b18a0dd6a25fe45410a156ad9108a60e7b72096ec0161c19cc"
+    },
+    {
+      "id": "arrl-ss-ssb",
+      "file": "arrl-ss-ssb.json",
+      "name": "ARRL November Sweepstakes SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "5c59c3982a15b81c8a02029cb90e167bf537916142ae708bb6857911afd2a37a"
+    },
+    {
+      "id": "arrl-vhf-jun",
+      "file": "arrl-vhf-jun.json",
+      "name": "ARRL June VHF",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "878aa06ee4d53d55c0d4831a59348b16b69d1c30059a1f319fa73790b4174ec6"
+    },
+    {
+      "id": "arrl-vhf-sep",
+      "file": "arrl-vhf-sep.json",
+      "name": "ARRL September VHF",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "54ec20f6c34f9d61d1b4ce27e7395a3128722fc7e0ea804e9a9dda1ac283ae26"
+    },
+    {
+      "id": "baltic",
+      "file": "baltic.json",
+      "name": "Baltic Contest (LY, 80 m)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "6bf8fa8051ea12be04f0d69818d609d92ca72a499a8aa38b01ce6d827f5f4b6e"
     },
     {
       "id": "bartg-rtty",
@@ -225,6 +288,24 @@
       "rules_checked": "2026-11",
       "format": 12,
       "sha256": "e504ef3d20166b3f7e4d92c3d6390d7999eff5d96f191cd71f447ac1769a9ef8"
+    },
+    {
+      "id": "cqww-vhf-digi",
+      "file": "cqww-vhf-digi.json",
+      "name": "CQ WW VHF Digital",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "ddb1feeb5db2090410169f4f9b0b51e5eeeea5ecfc7acb07edba15c40b64c95a"
+    },
+    {
+      "id": "cqww-vhf",
+      "file": "cqww-vhf.json",
+      "name": "CQ WW VHF (SSB/CW/FM)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "7bc3e98e7f534223ba817f2603ffe9562d89fdc59a9bb44f52eac1beb1af4fb1"
     },
     {
       "id": "darc-10m",
@@ -488,6 +569,24 @@
       "sha256": "50a7edfdfee0249a43cd3028732a00d89ac17e2cf73d8c4c6296b5d91d2f6249"
     },
     {
+      "id": "iaru-50",
+      "file": "iaru-50.json",
+      "name": "IARU Region 1 50 MHz (CW/SSB)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "518c775e8822d5b830face9cfea22641abc084bd8c8629d4a5820ad13532ce51"
+    },
+    {
+      "id": "iaru-70",
+      "file": "iaru-70.json",
+      "name": "IARU Region 1 70 MHz (CW/SSB)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "8769aa3c47c5ae65919667d915c218dfe74af2f0b2a010d5c0a6218d9e7e3c75"
+    },
+    {
       "id": "iaru-hf",
       "file": "iaru-hf.json",
       "name": "IARU HF World Championship",
@@ -549,6 +648,15 @@
       "rules_checked": "2026-11",
       "format": 11,
       "sha256": "e86953a7b252306f303d07a0402c2981b46b1f3d178127efd60ad42bb0e5acf9"
+    },
+    {
+      "id": "makrothen",
+      "file": "makrothen.json",
+      "name": "Makrothen RTTY Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "8eea631af7d61ab62ffc6e25e260dfcf53208d160198498ac68fd10cc7c133dd"
     },
     {
       "id": "marconi-vhf",
@@ -657,6 +765,24 @@
       "rules_checked": "2026-11",
       "format": 18,
       "sha256": "92cae365295f3ba28cb3fe5d133c0055e466a28e8972bac3bfa08f861337fb68"
+    },
+    {
+      "id": "sartg-ny-rtty",
+      "file": "sartg-ny-rtty.json",
+      "name": "SARTG New Year RTTY Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "2dadd84a6ed41c0249b63ec0d6ce5c367905a950678fea8300f2347eb40f5c8e"
+    },
+    {
+      "id": "sartg-rtty",
+      "file": "sartg-rtty.json",
+      "name": "SARTG WW RTTY Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 19,
+      "sha256": "db93ccdc8ca7d69ad1cf3fe3e6c9a0630660414f51fc9fb402f4370361473de5"
     },
     {
       "id": "schwaben-kw",

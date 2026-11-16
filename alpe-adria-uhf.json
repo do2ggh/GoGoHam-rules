@@ -1,0 +1,101 @@
+{
+  "format": 19,
+  "revision": 1,
+  "id": "alpe-adria-uhf",
+  "name": "Alpe Adria UHF/SHF Contest",
+  "rules_url": "https://contest.ari.it/rules/regolamentocontestalpeadriauhf2026.pdf",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 6,
+    "start_day": 1,
+    "start_hour": 7,
+    "hours": 8
+  },
+  "bands": [
+    "70cm",
+    "23cm",
+    "13cm",
+    "9cm",
+    "6cm",
+    "3cm",
+    "1.25cm",
+    "6mm",
+    "4mm",
+    "2.5mm",
+    "2mm",
+    "1mm"
+  ],
+  "modes": [
+    "PH",
+    "CW"
+  ],
+  "dupe": "band",
+  "serial_per_band": true,
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_grid6"
+    }
+  ],
+  "points": {
+    "type": "km"
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "edi",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts"
+  ],
+  "band_windows": [
+    {
+      "weekday": 6,
+      "from": "0700",
+      "to": "1459",
+      "bands": [
+        "70cm"
+      ],
+      "modes": [
+        "CW",
+        "SSB"
+      ]
+    },
+    {
+      "weekday": 6,
+      "from": "0700",
+      "to": "1459",
+      "bands": [
+        "23cm",
+        "13cm",
+        "9cm",
+        "6cm",
+        "3cm",
+        "1.25cm",
+        "6mm",
+        "4mm",
+        "2.5mm",
+        "2mm",
+        "1mm"
+      ],
+      "modes": [
+        "CW",
+        "SSB",
+        "FM"
+      ]
+    }
+  ]
+}

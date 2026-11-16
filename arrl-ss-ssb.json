@@ -1,0 +1,81 @@
+{
+  "format": 19,
+  "revision": 1,
+  "id": "arrl-ss-ssb",
+  "name": "ARRL November Sweepstakes SSB",
+  "cabrillo_name": "ARRL-SS-SSB",
+  "rules_url": "https://www.arrl.org/sweepstakes",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 11,
+    "start_hour": 21,
+    "hours": 30
+  },
+  "operating_time": {
+    "single_op_hours": 24,
+    "min_break_minutes": 30
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
+  "dupe": "once",
+  "contacts": "w_ve_only",
+  "exchange": [
+    {
+      "field": "ss",
+      "us_entities": [
+        "K",
+        "KL",
+        "KH0",
+        "KH1",
+        "KH2",
+        "KH3",
+        "KH4",
+        "KH5",
+        "KH6",
+        "KH7K",
+        "KH8",
+        "KH8/S",
+        "KH9",
+        "KP1",
+        "KP2",
+        "KP4",
+        "KP5"
+      ]
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 2
+  },
+  "multipliers": [
+    {
+      "type": "arrl_section",
+      "per": "once"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "ex_s",
+    "ex_r",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "format": 19,
+  "revision": 1,
+  "id": "sartg-rtty",
+  "name": "SARTG WW RTTY Contest",
+  "cabrillo_name": "SARTG-RTTY",
+  "rules_url": "https://www.sartg.com/contest/wwrules.htm",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 8,
+    "start_hour": 0,
+    "hours": 8,
+    "also": [
+      {
+        "weekend": "full",
+        "nth": 3,
+        "month": 8,
+        "start_hour": 16,
+        "hours": 8
+      },
+      {
+        "weekend": "full",
+        "nth": 3,
+        "month": 8,
+        "start_day": 1,
+        "start_hour": 8,
+        "hours": 8
+      }
+    ]
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "RY"
+  ],
+  "rig_modes": [
+    "RTTY",
+    "RTTYR",
+    "PKTLSB",
+    "PKTUSB",
+    "LSB",
+    "USB"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial"
+    }
+  ],
+  "points": {
+    "type": "continent",
+    "own_country": 5,
+    "same_continent": 10,
+    "same_continent_na": 10,
+    "other_continent": 15
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band"
+    },
+    {
+      "type": "call_area",
+      "per": "band",
+      "areas": {
+        "K": "W",
+        "VE": "VE",
+        "JA": "JA",
+        "VK": "VK"
+      }
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

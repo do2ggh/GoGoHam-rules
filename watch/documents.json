@@ -751,6 +751,110 @@
       ],
       "checked": "2026-11-16",
       "fingerprint": "6259219caa68215bb434eff9bbc57da9868dac48fd4a46f59ee200254a0f8a6c"
+    },
+    {
+      "id": "arrl-ss",
+      "url": "https://contests.arrl.org/ContestRules/SS-Rules.pdf",
+      "watch": "text",
+      "contests": [
+        "arrl-ss-cw",
+        "arrl-ss-ssb"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "b54a8b3df0630fcd0facff31329a5fe8ac6a90eb2f035e54bb10980b7983dc62"
+    },
+    {
+      "id": "arrl-vhf",
+      "url": "https://contests.arrl.org/ContestRules/JanJunSep-VHF-Rules.pdf",
+      "watch": "text",
+      "contests": [
+        "arrl-vhf-jun",
+        "arrl-vhf-sep"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "564c8ce7f876b52bb395e7c3ecc937b318465d46b787a9724a98d0fe0377b5cc"
+    },
+    {
+      "id": "cqww-vhf",
+      "url": "https://www.cqww-vhf.com/rules.htm",
+      "watch": "text",
+      "contests": [
+        "cqww-vhf",
+        "cqww-vhf-digi"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "7d4f58099b15e13c5973222444fc6751d86c58ae080d44d1c805bf2dbc389f55"
+    },
+    {
+      "id": "af-all-mode",
+      "url": "https://mysarl.org.za/wp-content/uploads/2026/10/2027-Africa-All-Mode-International-DX-Contest.pdf",
+      "watch": "text",
+      "contests": [
+        "af-all-mode"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "4e5f9b2464fb6a06f3178ec6ab4acb4ec8f63af396e1c3597cb4ebe54b79f4aa"
+    },
+    {
+      "id": "baltic",
+      "url": "http://www.lrsf.lt/wp-content/uploads/2026/04/BC-2026-61th-BALTIC-CONTEST.pdf",
+      "watch": "text",
+      "contests": [
+        "baltic"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "ff1bd6f9182a50de25f6bab390e4b57d77d06bc7338e37d47aa1b7a94d406674"
+    },
+    {
+      "id": "sartg-rtty",
+      "url": "https://www.sartg.com/contest/wwrules.htm",
+      "watch": "text",
+      "contests": [
+        "sartg-rtty"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "23f9951a58862370af03d67b2a4ad7d26fa05f3fcc12bd25d665c362b024474e"
+    },
+    {
+      "id": "sartg-ny-rtty",
+      "url": "https://www.sartg.com/contest/nyrules.htm",
+      "watch": "text",
+      "contests": [
+        "sartg-ny-rtty"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "4b64e91f06c420944f5f47d46de2c678a8cb281f4339f64e74013d6a2a7bce57"
+    },
+    {
+      "id": "makrothen",
+      "url": "https://www.pl259.org/makrothen/makrothen-rules/",
+      "watch": "text",
+      "contests": [
+        "makrothen"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "eea2a1f64b000296b37ef944b017c62ac0a42993541b3336ecb4350015f0d891"
+    },
+    {
+      "id": "iaru-r1-vhf-handbook",
+      "url": "https://www.iaru-r1.org/wp-content/uploads/2026/02/VHF_Handbook_V10_03_final.pdf",
+      "watch": "text",
+      "contests": [
+        "iaru-50",
+        "iaru-70"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "f884db971fdef7c5da0dcc4f24a2a178827b0d1c3e1e337576321d58abce7107"
+    },
+    {
+      "id": "alpe-adria-uhf",
+      "url": "https://contest.ari.it/rules/regolamentocontestalpeadriauhf2026.pdf",
+      "watch": "text",
+      "contests": [
+        "alpe-adria-uhf"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "39c97a391fbd5a9fcd7b1bb20cb74e5b9f4c45365cc22c50def13fa723b6c499"
     }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "format": 19,
+  "revision": 1,
+  "id": "baltic",
+  "name": "Baltic Contest (LY, 80 m)",
+  "cabrillo_name": "BALTIC-CONTEST",
+  "rules_url": "https://www.lrsf.lt/en/baltic-contest-2026",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 5,
+    "start_hour": 21,
+    "hours": 5
+  },
+  "bands": [
+    "80"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_mode",
+  "host": {
+    "countries": [
+      "ES",
+      "YL",
+      "LY"
+    ]
+  },
+  "blocked_countries": [
+    "UA",
+    "UA2",
+    "UA9",
+    "R1FJ",
+    "EU"
+  ],
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          3510,
+          3600
+        ]
+      ]
+    },
+    "PH": {
+      "allowed": [
+        [
+          3600,
+          3750
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial"
+    }
+  ],
+  "points": {
+    "type": "by_region",
+    "host": {
+      "type": "europe",
+      "of": "worked",
+      "eu": 1,
+      "non_eu": 2
+    },
+    "eu": {
+      "type": "continent",
+      "host": 10,
+      "maritime": 1,
+      "own_country": 1,
+      "same_continent": 1,
+      "same_continent_na": 1,
+      "other_continent": 1
+    },
+    "non_eu": {
+      "type": "continent",
+      "host": 20,
+      "maritime": 1,
+      "own_country": 1,
+      "same_continent": 1,
+      "same_continent_na": 1,
+      "other_continent": 1
+    }
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts"
+  ]
+}

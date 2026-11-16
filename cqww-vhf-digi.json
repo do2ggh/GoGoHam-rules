@@ -1,0 +1,71 @@
+{
+  "format": 19,
+  "revision": 1,
+  "id": "cqww-vhf-digi",
+  "name": "CQ WW VHF Digital",
+  "cabrillo_name": "CQ-VHF-DIGI",
+  "rules_url": "https://www.cqww-vhf.com/rules.htm",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 3,
+    "month": 7,
+    "start_hour": 14,
+    "hours": 24
+  },
+  "bands": [
+    "6",
+    "2"
+  ],
+  "modes": [
+    "DG"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "grid4"
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": {
+      "6": 1,
+      "2": 2,
+      "default": 0
+    }
+  },
+  "multipliers": [
+    {
+      "type": "grid_square",
+      "per": "band"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "ex_s",
+    "ex_r",
+    "land",
+    "km",
+    "pts",
+    "gain",
+    "mult"
+  ],
+  "rig_modes": [
+    "FT8",
+    "FT4",
+    "MFSK",
+    "DG",
+    "PKTUSB",
+    "DATA",
+    "MSK144",
+    "Q65",
+    "JT65"
+  ]
+}

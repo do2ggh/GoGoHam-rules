@@ -1,0 +1,98 @@
+{
+  "format": 19,
+  "revision": 1,
+  "id": "sartg-ny-rtty",
+  "name": "SARTG New Year RTTY Contest",
+  "cabrillo_name": "SARTG-NY-RTTY",
+  "rules_url": "https://www.sartg.com/contest/nyrules.htm",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "date",
+    "day": 1,
+    "month": 1,
+    "start_hour": 8,
+    "hours": 3
+  },
+  "bands": [
+    "80",
+    "40"
+  ],
+  "modes": [
+    "RY"
+  ],
+  "rig_modes": [
+    "RTTY",
+    "RTTYR",
+    "PKTLSB",
+    "PKTUSB",
+    "LSB",
+    "USB"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_name"
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band",
+      "exclude": [
+        "JW",
+        "JX",
+        "LA",
+        "OH",
+        "OH0",
+        "OJ0",
+        "OX",
+        "OY",
+        "OZ",
+        "SM",
+        "TF"
+      ]
+    },
+    {
+      "type": "call_area",
+      "per": "band",
+      "first_digit": true,
+      "areas": {
+        "JW": "JW",
+        "JX": "JX",
+        "LA": "LA",
+        "OH": "OH",
+        "OH0": "OH0",
+        "OJ0": "OJ0",
+        "OX": "OX",
+        "OY": "OY",
+        "OZ": "OZ",
+        "SM": "SM",
+        "TF": "TF"
+      }
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}
