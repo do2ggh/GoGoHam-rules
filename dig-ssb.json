@@ -1,0 +1,131 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "dig-ssb",
+  "name": "DIG-QSO-Party Kurzwelle SSB",
+  "cabrillo_name": "DIG-QSO-PARTY",
+  "rules_url": "https://dig-contest.de/rules",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 3,
+    "start_hour": 12,
+    "hours": 23
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
+  "dupe": "band",
+  "band_windows": [
+    {
+      "weekday": 5,
+      "from": "1200",
+      "to": "1659",
+      "bands": [
+        "20",
+        "15",
+        "10"
+      ]
+    },
+    {
+      "weekday": 6,
+      "from": "0700",
+      "to": "0859",
+      "bands": [
+        "80"
+      ]
+    },
+    {
+      "weekday": 6,
+      "from": "0900",
+      "to": "1059",
+      "bands": [
+        "40"
+      ]
+    }
+  ],
+  "band_segments": {
+    "PH": {
+      "allowed": [
+        [
+          14125,
+          14300
+        ],
+        [
+          21151,
+          21450
+        ],
+        [
+          28320,
+          28700
+        ],
+        [
+          3600,
+          3650
+        ],
+        [
+          3700,
+          3800
+        ],
+        [
+          7060,
+          7100
+        ],
+        [
+          7130,
+          7200
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "member",
+      "empty": true
+    }
+  ],
+  "points": {
+    "type": "member",
+    "member": 10,
+    "non_member": 1
+  },
+  "multipliers": [
+    {
+      "type": "member",
+      "per": "once"
+    },
+    {
+      "type": "country",
+      "per": "band"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

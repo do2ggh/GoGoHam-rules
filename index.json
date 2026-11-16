@@ -56,6 +56,24 @@
       "sha256": "89279ca8998df30a605d8bc33144c453a1ca54351c267809c07b3fa8c91d4730"
     },
     {
+      "id": "alpe-adria-vhf",
+      "file": "alpe-adria-vhf.json",
+      "name": "Alpe Adria VHF Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "f787a3ee75676e828f431640e6ce7060de6d7f1c2b6493f4c62850f8279a999f"
+    },
+    {
+      "id": "aoec-160",
+      "file": "aoec-160.json",
+      "name": "All Austrian 160m Contest (AOEC)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "525a4d107f764c228c26773dc267824605da5092d24b58eab70310c70c838f18"
+    },
+    {
       "id": "arrl-10",
       "file": "arrl-10.json",
       "name": "ARRL 10 m (SSB/CW)",
@@ -68,10 +86,19 @@
       "id": "arrl-160",
       "file": "arrl-160.json",
       "name": "ARRL 160 m",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 17,
-      "sha256": "4461c38aa05a6765b9a5186ae5f4af067d1f21440a7881bb8fb09f65e99cb04d"
+      "sha256": "84f2ed1bc447a60cb7dfdaf8a5aeef1a4ca94a09691482a53f1ed8d32f8a3410"
+    },
+    {
+      "id": "arrl-digi",
+      "file": "arrl-digi.json",
+      "name": "ARRL International Digital Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "e749544509e76f958c8da6229e73261aeae8b0787bea162182dbed2bd7c8ced3"
     },
     {
       "id": "arrl-dx-cw",
@@ -99,6 +126,15 @@
       "rules_checked": "2026-11",
       "format": 13,
       "sha256": "d74f9304e26ed1256227618cb93849ac2d05ed983f3e5d88f1b60a3229fe3165"
+    },
+    {
+      "id": "bartg-rtty",
+      "file": "bartg-rtty.json",
+      "name": "BARTG HF RTTY Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "b9efe8ae0904476744e2a666cf9cd26f5b181e87d2860b89a4c165daeaf66a03"
     },
     {
       "id": "bbt-summer-1",
@@ -135,6 +171,15 @@
       "rules_checked": "2026-11",
       "format": 10,
       "sha256": "857dcee0a5ac7b94bd9d7c890ec3b127dcff491f504cb4232c385c6f6da77c2a"
+    },
+    {
+      "id": "canada-day",
+      "file": "canada-day.json",
+      "name": "RAC Canada Day Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "01175f8c71239883fe6221135fc50f47be6a8f4431a6b79c9460e0ad01c907a6"
     },
     {
       "id": "cq160-cw",
@@ -299,6 +344,33 @@
       "sha256": "baa0b7802bd3d7ee3f01e4fff6aadfeba16455000e2ab57d38f7625592713d1e"
     },
     {
+      "id": "dig-cw",
+      "file": "dig-cw.json",
+      "name": "DIG-QSO-Party Kurzwelle CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "ae467a1ca2809163fdc898cbc0902edacba3e17ecb3aec741e3cac0f0dcf43c4"
+    },
+    {
+      "id": "dig-ssb",
+      "file": "dig-ssb.json",
+      "name": "DIG-QSO-Party Kurzwelle SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "1fc6bbff3a020a4a779836597ea38f40157f0be9023637a23ddf65604d413a87"
+    },
+    {
+      "id": "dtc",
+      "file": "dtc.json",
+      "name": "Deutscher Telegrafie Contest (DTC)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "0f88383ff9315de95bca8ae150ad8ed70d530c6c916f82caab4fb480d03c05d0"
+    },
+    {
       "id": "ea-majestad-cw",
       "file": "ea-majestad-cw.json",
       "name": "S.M. El Rey de España CW (King of Spain)",
@@ -452,6 +524,24 @@
       "sha256": "d2f36e28feb52b0529569c03acf249326294efc90ec67024b935ffb3eb494ab6"
     },
     {
+      "id": "jidx-cw",
+      "file": "jidx-cw.json",
+      "name": "JIDX CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "ff6d1a8cf2abff45cd9fbf7dce0f67acaafb5b57a2dc1db39f7d502dea273425"
+    },
+    {
+      "id": "jidx-ph",
+      "file": "jidx-ph.json",
+      "name": "JIDX SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "a2a4fb3ee250debe1274a4ae3eba277feb0d29f145aad63aa09908caad0cfb83"
+    },
+    {
       "id": "lzdx",
       "file": "lzdx.json",
       "name": "LZ DX Contest",
@@ -468,6 +558,33 @@
       "rules_checked": "2026-11",
       "format": 10,
       "sha256": "01a3e377074ed8d07ad87c7b1d19d99b0db293e4c0a1e8a5a32e26903c1959ad"
+    },
+    {
+      "id": "naqp-cw",
+      "file": "naqp-cw.json",
+      "name": "North American QSO Party CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "1e262bbb63b8d14924dbe97f8e5e95f1f634080a3c05cd7fe0ad8908bcb06587"
+    },
+    {
+      "id": "naqp-rtty",
+      "file": "naqp-rtty.json",
+      "name": "North American QSO Party RTTY",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "e63cbbe09e7cd8bc2287758042e802514f85e982309938cddad09393d4f55684"
+    },
+    {
+      "id": "naqp-ssb",
+      "file": "naqp-ssb.json",
+      "name": "North American QSO Party SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "3642ae5176002cdafc8ff2836d6f57f50c1bd928e6b99757dea7dbaf6e2c3a11"
     },
     {
       "id": "okom-cw",
@@ -524,6 +641,24 @@
       "sha256": "606e8dc0ee4de9c47082df357ef18a619938b31fac58ab63ef5df3e5ab3ebad9"
     },
     {
+      "id": "sac-cw",
+      "file": "sac-cw.json",
+      "name": "Scandinavian Activity Contest CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "7d9135d7824ed18cec977175c006fae8713dd2c44721b2cc8bd184022f0d8b5c"
+    },
+    {
+      "id": "sac-ssb",
+      "file": "sac-ssb.json",
+      "name": "Scandinavian Activity Contest SSB",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 18,
+      "sha256": "92cae365295f3ba28cb3fe5d133c0055e466a28e8972bac3bfa08f861337fb68"
+    },
+    {
       "id": "schwaben-kw",
       "file": "schwaben-kw.json",
       "name": "Schwaben-Contest – Kurzwelle (80/40 m)",
@@ -563,19 +698,19 @@
       "id": "uba-cw",
       "file": "uba-cw.json",
       "name": "UBA DX CW",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 7,
-      "sha256": "205b2850c223665f04ea13f4411e8e1572248f7573b4a823553633225eb47264"
+      "sha256": "982fbd12dfe096e3d0fc70522b1560ff6cfc6e2943964c1b4b7d7cec655d6d58"
     },
     {
       "id": "uba-ssb",
       "file": "uba-ssb.json",
       "name": "UBA DX SSB",
-      "revision": 1,
+      "revision": 2,
       "rules_checked": "2026-11",
       "format": 7,
-      "sha256": "2b259fc75b2f8a9d3a21717f9cb1a6004231706b6f9c5d2c10defce58de4165e"
+      "sha256": "477c45cae63edaaa7d0198b19ced3a9c7fffb290d1942403674e9103799bdce8"
     },
     {
       "id": "wae-cw",

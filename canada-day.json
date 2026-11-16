@@ -1,0 +1,118 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "canada-day",
+  "name": "RAC Canada Day Contest",
+  "cabrillo_name": "CANADA-DAY",
+  "rules_url": "https://www.rac.ca/canadaday/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "date",
+    "month": 7,
+    "day": 1,
+    "start_hour": 0,
+    "hours": 24
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10",
+    "6",
+    "2"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_mode",
+  "host": {
+    "countries": [
+      "VE",
+      "CY9",
+      "CY0"
+    ],
+    "codes": [
+      "NS",
+      "QC",
+      "ON",
+      "MB",
+      "SK",
+      "AB",
+      "BC",
+      "NT",
+      "NB",
+      "NL",
+      "NU",
+      "YT",
+      "PE"
+    ]
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Prov/Nr",
+      "by_region": {
+        "host": "district_or_serial",
+        "dx": "serial",
+        "mm": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "continent",
+    "host": 10,
+    "host_host": 10,
+    "own_country": 2,
+    "same_continent": 2,
+    "same_continent_na": 2,
+    "other_continent": 2,
+    "maritime": 2
+  },
+  "call_points": {
+    "VA2RAC": 20,
+    "VA3RAC": 20,
+    "VE1RAC": 20,
+    "VE3RHQ": 20,
+    "VE4RAC": 20,
+    "VE5RAC": 20,
+    "VE6RAC": 20,
+    "VE7RAC": 20,
+    "VE8RAC": 20,
+    "VE9RAC": 20,
+    "VO1RAC": 20,
+    "VO2RAC": 20,
+    "VY0RAC": 20,
+    "VY1RAC": 20,
+    "VY2RAC": 20
+  },
+  "multipliers": [
+    {
+      "type": "district",
+      "per": "band_mode"
+    }
+  ],
+  "score": "points_x_mults_or_points",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

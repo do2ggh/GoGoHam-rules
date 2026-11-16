@@ -1,0 +1,90 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "dtc",
+  "name": "Deutscher Telegrafie Contest (DTC)",
+  "cabrillo_name": "DTC",
+  "rules_url": "https://www.agcw.de/contest/dtc/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "date",
+    "month": 10,
+    "day": 3,
+    "start_hour": 7,
+    "hours": 3
+  },
+  "bands": [
+    "80",
+    "40"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "contacts": "dl_dx",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          3510,
+          3560
+        ],
+        [
+          7010,
+          7040
+        ]
+      ]
+    }
+  },
+  "host": {
+    "countries": [
+      "DL"
+    ],
+    "pattern": "[A-Z]{1,4}"
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "LDK",
+      "by_region": {
+        "host": "district",
+        "dx": "none"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "call_points": {
+    "DA0HSC": 2,
+    "DF0HSC": 2,
+    "DK0HSC": 2,
+    "DL0HSC": 2,
+    "DF0ACW": 2,
+    "DF0AGC": 2,
+    "DL0AGC": 2,
+    "DK0AG": 2,
+    "DL0DA": 2,
+    "DL0SLW": 2
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts"
+  ]
+}

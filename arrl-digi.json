@@ -1,0 +1,69 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "arrl-digi",
+  "name": "ARRL International Digital Contest",
+  "cabrillo_name": "ARRL-DIGI",
+  "rules_url": "https://www.arrl.org/arrl-digital-contest",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 1,
+    "month": 6,
+    "start_hour": 18,
+    "hours": 30
+  },
+  "operating_time": {
+    "single_op_hours": 24,
+    "min_break_minutes": 60
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10",
+    "6"
+  ],
+  "modes": [
+    "DG"
+  ],
+  "rig_modes": [
+    "FT8",
+    "FT4",
+    "MFSK",
+    "DG",
+    "PKTUSB",
+    "DATA"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "grid4"
+    }
+  ],
+  "points": {
+    "type": "distance",
+    "base": 1,
+    "per_km": 500,
+    "round": "up",
+    "min_extra": 1
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "call",
+    "ex_s",
+    "ex_r",
+    "land",
+    "km",
+    "pts",
+    "gain"
+  ]
+}

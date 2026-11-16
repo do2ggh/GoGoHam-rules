@@ -1,0 +1,151 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "naqp-ssb",
+  "name": "North American QSO Party SSB",
+  "cabrillo_name": "NAQP-SSB",
+  "rules_url": "https://ncjweb.com/naqp/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 1,
+    "start_hour": 18,
+    "hours": 12,
+    "also": [
+      {
+        "weekend": "full",
+        "nth": 3,
+        "month": 8,
+        "start_hour": 18,
+        "hours": 12
+      }
+    ]
+  },
+  "operating_time": {
+    "single_op_hours": 10,
+    "min_break_minutes": 30
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
+  "dupe": "band",
+  "contacts": "host_only",
+  "host": {
+    "countries": [
+      "4U1U",
+      "6Y",
+      "8P",
+      "C6",
+      "CM",
+      "CY0",
+      "CY9",
+      "FG",
+      "FJ",
+      "FM",
+      "FO/C",
+      "FP",
+      "FS",
+      "HH",
+      "HI",
+      "HK0/A",
+      "HP",
+      "HR",
+      "J3",
+      "J6",
+      "J7",
+      "J8",
+      "K",
+      "KG4",
+      "KL",
+      "KP1",
+      "KP2",
+      "KP4",
+      "KP5",
+      "OX",
+      "PJ5",
+      "PJ7",
+      "TG",
+      "TI",
+      "TI9",
+      "V2",
+      "V3",
+      "V4",
+      "VE",
+      "VP2E",
+      "VP2M",
+      "VP2V",
+      "VP5",
+      "VP9",
+      "XE",
+      "XF4",
+      "YN",
+      "YS",
+      "YV0",
+      "ZF",
+      "KH6"
+    ],
+    "pattern": "[A-Z0-9]+"
+  },
+  "exchange": [
+    {
+      "field": "location",
+      "label": "Name/QTH",
+      "by_region": {
+        "host": "name_qth",
+        "dx": "name",
+        "mm": "name"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "us_state",
+      "per": "band",
+      "states": "50dc"
+    },
+    {
+      "type": "ve_province",
+      "per": "band",
+      "nl": true
+    },
+    {
+      "type": "country",
+      "per": "band",
+      "cont": "NA",
+      "exclude": [
+        "K",
+        "VE",
+        "KL"
+      ]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "ex_s",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

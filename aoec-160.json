@@ -1,0 +1,179 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "aoec-160",
+  "name": "All Austrian 160m Contest (AOEC)",
+  "cabrillo_name": "AOEC",
+  "rules_url": "https://www.oevsv.at/funkbetrieb/contests-wettbewerbe/contestshf/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 11,
+    "start_hour": 16,
+    "hours": 8
+  },
+  "bands": [
+    "160"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          1810,
+          2000
+        ]
+      ]
+    }
+  },
+  "host": {
+    "countries": [
+      "OE"
+    ],
+    "codes": [
+      "AM",
+      "BC",
+      "BL",
+      "BM",
+      "BN",
+      "BR",
+      "BZ",
+      "DL",
+      "DO",
+      "EC",
+      "EF",
+      "EU",
+      "FE",
+      "FK",
+      "FR",
+      "GC",
+      "GD",
+      "GF",
+      "GM",
+      "GR",
+      "GS",
+      "GU",
+      "HA",
+      "HE",
+      "HF",
+      "HL",
+      "HO",
+      "IC",
+      "IL",
+      "IM",
+      "JE",
+      "JO",
+      "KB",
+      "KC",
+      "KI",
+      "KL",
+      "KO",
+      "KR",
+      "KS",
+      "KU",
+      "LA",
+      "LB",
+      "LC",
+      "LE",
+      "LF",
+      "LI",
+      "LL",
+      "LZ",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MT",
+      "MU",
+      "ND",
+      "NK",
+      "OP",
+      "OW",
+      "PC",
+      "PE",
+      "PL",
+      "RE",
+      "RI",
+      "RO",
+      "RU",
+      "SB",
+      "SC",
+      "SD",
+      "SE",
+      "SL",
+      "SO",
+      "SP",
+      "SR",
+      "SV",
+      "SZ",
+      "TA",
+      "TU",
+      "UU",
+      "VB",
+      "VI",
+      "VK",
+      "VL",
+      "VO",
+      "WB",
+      "WC",
+      "WE",
+      "WL",
+      "WN",
+      "WO",
+      "WT",
+      "WY",
+      "WZ",
+      "ZE",
+      "ZT"
+    ]
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Nr/Bez",
+      "by_region": {
+        "host": "serial_district",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "district",
+      "per": "band"
+    },
+    {
+      "type": "country",
+      "per": "band"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

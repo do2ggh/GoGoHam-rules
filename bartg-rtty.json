@@ -1,0 +1,114 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "bartg-rtty",
+  "name": "BARTG HF RTTY Contest",
+  "cabrillo_name": "BARTG-RTTY",
+  "rules_url": "https://bartg.org.uk/bartg-hf-rtty-contest/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 3,
+    "start_hour": 2,
+    "hours": 48
+  },
+  "operating_time": {
+    "single_op_hours": 30,
+    "min_break_minutes": 180
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "RY"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "RY": {
+      "allowed": [
+        [
+          3580,
+          3615
+        ],
+        [
+          7040,
+          7125
+        ],
+        [
+          14070,
+          14125
+        ],
+        [
+          21070,
+          21148
+        ],
+        [
+          28070,
+          28189
+        ]
+      ],
+      "forbidden": [
+        [
+          14099.5,
+          14100.5
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_time"
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band",
+      "dxcc_only": true
+    },
+    {
+      "type": "call_area",
+      "per": "band",
+      "areas": {
+        "K": "W",
+        "JA": "JA",
+        "VE": "VE",
+        "VK": "VK"
+      }
+    },
+    {
+      "type": "continent",
+      "per": "once"
+    }
+  ],
+  "score": "points_x_mults_x_cont",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "sac-ssb",
+  "name": "Scandinavian Activity Contest SSB",
+  "cabrillo_name": "SAC-SSB",
+  "rules_url": "https://www.sactest.net/blog/scandinavian-activity-contest-2026-rules/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 10,
+    "start_hour": 12,
+    "hours": 24
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "PH"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "PH": {
+      "allowed": [
+        [
+          3600,
+          3650
+        ],
+        [
+          3700,
+          3800
+        ],
+        [
+          7060,
+          7100
+        ],
+        [
+          7130,
+          7200
+        ],
+        [
+          14125,
+          14300
+        ],
+        [
+          21151,
+          21450
+        ],
+        [
+          28320,
+          29000
+        ]
+      ]
+    }
+  },
+  "contacts": "host_dx",
+  "host": {
+    "countries": [
+      "JW",
+      "JX",
+      "LA",
+      "OH",
+      "OH0",
+      "OJ0",
+      "OX",
+      "OY",
+      "OZ",
+      "SM",
+      "TF"
+    ],
+    "pattern": "[A-Z0-9]+"
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial"
+    }
+  ],
+  "points": {
+    "type": "by_region",
+    "host": {
+      "type": "europe",
+      "of": "worked",
+      "eu": 2,
+      "non_eu": 3
+    },
+    "dx": {
+      "type": "europe",
+      "of": "own",
+      "eu": 1,
+      "non_eu": {
+        "80": 3,
+        "40": 3,
+        "default": 1
+      }
+    }
+  },
+  "multipliers": [
+    {
+      "type": "country",
+      "per": "band",
+      "when": "host"
+    },
+    {
+      "type": "call_area",
+      "per": "band",
+      "when": "non_host",
+      "first_digit": true,
+      "areas": {
+        "JW": "JW",
+        "JX": "JX",
+        "LA": "LA",
+        "OH": "OH",
+        "OH0": "OH0",
+        "OJ0": "OJ0",
+        "OX": "OX",
+        "OY": "OY",
+        "OZ": "OZ",
+        "SM": "SM",
+        "TF": "TF"
+      }
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

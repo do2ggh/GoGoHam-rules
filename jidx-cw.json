@@ -1,0 +1,153 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "jidx-cw",
+  "name": "JIDX CW",
+  "cabrillo_name": "JIDX-CW",
+  "rules_url": "https://jidx.org/jidxrule-e.html",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 2,
+    "month": 4,
+    "start_hour": 7,
+    "hours": 30
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "contacts": "host_dx",
+  "host": {
+    "countries": [
+      "JA",
+      "JD/O",
+      "JD/M"
+    ],
+    "codes": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50"
+    ]
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Pref/Zone",
+      "prefill": "country",
+      "by_region": {
+        "host": "district",
+        "dx": "cq_zone",
+        "mm": "cq_zone"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": {
+      "160": 4,
+      "80": 2,
+      "10": 2,
+      "default": 1
+    }
+  },
+  "multipliers": [
+    {
+      "type": "district",
+      "per": "band",
+      "when": "non_host"
+    },
+    {
+      "type": "country",
+      "per": "band",
+      "when": "host",
+      "dxcc_only": true,
+      "exclude": [
+        "JA",
+        "JD/O",
+        "JD/M"
+      ]
+    },
+    {
+      "type": "cq_zone",
+      "per": "band",
+      "when": "host"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

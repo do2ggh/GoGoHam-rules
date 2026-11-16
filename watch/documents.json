@@ -646,6 +646,111 @@
       ],
       "checked": "2026-11-16",
       "fingerprint": "69d767ecbee2b06c427459c25c5f2185aec8d7f9fcee76633978fea2f7b400ba"
+    },
+    {
+      "id": "jidx",
+      "url": "https://jidx.org/jidxrule-e.html",
+      "watch": "text",
+      "contests": [
+        "jidx-cw",
+        "jidx-ph"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "52c54a3c175eab0f403e948fa735ab16c7c3c98f5dbd9b08caca691902de1bac"
+    },
+    {
+      "id": "sac",
+      "url": "https://www.sactest.net/blog/scandinavian-activity-contest-2026-rules/",
+      "watch": "text",
+      "contests": [
+        "sac-cw",
+        "sac-ssb"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "182584258c18592e399317d7f9bc88ba27e0a32f8316b1f794d1f456ab618ec3"
+    },
+    {
+      "id": "canada-day",
+      "url": "https://www.rac.ca/canadaday/",
+      "watch": "text",
+      "contests": [
+        "canada-day"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "ae1c45cd5fb9d94e4d29707d03c52e47778e61edce448ad22d8f738dca9661c6"
+    },
+    {
+      "id": "naqp",
+      "url": "https://ncjweb.com/NAQP-Rules.pdf",
+      "watch": "text",
+      "contests": [
+        "naqp-cw",
+        "naqp-ssb",
+        "naqp-rtty"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "674336a43d35a948e9c99cce28d2948b36e1816098928f29e05eca74af4323a3"
+    },
+    {
+      "id": "alpe-adria-vhf",
+      "url": "https://www.oevsv.at/export/shared/.content/.galleries/Downloads_Referate/AlpeAdriaContest-Referat-Downloads/alpe-adria-VHF-2026-contest-rules.pdf",
+      "watch": "text",
+      "contests": [
+        "alpe-adria-vhf"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "83733c704b6956000fede7ebab057614e143e3f40aa1c43e59a5651808db665b"
+    },
+    {
+      "id": "arrl-digi",
+      "url": "https://contests.arrl.org/ContestRules/Digital-Rules.pdf",
+      "watch": "text",
+      "contests": [
+        "arrl-digi"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "bd69961c58792dc7fa2fccc8bd5b0147c82986e4bf6dc8abe03f750029985f36"
+    },
+    {
+      "id": "bartg-rtty",
+      "url": "https://bartg.org.uk/bartg-hf-rtty-contest/",
+      "watch": "text",
+      "contests": [
+        "bartg-rtty"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "63ad273453e48088399692c2f3753268d06d7b554309bfcb3e102fa9af991fd8"
+    },
+    {
+      "id": "dig-qso-party",
+      "url": "https://dig-contest.de/rules",
+      "watch": "text",
+      "contests": [
+        "dig-ssb",
+        "dig-cw"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "a1f4676b1f5b352b5506384feb183ebfdf2441b1a48a3cfaf0d757a5fe30eea3"
+    },
+    {
+      "id": "dtc",
+      "url": "https://www.agcw.de/contest/dtc/",
+      "watch": "text",
+      "contests": [
+        "dtc"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "fbf1de79429e8a3e0216233da53554d85d582ba5db7b796977f60a9fce05550e"
+    },
+    {
+      "id": "aoec-160",
+      "url": "https://www.oevsv.at/funkbetrieb/contests-wettbewerbe/contestshf/",
+      "watch": "text",
+      "contests": [
+        "aoec-160"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "6259219caa68215bb434eff9bbc57da9868dac48fd4a46f59ee200254a0f8a6c"
     }
   ]
 }

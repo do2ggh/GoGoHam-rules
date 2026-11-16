@@ -1,0 +1,71 @@
+{
+  "format": 18,
+  "revision": 1,
+  "id": "alpe-adria-vhf",
+  "name": "Alpe Adria VHF Contest",
+  "rules_url": "https://www.oevsv.at/funkbetrieb/contests-wettbewerbe/contestalpeadria/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 1,
+    "month": 8,
+    "start_day": 1,
+    "start_hour": 6,
+    "hours": 8
+  },
+  "bands": [
+    "2"
+  ],
+  "modes": [
+    "PH",
+    "CW"
+  ],
+  "dupe": "band",
+  "serial_per_band": true,
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_grid6"
+    }
+  ],
+  "points": {
+    "type": "km"
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "edi",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "km",
+    "pts"
+  ],
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          144025,
+          144400
+        ]
+      ]
+    },
+    "PH": {
+      "allowed": [
+        [
+          144025,
+          144400
+        ]
+      ]
+    }
+  }
+}
