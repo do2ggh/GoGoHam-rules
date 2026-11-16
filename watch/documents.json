@@ -626,6 +626,26 @@
       ],
       "checked": "2026-11-14",
       "fingerprint": "a3c93b2d28350d860fad97901e7afde90a69de8121b2dafa3d325a4db138c416"
+    },
+    {
+      "id": "arrl-160",
+      "url": "https://contests.arrl.org/ContestRules/160M-Rules.pdf",
+      "watch": "text",
+      "contests": [
+        "arrl-160"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "6c09c013af2b3727899c608d52764611232d5c96af53e83c3bdda7ae8da39406"
+    },
+    {
+      "id": "stew-perry",
+      "url": "https://www.kkn.net/stew/stew_rules.html",
+      "watch": "text",
+      "contests": [
+        "stew-perry"
+      ],
+      "checked": "2026-11-16",
+      "fingerprint": "69d767ecbee2b06c427459c25c5f2185aec8d7f9fcee76633978fea2f7b400ba"
     }
   ]
 }

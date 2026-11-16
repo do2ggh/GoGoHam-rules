@@ -65,6 +65,15 @@
       "sha256": "bbf1d4506707df437113f5fac3c5cc92945ec2e050891015054e5293639c5e0d"
     },
     {
+      "id": "arrl-160",
+      "file": "arrl-160.json",
+      "name": "ARRL 160 m",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 17,
+      "sha256": "4461c38aa05a6765b9a5186ae5f4af067d1f21440a7881bb8fb09f65e99cb04d"
+    },
+    {
       "id": "arrl-dx-cw",
       "file": "arrl-dx-cw.json",
       "name": "ARRL International DX CW",
@@ -540,6 +549,15 @@
       "rules_checked": "2026-11",
       "format": 7,
       "sha256": "814984a7c4d9bd19089510db216f13e751eccf524298603062639a942c7b979d"
+    },
+    {
+      "id": "stew-perry",
+      "file": "stew-perry.json",
+      "name": "Stew Perry Topband Challenge",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 17,
+      "sha256": "937ba0eed86cd4d25773a2beec97d717eadc2e278dd56563b1acdb1512c0fe14"
     },
     {
       "id": "uba-cw",

@@ -1,0 +1,31 @@
+{
+  "format": 17,
+  "revision": 1,
+  "id": "arrl-160",
+  "name": "ARRL 160 m",
+  "cabrillo_name": "ARRL-160",
+  "rules_url": "https://www.arrl.org/160-meter",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "full", "nth": 1, "month": 12, "start_day": -1, "start_hour": 22, "hours": 42},
+  "bands": ["160"],
+  "modes": ["CW"],
+  "dupe": "band",
+  "contacts": "w_ve_any",
+  "exchange": [
+    {"field": "rst"},
+    {"field": "location", "label": "Section",
+     "by_region": {"us": "arrl_section", "ve": "arrl_section", "mm": "itu_region", "dx": "none"},
+     "us_entities": ["K", "KL", "KH0", "KH1", "KH2", "KH3", "KH4", "KH5", "KH6", "KH7K", "KH8",
+                     "KH8/s", "KH9", "KP1", "KP2", "KP4", "KP5"]}
+  ],
+  "points": {"type": "w_ve", "w_ve_w_ve": 2, "dx": 5},
+  "multipliers": [
+    {"type": "arrl_section", "per": "band"},
+    {"type": "country", "per": "band", "when": "w_ve", "dxcc_only": true,
+     "exclude": ["K", "VE", "KL", "KH0", "KH1", "KH2", "KH3", "KH4", "KH5", "KH6", "KH7K",
+                 "KH8", "KH8/s", "KH9", "KP1", "KP2", "KP4", "KP5"]}
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": ["nr", "utc", "khz", "call", "rst_s", "ex_s", "rst_r", "ex_r", "land", "pts", "gain", "mult"]
+}

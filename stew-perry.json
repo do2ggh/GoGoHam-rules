@@ -1,0 +1,21 @@
+{
+  "format": 17,
+  "revision": 1,
+  "id": "stew-perry",
+  "name": "Stew Perry Topband Challenge",
+  "cabrillo_name": "STEW-PERRY",
+  "rules_url": "https://www.kkn.net/stew/stew_rules.html",
+  "rules_checked": "2026-11",
+  "schedule": {"weekend": "last_full", "month": 12, "start_hour": 15, "hours": 24},
+  "operating_time": {"single_op_hours": 14, "min_break_minutes": 30},
+  "bands": ["160"],
+  "modes": ["CW"],
+  "dupe": "band",
+  "exchange": [{"field": "grid4"}],
+  "points": {"type": "distance", "base": 1, "per_km": 500},
+  "multipliers": [],
+  "score": "points_sum",
+  "power_factor": {"LOW": 1.5, "QRP": 3},
+  "log_format": "cabrillo",
+  "columns": ["nr", "utc", "khz", "call", "ex_s", "ex_r", "land", "km", "pts", "gain"]
+}
