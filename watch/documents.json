@@ -855,6 +855,46 @@
       ],
       "checked": "2026-11-16",
       "fingerprint": "39c97a391fbd5a9fcd7b1bb20cb74e5b9f4c45365cc22c50def13fa723b6c499"
+    },
+    {
+      "id": "ure-eartty",
+      "url": "https://concursos.ure.es/en/eartty/bases/",
+      "watch": "text",
+      "contests": [
+        "ea-rtty"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "76416ae6b00e21287ba889d6b682699b0d742a0cbe34d9bb31d42714db482a7e"
+    },
+    {
+      "id": "ure-eapsk63",
+      "url": "https://concursos.ure.es/en/eapsk63/bases/",
+      "watch": "text",
+      "contests": [
+        "ea-psk63"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "f00092b39d730b580781f1eb1096d4466dec7c4f9b107cb7357da773ce26b1bb"
+    },
+    {
+      "id": "jarl-ww-rtty",
+      "url": "https://jarl.org/English/4_Library/A-4-3_Contests/rtty_rules_en.html",
+      "watch": "text",
+      "contests": [
+        "jarl-ww-rtty"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "585a21334ffaafaef2d73386892facfe69dde1d6213f64f792212d78ca37625d"
+    },
+    {
+      "id": "volta-rtty",
+      "url": "https://www.contestvolta.it/rules.pdf",
+      "watch": "text",
+      "contests": [
+        "volta-rtty"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "d5f6cfd2ebf43e4f109638455e01ea8dab11340c03994435e469376b32c82155"
     }
   ]
 }

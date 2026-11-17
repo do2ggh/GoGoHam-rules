@@ -1,0 +1,163 @@
+{
+  "format": 20,
+  "revision": 1,
+  "id": "ea-rtty",
+  "name": "EA RTTY Contest (URE)",
+  "cabrillo_name": "EARTTY",
+  "rules_url": "https://concursos.ure.es/en/eartty/bases/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 1,
+    "month": 4,
+    "start_hour": 12,
+    "hours": 24
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "RY"
+  ],
+  "rig_modes": [
+    "RTTY",
+    "RTTYR",
+    "PKTLSB",
+    "PKTUSB",
+    "LSB",
+    "USB"
+  ],
+  "dupe": "band",
+  "host": {
+    "countries": [
+      "EA",
+      "EA6",
+      "EA8",
+      "EA9"
+    ],
+    "codes": [
+      "AV",
+      "BU",
+      "C",
+      "LE",
+      "LO",
+      "LU",
+      "O",
+      "OU",
+      "P",
+      "PO",
+      "S",
+      "SA",
+      "SG",
+      "SO",
+      "VA",
+      "ZA",
+      "BI",
+      "HU",
+      "NA",
+      "SS",
+      "TE",
+      "VI",
+      "Z",
+      "B",
+      "GI",
+      "L",
+      "T",
+      "BA",
+      "CC",
+      "CR",
+      "CU",
+      "GU",
+      "M",
+      "TO",
+      "A",
+      "AB",
+      "CS",
+      "MU",
+      "V",
+      "IB",
+      "AL",
+      "CA",
+      "CO",
+      "GR",
+      "H",
+      "J",
+      "MA",
+      "SE",
+      "GC",
+      "TF",
+      "CE",
+      "ML",
+      "HQ"
+    ]
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Nr/Prov",
+      "by_region": {
+        "host": "district",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "continent",
+    "host": 3,
+    "host_host": 2,
+    "own_country": 1,
+    "same_continent": 1,
+    "same_continent_na": 1,
+    "other_continent": 1
+  },
+  "multipliers": [
+    {
+      "type": "district",
+      "per": "band"
+    },
+    {
+      "type": "country",
+      "per": "band",
+      "wae_keep": [
+        "*GM/S",
+        "*IT9",
+        "*JW/B",
+        "*4U1V"
+      ]
+    },
+    {
+      "type": "call_area",
+      "per": "band",
+      "areas": {
+        "K": "W",
+        "VE": "VE",
+        "JA": "JA",
+        "VK": "VK"
+      }
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}
