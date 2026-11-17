@@ -56,6 +56,24 @@
       "sha256": "fd571f0d4124e20507185b7253fc1a7af12b63ddf762ad2c4ed900f0459e9f04"
     },
     {
+      "id": "agcw-htp-40",
+      "file": "agcw-htp-40.json",
+      "name": "AGCW Handtastenparty 40 m (September)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 24,
+      "sha256": "6aab5509fc87ae82efe7227529363136ab3e72a86f7d8f1a4fc2314c6ca3633d"
+    },
+    {
+      "id": "agcw-htp-80",
+      "file": "agcw-htp-80.json",
+      "name": "AGCW Handtastenparty 80 m (Februar)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 24,
+      "sha256": "a4162091f58c42543135a8dddd50e56ac7c67973cf9502f25aad992734ece72b"
+    },
+    {
       "id": "agcw-qrp-party",
       "file": "agcw-qrp-party.json",
       "name": "AGCW QRP/QRP-Party",
@@ -72,6 +90,15 @@
       "rules_checked": "2026-11",
       "format": 14,
       "sha256": "89279ca8998df30a605d8bc33144c453a1ca54351c267809c07b3fa8c91d4730"
+    },
+    {
+      "id": "agcw-sta",
+      "file": "agcw-sta.json",
+      "name": "AGCW Schlackertasten-Abend (STA)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 24,
+      "sha256": "5b0a8cd950675dfb96f821ab0dcce4512a266389adee7af9b691f5a5a6aea827"
     },
     {
       "id": "alpe-adria-uhf",
@@ -1044,6 +1071,24 @@
       "rules_checked": "2026-11",
       "format": 7,
       "sha256": "852d2d12ab729879b92128b48bc5d48bb043df28261c289184cb82799380ccd2"
+    },
+    {
+      "id": "vfdb-dlpx-cw",
+      "file": "vfdb-dlpx-cw.json",
+      "name": "VFDB DLPX-Contest – CW (Januar)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 24,
+      "sha256": "fbd206e0d6d90889034c4f6b570dcead5056c89559aa34f88912f5dd0164aa6f"
+    },
+    {
+      "id": "vfdb-dlpx-ssb",
+      "file": "vfdb-dlpx-ssb.json",
+      "name": "VFDB DLPX-Contest – SSB (März)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 24,
+      "sha256": "5eff943ed64f0a2a1143a11e68be179e340be0ec31cb8f3e2be8467f556fa257"
     },
     {
       "id": "volta-rtty",

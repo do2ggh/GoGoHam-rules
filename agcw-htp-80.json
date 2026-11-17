@@ -1,0 +1,84 @@
+{
+  "format": 24,
+  "revision": 1,
+  "id": "agcw-htp-80",
+  "name": "AGCW Handtastenparty 80 m (Februar)",
+  "cabrillo_name": "AGCW-HTP",
+  "rules_url": "https://www.agcw.de/contest/htp/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 1,
+    "month": 2,
+    "start_hour": 16,
+    "hours": 3
+  },
+  "bands": [
+    "80"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "once",
+  "classes": [
+    "A",
+    "B",
+    "C"
+  ],
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_class_name"
+    }
+  ],
+  "points": {
+    "type": "class",
+    "table": {
+      "A": {
+        "A": 9,
+        "B": 7,
+        "C": 5
+      },
+      "B": {
+        "A": 7,
+        "B": 4,
+        "C": 3
+      },
+      "C": {
+        "A": 5,
+        "B": 3,
+        "C": 2
+      }
+    }
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ],
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          3510,
+          3560
+        ]
+      ]
+    }
+  }
+}

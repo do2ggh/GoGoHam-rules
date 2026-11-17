@@ -1,0 +1,74 @@
+{
+  "format": 24,
+  "revision": 1,
+  "id": "agcw-sta",
+  "name": "AGCW Schlackertasten-Abend (STA)",
+  "cabrillo_name": "AGCW-STA",
+  "rules_url": "https://www.agcw.de/contest/sta/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "weekday",
+    "weekday": 2,
+    "nth": 3,
+    "months": [
+      2,
+      10
+    ],
+    "start_hour": 19,
+    "hours": 1,
+    "minutes": 30
+  },
+  "bands": [
+    "80",
+    "40"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          3510,
+          3560
+        ],
+        [
+          7010,
+          7040
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "serial_member",
+      "label": "Nr/Jahr"
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [],
+  "score": "points_sum",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

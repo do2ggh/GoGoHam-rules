@@ -1184,6 +1184,38 @@
       ],
       "checked": "2026-11-17",
       "fingerprint": "a94fe82a6ffb98e1438a62dd0b24b8f85a834f59d396408557e3332ad4b76b31"
+    },
+    {
+      "id": "vfdb-dlpx",
+      "url": "https://www.vfdb.org/files/referate/funkbetrieb/ausschreibungen/VFDB_DLPX-Contest.pdf",
+      "watch": "text",
+      "contests": [
+        "vfdb-dlpx-cw",
+        "vfdb-dlpx-ssb"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "c23b6ff30fd160cd59a49110342a704f2c87e922cbbb1125a450f354efe13dbd"
+    },
+    {
+      "id": "agcw-htp",
+      "url": "https://www.agcw.de/contest/htp/",
+      "watch": "text",
+      "contests": [
+        "agcw-htp-80",
+        "agcw-htp-40"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "fbf1de79429e8a3e0216233da53554d85d582ba5db7b796977f60a9fce05550e"
+    },
+    {
+      "id": "agcw-sta",
+      "url": "https://www.agcw.de/contest/sta/",
+      "watch": "text",
+      "contests": [
+        "agcw-sta"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "fbf1de79429e8a3e0216233da53554d85d582ba5db7b796977f60a9fce05550e"
     }
   ]
 }

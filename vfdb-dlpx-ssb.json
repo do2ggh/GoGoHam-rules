@@ -1,0 +1,119 @@
+{
+  "format": 24,
+  "revision": 1,
+  "id": "vfdb-dlpx-ssb",
+  "name": "VFDB DLPX-Contest – SSB (März)",
+  "cabrillo_name": "VFDB-DLPX",
+  "rules_url": "https://www.vfdb.org/files/referate/funkbetrieb/ausschreibungen/VFDB_DLPX-Contest.pdf",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 3,
+    "month": 3,
+    "start_day": 1,
+    "start_hour": 15,
+    "hours": 2
+  },
+  "bands": [
+    "80"
+  ],
+  "modes": [
+    "PH"
+  ],
+  "dupe": "band",
+  "band_segments": {
+    "PH": {
+      "allowed": [
+        [
+          3600,
+          3650
+        ],
+        [
+          3700,
+          3775
+        ]
+      ]
+    }
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Nr/DOK",
+      "by_region": {
+        "dl": "serial_dok",
+        "dx": "serial_dok"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "call_area",
+      "per": "once",
+      "first_digit": true,
+      "areas": {
+        "DL": {
+          "name": "DL",
+          "keep": [
+            "DA",
+            "DB",
+            "DC",
+            "DD",
+            "DE",
+            "DF",
+            "DG",
+            "DH",
+            "DI",
+            "DJ",
+            "DK",
+            "DL",
+            "DM",
+            "DN",
+            "DO",
+            "DP",
+            "DQ",
+            "DR"
+          ]
+        }
+      }
+    },
+    {
+      "type": "calls",
+      "per": "once",
+      "calls": [
+        "DB0DBP",
+        "DF0DBP",
+        "DK0DBP",
+        "DL0DBP",
+        "DL0Z",
+        "DQ0Z",
+        "DF0FTP",
+        "DL0FTP",
+        "DL0YLZ"
+      ]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}
