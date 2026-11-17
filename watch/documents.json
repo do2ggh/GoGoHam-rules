@@ -935,6 +935,149 @@
       ],
       "checked": "2026-11-17",
       "fingerprint": "c873aa12fb08a8220d31daa718d70f0ffc73c96ce6276d4f0fab0ec225c9b241"
+    },
+    {
+      "id": "ohqp",
+      "url": "https://www.ohqp.org/index.php/rules/",
+      "watch": "text",
+      "contests": [
+        "ohqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "d11a50033526fec7cce2827187f4db1fcd46a0c7825c110c397a9742119ca4c2"
+    },
+    {
+      "id": "ohqp-mults",
+      "url": "https://www.ohqp.org/index.php/official-list-of-mults-for-non-ohio-stations/",
+      "watch": "text",
+      "contests": [
+        "ohqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "79a135e0245ecf11361735091f8161c9ec2186d08eeb19c4789f78dfbdae18e1"
+    },
+    {
+      "id": "miqp",
+      "url": "https://miqp.org/index.php/rules/",
+      "watch": "text",
+      "contests": [
+        "miqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "986f8695cd860ae7080698b502be6a0d1f6bfe2aa3b1acf56983cfe5f37895f7"
+    },
+    {
+      "id": "miqp-mults",
+      "url": "https://miqp.org/index.php/official-list-of-mults/",
+      "watch": "text",
+      "contests": [
+        "miqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "3ad5118c66b6d31b3d3d7c870c52a670795faa95d05a8213dcf3ab58ad366060"
+    },
+    {
+      "id": "inqp",
+      "url": "http://www.hdxcc.org/inqp/rules.html",
+      "watch": "text",
+      "contests": [
+        "inqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "04cca01bcfd56db91b9242fc11c7b206d1474e5fa9537b4adfcd46d812b273ae"
+    },
+    {
+      "id": "inqp-counties",
+      "url": "http://www.hdxcc.org/inqp/counties.html",
+      "watch": "text",
+      "contests": [
+        "inqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "b1abb57dfd8a12f7ddad9b690c01c63e70da98b30ff7eef5ece92fa123663409"
+    },
+    {
+      "id": "txqp",
+      "url": "https://www.txqp.net/?page_id=23",
+      "watch": "text",
+      "contests": [
+        "txqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "30aefc59a8e472ef5739bec3176dcf361198f374b1a0a5e0036a8d6b11d3d340"
+    },
+    {
+      "id": "txqp-counties",
+      "url": "https://www.txqp.net/?page_id=90",
+      "watch": "text",
+      "contests": [
+        "txqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "6b16d52872918bbc191e7e4132e8d959874cd7ce91245e937170b48731687450"
+    },
+    {
+      "id": "nyqp",
+      "url": "https://nyqp.org/wordpress/nyqp-rules/",
+      "watch": "text",
+      "contests": [
+        "nyqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "00e05ff000787920fea44c792ae3ad1167fa601b30717856c4fc59a0c75d1ae6"
+    },
+    {
+      "id": "rsgb-160",
+      "url": "https://www.rsgbcc.org/hf/rules/2026/r160m.shtml",
+      "watch": "text",
+      "contests": [
+        "rsgb-160-feb",
+        "rsgb-160-nov"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "0531d589ab043c7b1f792e6d0c9f8fda66ec4e295f94e2d2cdb283e2aec62001"
+    },
+    {
+      "id": "rsgb-districts",
+      "url": "http://www.rsgbcc.org/hf/information/District-Codes.shtml",
+      "watch": "text",
+      "contests": [
+        "rsgb-160-feb",
+        "rsgb-160-nov"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "bed19f5b069582f10d6de9d54e36705b1cd6e93a993f7ace94a3e8be9931c9b5"
+    },
+    {
+      "id": "ocdx",
+      "url": "https://www.oceaniadxcontest.com/wp-content/uploads/2026/07/ocdx26-rules-0.pdf",
+      "watch": "text",
+      "contests": [
+        "ocdx-ssb",
+        "ocdx-cw"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "c138c95024566c00ad5205ca5a22f65cfe6a8b572de79f84da4423668f4204a8"
+    },
+    {
+      "id": "ukei",
+      "url": "https://www.ukeicc.com/dx-contest-rules.php",
+      "watch": "text",
+      "contests": [
+        "ukei-cw"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "56104dd7240fcc831da3ad9a5e22fc77cbc62b5ab68766ebab17a01010c96a11"
+    },
+    {
+      "id": "pskfest",
+      "url": "http://www.podxs070.com/o7o-club-sponsored-contests/pskfest",
+      "watch": "text",
+      "contests": [
+        "pskfest"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "2130432b275d961fc4b02996ec9deb3337f88fe5dd215c4dca1eef25f5687219"
     }
   ]
 }

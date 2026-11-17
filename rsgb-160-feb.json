@@ -1,0 +1,241 @@
+{
+  "format": 22,
+  "revision": 1,
+  "id": "rsgb-160-feb",
+  "name": "RSGB 1st 1.8 MHz Contest (Februar, CW + SSB)",
+  "cabrillo_name": "RSGB-160",
+  "rules_url": "https://www.rsgbcc.org/hf/rules/2026/r160m.shtml",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 2,
+    "month": 2,
+    "start_hour": 20,
+    "hours": 3
+  },
+  "bands": [
+    "160"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_mode",
+  "band_segments": {
+    "CW": {
+      "allowed": [
+        [
+          1810,
+          1850
+        ]
+      ]
+    },
+    "PH": {
+      "allowed": [
+        [
+          1840,
+          1900
+        ]
+      ]
+    }
+  },
+  "host": {
+    "countries": [
+      "G",
+      "GD",
+      "GI",
+      "GJ",
+      "GM",
+      "GU",
+      "GW"
+    ],
+    "codes": [
+      "AB",
+      "AL",
+      "AN",
+      "AR",
+      "BA",
+      "BB",
+      "BD",
+      "BH",
+      "BL",
+      "BM",
+      "BN",
+      "BR",
+      "BS",
+      "CA",
+      "CB",
+      "CF",
+      "CH",
+      "CM",
+      "CO",
+      "CR",
+      "CT",
+      "CV",
+      "CW",
+      "DA",
+      "DD",
+      "DE",
+      "DG",
+      "DH",
+      "DL",
+      "DN",
+      "DR",
+      "DT",
+      "DW",
+      "DY",
+      "EC",
+      "EH",
+      "EL",
+      "EN",
+      "EX",
+      "FE",
+      "FK",
+      "FY",
+      "GL",
+      "GS",
+      "GU",
+      "GY",
+      "HA",
+      "HD",
+      "HG",
+      "HP",
+      "HR",
+      "HS",
+      "HU",
+      "HX",
+      "IG",
+      "IM",
+      "IP",
+      "IV",
+      "JE",
+      "KA",
+      "KT",
+      "KW",
+      "KY",
+      "LA",
+      "LD",
+      "LE",
+      "LL",
+      "LN",
+      "LP",
+      "LS",
+      "LU",
+      "ME",
+      "MK",
+      "ML",
+      "MR",
+      "NE",
+      "NG",
+      "NK",
+      "NL",
+      "NN",
+      "NP",
+      "NW",
+      "OL",
+      "OX",
+      "PA",
+      "PE",
+      "PH",
+      "PL",
+      "PO",
+      "PR",
+      "RG",
+      "RH",
+      "RM",
+      "SA",
+      "SD",
+      "SE",
+      "SG",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SP",
+      "SR",
+      "SS",
+      "ST",
+      "SW",
+      "SY",
+      "TA",
+      "TD",
+      "TF",
+      "TN",
+      "TQ",
+      "TR",
+      "TS",
+      "TW",
+      "TY",
+      "UB",
+      "WA",
+      "WC",
+      "WD",
+      "WF",
+      "WL",
+      "WN",
+      "WR",
+      "WS",
+      "WV",
+      "YO",
+      "ZE"
+    ],
+    "cabrillo_none": "--"
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Nr/Bez",
+      "by_region": {
+        "host": "serial_district",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 2
+  },
+  "multipliers": [
+    {
+      "type": "district",
+      "per": "once"
+    },
+    {
+      "type": "country",
+      "per": "once",
+      "dxcc_only": true,
+      "exclude": [
+        "G",
+        "GD",
+        "GI",
+        "GJ",
+        "GM",
+        "GU",
+        "GW"
+      ]
+    }
+  ],
+  "score": "points_plus_bonus",
+  "mult_bonus": 5,
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

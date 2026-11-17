@@ -1,0 +1,307 @@
+{
+  "format": 22,
+  "revision": 1,
+  "id": "ukei-cw",
+  "name": "UK/EI DX Contest – CW",
+  "cabrillo_name": "UKEI-DX",
+  "rules_url": "https://www.ukeicc.com/dx-contest-rules.php",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "last_full",
+    "month": 4,
+    "start_hour": 12,
+    "hours": 24
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW"
+  ],
+  "dupe": "band",
+  "host": {
+    "countries": [
+      "EI",
+      "G",
+      "GD",
+      "GI",
+      "GJ",
+      "GM",
+      "GU",
+      "GW"
+    ],
+    "codes": [
+      "AB",
+      "AL",
+      "AN",
+      "AR",
+      "BA",
+      "BB",
+      "BD",
+      "BH",
+      "BL",
+      "BM",
+      "BN",
+      "BR",
+      "BS",
+      "CA",
+      "CB",
+      "CE",
+      "CF",
+      "CH",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "CR",
+      "CT",
+      "CV",
+      "CW",
+      "DA",
+      "DD",
+      "DE",
+      "DG",
+      "DH",
+      "DL",
+      "DN",
+      "DO",
+      "DR",
+      "DT",
+      "DU",
+      "DW",
+      "DY",
+      "EC",
+      "EH",
+      "EL",
+      "EN",
+      "EX",
+      "FE",
+      "FK",
+      "FY",
+      "GA",
+      "GL",
+      "GS",
+      "GU",
+      "GY",
+      "HA",
+      "HD",
+      "HG",
+      "HP",
+      "HR",
+      "HS",
+      "HU",
+      "HX",
+      "IG",
+      "IM",
+      "IP",
+      "IV",
+      "JE",
+      "KA",
+      "KD",
+      "KE",
+      "KI",
+      "KT",
+      "KW",
+      "KY",
+      "LA",
+      "LD",
+      "LE",
+      "LF",
+      "LH",
+      "LI",
+      "LL",
+      "LN",
+      "LO",
+      "LP",
+      "LS",
+      "LT",
+      "LU",
+      "MA",
+      "ME",
+      "MK",
+      "ML",
+      "MO",
+      "MR",
+      "MT",
+      "NE",
+      "NG",
+      "NK",
+      "NL",
+      "NN",
+      "NP",
+      "NW",
+      "OF",
+      "OL",
+      "OX",
+      "PA",
+      "PE",
+      "PH",
+      "PL",
+      "PO",
+      "PR",
+      "RG",
+      "RH",
+      "RM",
+      "RO",
+      "SA",
+      "SD",
+      "SE",
+      "SG",
+      "SI",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "SO",
+      "SP",
+      "SR",
+      "SS",
+      "ST",
+      "SW",
+      "SY",
+      "TA",
+      "TD",
+      "TF",
+      "TI",
+      "TN",
+      "TQ",
+      "TR",
+      "TS",
+      "TW",
+      "TY",
+      "UB",
+      "WA",
+      "WC",
+      "WD",
+      "WF",
+      "WI",
+      "WL",
+      "WM",
+      "WN",
+      "WR",
+      "WS",
+      "WT",
+      "WV",
+      "WX",
+      "YO",
+      "ZE"
+    ],
+    "cabrillo_none": "--"
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "location",
+      "label": "Nr/Bez",
+      "by_region": {
+        "host": "serial_district",
+        "dx": "serial"
+      }
+    }
+  ],
+  "points": {
+    "type": "region_table",
+    "double_window": {
+      "from": "0100",
+      "to": "0500"
+    },
+    "table": {
+      "host": {
+        "host": {
+          "80": 4,
+          "40": 4,
+          "default": 2
+        },
+        "eu": {
+          "80": 4,
+          "40": 4,
+          "default": 2
+        },
+        "dx": {
+          "80": 8,
+          "40": 8,
+          "default": 4
+        }
+      },
+      "eu": {
+        "host": {
+          "80": 4,
+          "40": 4,
+          "default": 2
+        },
+        "eu": {
+          "80": 2,
+          "40": 2,
+          "default": 1
+        },
+        "dx": {
+          "80": 4,
+          "40": 4,
+          "default": 2
+        }
+      },
+      "dx": {
+        "host": {
+          "80": 8,
+          "40": 8,
+          "default": 4
+        },
+        "eu": {
+          "80": 4,
+          "40": 4,
+          "default": 2
+        },
+        "dx": {
+          "80": 2,
+          "40": 2,
+          "default": 1
+        }
+      }
+    }
+  },
+  "multipliers": [
+    {
+      "type": "district",
+      "per": "band"
+    },
+    {
+      "type": "country",
+      "per": "band",
+      "dxcc_only": true,
+      "exclude": [
+        "EI",
+        "G",
+        "GD",
+        "GI",
+        "GJ",
+        "GM",
+        "GU",
+        "GW"
+      ]
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

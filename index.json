@@ -641,6 +641,15 @@
       "sha256": "a8c495d4895d2b8da5ccf1224b5758dc853937a0e67c5949eeae99f95da16102"
     },
     {
+      "id": "inqp",
+      "file": "inqp.json",
+      "name": "Indiana QSO Party (INQP)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "466684e3436f9478e09e7c7522bd6e58906b88ca1ba4a30d28440379e0f967a7"
+    },
+    {
       "id": "iota",
       "file": "iota.json",
       "name": "RSGB IOTA Contest",
@@ -704,6 +713,15 @@
       "sha256": "01a3e377074ed8d07ad87c7b1d19d99b0db293e4c0a1e8a5a32e26903c1959ad"
     },
     {
+      "id": "miqp",
+      "file": "miqp.json",
+      "name": "Michigan QSO Party (MiQP)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "315fee2774bca7fab21346cba3c4e6ac16e6db0d309cf353dbb1fd3e829c1646"
+    },
+    {
       "id": "naqp-cw",
       "file": "naqp-cw.json",
       "name": "North American QSO Party CW",
@@ -740,6 +758,42 @@
       "sha256": "780bfd1b38e5c702d3e671b6ce0d62a851fa86599e5691032dccbe5588c545c5"
     },
     {
+      "id": "nyqp",
+      "file": "nyqp.json",
+      "name": "New York QSO Party (NYQP)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "91e76db91caf71feb5c217cdc575b41aefa4d4f31a4e27f3e5c9f1dcfa1c43c0"
+    },
+    {
+      "id": "ocdx-cw",
+      "file": "ocdx-cw.json",
+      "name": "Oceania DX Contest – CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "7bf3f3876655e728084cf61e5ff28cb9807dfb1af85a73d7df01d85646c05e09"
+    },
+    {
+      "id": "ocdx-ssb",
+      "file": "ocdx-ssb.json",
+      "name": "Oceania DX Contest – Phone",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "4017c57a909bd265581d16ecd003d5630fe640a9d6db303f37ccc4b45eb6c006"
+    },
+    {
+      "id": "ohqp",
+      "file": "ohqp.json",
+      "name": "Ohio QSO Party (OhQP)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "09ef4db2b481a5892ec91eae55b56f2879fade3c803a8beb529e01f4121e6c79"
+    },
+    {
       "id": "okom-cw",
       "file": "okom-cw.json",
       "name": "OK/OM DX CW",
@@ -767,6 +821,15 @@
       "sha256": "f74294d51f5afbb996642e21051dd458b7e69f6c8b2015dc53a047f417db8662"
     },
     {
+      "id": "pskfest",
+      "file": "pskfest.json",
+      "name": "PODXS 070 Club PSKFest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "3974037bb5d0bff16e0fee3d21a71c65072a29eff9031dea11610f8a697a083f"
+    },
+    {
       "id": "rdxc",
       "file": "rdxc.json",
       "name": "Russian DX Contest",
@@ -792,6 +855,24 @@
       "rules_checked": "2026-11",
       "format": 16,
       "sha256": "606e8dc0ee4de9c47082df357ef18a619938b31fac58ab63ef5df3e5ab3ebad9"
+    },
+    {
+      "id": "rsgb-160-feb",
+      "file": "rsgb-160-feb.json",
+      "name": "RSGB 1st 1.8 MHz Contest (Februar, CW + SSB)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "6ec498cae8fdb7ed553c387ef8b0d7fd2b1746e0521eca32fb7364a6c5352637"
+    },
+    {
+      "id": "rsgb-160-nov",
+      "file": "rsgb-160-nov.json",
+      "name": "RSGB 2nd 1.8 MHz Contest (November, CW)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "507ed29566cf9c919ed8526c9cc56896fe9bc028eb88a8f8406d565bc9efd380"
     },
     {
       "id": "sac-cw",
@@ -866,6 +947,15 @@
       "sha256": "937ba0eed86cd4d25773a2beec97d717eadc2e278dd56563b1acdb1512c0fe14"
     },
     {
+      "id": "txqp",
+      "file": "txqp.json",
+      "name": "Texas QSO Party (TQP)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "ccd00e17f2bb994c2b12859dbff4c13aa1be3c523b0d7e6854a9524fbfaf123e"
+    },
+    {
       "id": "uba-cw",
       "file": "uba-cw.json",
       "name": "UBA DX CW",
@@ -882,6 +972,15 @@
       "rules_checked": "2026-11",
       "format": 7,
       "sha256": "477c45cae63edaaa7d0198b19ced3a9c7fffb290d1942403674e9103799bdce8"
+    },
+    {
+      "id": "ukei-cw",
+      "file": "ukei-cw.json",
+      "name": "UK/EI DX Contest – CW",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "9c91c06139f65e245e416235a312f509eeca340e95a8f5acd50be5579805d7c6"
     },
     {
       "id": "volta-rtty",
