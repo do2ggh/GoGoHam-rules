@@ -1078,6 +1078,112 @@
       ],
       "checked": "2026-11-17",
       "fingerprint": "2130432b275d961fc4b02996ec9deb3337f88fe5dd215c4dca1eef25f5687219"
+    },
+    {
+      "id": "ncqp",
+      "url": "http://ncqsoparty.org/rules/",
+      "watch": "text",
+      "contests": [
+        "ncqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "12bf6744df37cb5dbeb93acfb8631046433d1087ba1fe7fa08ce772c721e3c10"
+    },
+    {
+      "id": "salmon-run",
+      "url": "https://salmonrun.wwdxc.org/rules/",
+      "watch": "text",
+      "contests": [
+        "wa-salmon-run"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "680e31c2fdcb7ba35a8676e83eafd4cce779cc58aa0291161d534596501a2579"
+    },
+    {
+      "id": "salmon-run-counties",
+      "url": "https://salmonrun.wwdxc.org/wa-county-abbreviations/",
+      "watch": "text",
+      "contests": [
+        "wa-salmon-run"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "82d5456e1ff3661b8f5cf882608d05db94d5d3187e53701e0933c819fa096409"
+    },
+    {
+      "id": "undx",
+      "url": "https://undxc.kz/rules-eng/",
+      "watch": "text",
+      "contests": [
+        "undx"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "ab9c6464f3dc72d0c91a1e86439e02d2bc2b88a72833bda99ed38c53ef10d902"
+    },
+    {
+      "id": "undx-kda",
+      "url": "https://undxc.kz/informatsiya-2/rayonyi-kda/",
+      "watch": "text",
+      "contests": [
+        "undx"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "0cdab0d7082a52b63d3b744de77574f0c7635e3b5f203f3818def20fa894f2af"
+    },
+    {
+      "id": "podxs-general",
+      "url": "http://www.podxs070.com/o7o-club-sponsored-contests/general-contest-rules",
+      "watch": "text",
+      "contests": [
+        "pskfest",
+        "podxs-stpat",
+        "podxs-nmj",
+        "podxs-pumpkin",
+        "podxs-tp-nov",
+        "podxs-tp-dec"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "0f9bf797166247f7bc897e215a88ef0615185d20b8c494a7db0d1f2261e84916"
+    },
+    {
+      "id": "podxs-stpat",
+      "url": "http://www.podxs070.com/o7o-club-sponsored-contests/saint-patrick-s-day-contest",
+      "watch": "text",
+      "contests": [
+        "podxs-stpat"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "71119eb6d21af8b47030f5212cfbd29499fa7bcc417847099fd96c1e3f71b795"
+    },
+    {
+      "id": "podxs-nmj",
+      "url": "http://www.podxs070.com/o7o-club-sponsored-contests/nmj",
+      "watch": "text",
+      "contests": [
+        "podxs-nmj"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "115291bfd1768a0316d4aa2ec7e1ef1a2419fcb182620a1b8fec5e577931283b"
+    },
+    {
+      "id": "podxs-pumpkin",
+      "url": "http://www.podxs070.com/o7o-club-sponsored-contests/160m-great-pumpkin-sprint",
+      "watch": "text",
+      "contests": [
+        "podxs-pumpkin"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "0d7f3a0b9b63b9bf75944b3f0d73a9466d72d1233c3a49f88aa8ae0537ef984e"
+    },
+    {
+      "id": "podxs-triple-play",
+      "url": "http://www.podxs070.com/o7o-club-sponsored-contests/triple-play-low-band-sprint",
+      "watch": "text",
+      "contests": [
+        "podxs-tp-nov",
+        "podxs-tp-dec"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "a94fe82a6ffb98e1438a62dd0b24b8f85a834f59d396408557e3332ad4b76b31"
     }
   ]
 }

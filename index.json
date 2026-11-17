@@ -749,6 +749,15 @@
       "sha256": "3642ae5176002cdafc8ff2836d6f57f50c1bd928e6b99757dea7dbaf6e2c3a11"
     },
     {
+      "id": "ncqp",
+      "file": "ncqp.json",
+      "name": "North Carolina QSO Party (NCQP)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 23,
+      "sha256": "7b95adb2bfb4ab02d0fd8909005ebe9dc01072ed0fb6fba358ce54b95b2810ef"
+    },
+    {
       "id": "neqp",
       "file": "neqp.json",
       "name": "New England QSO Party (NEQP)",
@@ -819,6 +828,51 @@
       "rules_checked": "2026-11",
       "format": 16,
       "sha256": "f74294d51f5afbb996642e21051dd458b7e69f6c8b2015dc53a047f417db8662"
+    },
+    {
+      "id": "podxs-nmj",
+      "file": "podxs-nmj.json",
+      "name": "PODXS 070 Club New Member Jamboree",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 23,
+      "sha256": "26e32d96d088a30fe87234ffced6b3b281c53447500c7f4119c0d944dfffc897"
+    },
+    {
+      "id": "podxs-pumpkin",
+      "file": "podxs-pumpkin.json",
+      "name": "PODXS 070 Club 160m Great Pumpkin Sprint",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "a3fcbad073a55547281ccaf613e2fe533687d9c55d41bfb222778d66a24d180f"
+    },
+    {
+      "id": "podxs-stpat",
+      "file": "podxs-stpat.json",
+      "name": "PODXS 070 Club St. Patrick's Day Contest",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 23,
+      "sha256": "2072a63b76f90fa486056e1ee7420a7f28352327e9981539f2ef33840bb362fb"
+    },
+    {
+      "id": "podxs-tp-dec",
+      "file": "podxs-tp-dec.json",
+      "name": "PODXS 070 Club Triple Play DOUBLEHEADER (Dezember)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "25c1e2a1399548b6112b20120b6a3d92379846f809848d223d18ce6bd7d1738e"
+    },
+    {
+      "id": "podxs-tp-nov",
+      "file": "podxs-tp-nov.json",
+      "name": "PODXS 070 Club Triple Play Low Band Sprint (November)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 22,
+      "sha256": "3cf8cd521abd446141be62589041f82c34cdae2576a2709723946dd2a9afc5f8"
     },
     {
       "id": "pskfest",
@@ -983,6 +1037,15 @@
       "sha256": "9c91c06139f65e245e416235a312f509eeca340e95a8f5acd50be5579805d7c6"
     },
     {
+      "id": "undx",
+      "file": "undx.json",
+      "name": "UN DX Contest (Kasachstan)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 7,
+      "sha256": "852d2d12ab729879b92128b48bc5d48bb043df28261c289184cb82799380ccd2"
+    },
+    {
       "id": "volta-rtty",
       "file": "volta-rtty.json",
       "name": "Alessandro Volta RTTY DX Contest",
@@ -990,6 +1053,15 @@
       "rules_checked": "2026-11",
       "format": 20,
       "sha256": "22c3c69e5e5e4baf23d1d48ff286b21c56b122ce0f4f87eba8386f2008142378"
+    },
+    {
+      "id": "wa-salmon-run",
+      "file": "wa-salmon-run.json",
+      "name": "Washington State Salmon Run",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 23,
+      "sha256": "ba5179b9b2f83697f6ae7de53e15c2916e6888398f2114976763ed8e1b72fa50"
     },
     {
       "id": "wae-cw",

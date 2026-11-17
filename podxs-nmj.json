@@ -1,0 +1,105 @@
+{
+  "format": 23,
+  "revision": 1,
+  "id": "podxs-nmj",
+  "name": "PODXS 070 Club New Member Jamboree",
+  "cabrillo_name": "",
+  "rules_url": "http://www.podxs070.com/o7o-club-sponsored-contests/nmj",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 1,
+    "month": 4,
+    "start_hour": 0,
+    "hours": 24
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "DG"
+  ],
+  "rig_modes": [
+    "PSK31",
+    "BPSK31",
+    "PSK",
+    "PKTUSB",
+    "PKTLSB",
+    "USB",
+    "LSB",
+    "DATA",
+    "DG"
+  ],
+  "dupe": "band",
+  "exchange": [
+    {
+      "field": "member_year"
+    }
+  ],
+  "points": {
+    "type": "member_range",
+    "non_member": 3,
+    "ranges": [
+      [
+        1,
+        500,
+        5
+      ],
+      [
+        501,
+        1000,
+        6
+      ],
+      [
+        1001,
+        1500,
+        7
+      ],
+      [
+        1501,
+        2000,
+        8
+      ],
+      [
+        2001,
+        2500,
+        9
+      ],
+      [
+        2501,
+        3000,
+        10
+      ],
+      [
+        3001,
+        null,
+        11
+      ]
+    ]
+  },
+  "multipliers": [
+    {
+      "type": "join_year",
+      "per": "once"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "adif",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "ex_s",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

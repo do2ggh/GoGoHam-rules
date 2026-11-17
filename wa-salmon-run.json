@@ -1,0 +1,133 @@
+{
+  "format": 23,
+  "revision": 1,
+  "id": "wa-salmon-run",
+  "name": "Washington State Salmon Run",
+  "cabrillo_name": "WA-SALMON-RUN",
+  "rules_url": "https://salmonrun.wwdxc.org/rules/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 3,
+    "month": 9,
+    "start_hour": 16,
+    "hours": 15,
+    "also": [
+      {
+        "weekend": "full",
+        "nth": 3,
+        "month": 9,
+        "start_day": 1,
+        "start_hour": 16,
+        "hours": 8
+      }
+    ]
+  },
+  "bands": [
+    "160",
+    "80",
+    "40",
+    "20",
+    "15",
+    "10",
+    "6"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_mode_county",
+  "qso_party": {
+    "area": "im Bundesstaat Washington",
+    "states": [
+      "WA"
+    ],
+    "counties": [
+      "ADA",
+      "ASO",
+      "BEN",
+      "CHE",
+      "CLAL",
+      "CLAR",
+      "COL",
+      "COW",
+      "DOU",
+      "FER",
+      "FRA",
+      "GAR",
+      "GRAN",
+      "GRAY",
+      "ISL",
+      "JEFF",
+      "KING",
+      "KITS",
+      "KITT",
+      "KLI",
+      "LEW",
+      "LIN",
+      "MAS",
+      "OKA",
+      "PAC",
+      "PEND",
+      "PIE",
+      "SAN",
+      "SKAG",
+      "SKAM",
+      "SNO",
+      "SPO",
+      "STE",
+      "THU",
+      "WAH",
+      "WAL",
+      "WHA",
+      "WHI",
+      "YAK"
+    ],
+    "county_line": false,
+    "example": "KING"
+  },
+  "bonus_calls": {
+    "calls": [
+      "W7DX"
+    ],
+    "points": 500,
+    "per": "mode"
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "qso_party"
+    }
+  ],
+  "points": {
+    "type": "mode",
+    "PH": 2,
+    "CW": 3
+  },
+  "multipliers": [
+    {
+      "type": "county",
+      "per": "once"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "format": 22,
+  "revision": 1,
+  "id": "podxs-pumpkin",
+  "name": "PODXS 070 Club 160m Great Pumpkin Sprint",
+  "cabrillo_name": "",
+  "rules_url": "http://www.podxs070.com/o7o-club-sponsored-contests/160m-great-pumpkin-sprint",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "saturday",
+    "nth": 2,
+    "month": 10,
+    "start_hour": 20,
+    "hours": 24
+  },
+  "bands": [
+    "160"
+  ],
+  "modes": [
+    "DG"
+  ],
+  "rig_modes": [
+    "PSK31",
+    "BPSK31",
+    "PSK",
+    "PKTUSB",
+    "PKTLSB",
+    "USB",
+    "LSB",
+    "DATA",
+    "DG"
+  ],
+  "dupe": "once",
+  "exchange": [
+    {
+      "field": "location",
+      "label": "SPC",
+      "by_region": {
+        "us": "state",
+        "ve": "province",
+        "dx": "country"
+      },
+      "us_entities": [
+        "K",
+        "KL",
+        "KH6"
+      ]
+    }
+  ],
+  "points": {
+    "type": "fixed",
+    "value": 1
+  },
+  "multipliers": [
+    {
+      "type": "us_state",
+      "per": "once",
+      "states": "50dc",
+      "dc_md": true
+    },
+    {
+      "type": "ve_province",
+      "per": "once"
+    },
+    {
+      "type": "country",
+      "per": "once",
+      "dxcc_only": true
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "adif",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "khz",
+    "call",
+    "ex_s",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}
