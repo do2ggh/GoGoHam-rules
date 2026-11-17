@@ -1,0 +1,158 @@
+{
+  "format": 21,
+  "revision": 1,
+  "id": "neqp",
+  "name": "New England QSO Party (NEQP)",
+  "cabrillo_name": "NEQP",
+  "rules_url": "https://neqp.org/rules/",
+  "rules_checked": "2026-11",
+  "schedule": {
+    "weekend": "full",
+    "nth": 1,
+    "month": 5,
+    "start_hour": 20,
+    "hours": 9,
+    "also": [
+      {
+        "weekend": "full",
+        "nth": 1,
+        "month": 5,
+        "start_day": 1,
+        "start_hour": 13,
+        "hours": 11
+      }
+    ]
+  },
+  "bands": [
+    "80",
+    "40",
+    "20",
+    "15",
+    "10"
+  ],
+  "modes": [
+    "CW",
+    "PH"
+  ],
+  "dupe": "band_mode_county",
+  "qso_party": {
+    "area": "in Neuengland",
+    "states": [
+      "CT",
+      "MA",
+      "ME",
+      "NH",
+      "RI",
+      "VT"
+    ],
+    "counties": [
+      "CTCAP",
+      "CTGBR",
+      "CTLCR",
+      "CTNAU",
+      "CTNOE",
+      "CTNOW",
+      "CTSOC",
+      "CTSOE",
+      "CTWES",
+      "MABAR",
+      "MABER",
+      "MABRI",
+      "MADUK",
+      "MAESS",
+      "MAFRA",
+      "MAHMD",
+      "MAHMP",
+      "MAMID",
+      "MANAN",
+      "MANOR",
+      "MAPLY",
+      "MASUF",
+      "MAWOR",
+      "MEAND",
+      "MEARO",
+      "MECUM",
+      "MEFRA",
+      "MEHAN",
+      "MEKEN",
+      "MEKNO",
+      "MELIN",
+      "MEOXF",
+      "MEPEN",
+      "MEPIS",
+      "MESAG",
+      "MESOM",
+      "MEWAL",
+      "MEWAS",
+      "MEYOR",
+      "NHBEL",
+      "NHCAR",
+      "NHCHE",
+      "NHCOO",
+      "NHGRA",
+      "NHHIL",
+      "NHMER",
+      "NHROC",
+      "NHSTR",
+      "NHSUL",
+      "RIBRI",
+      "RIKEN",
+      "RINEW",
+      "RIPRO",
+      "RIWAS",
+      "VTADD",
+      "VTBEN",
+      "VTCAL",
+      "VTCHI",
+      "VTESS",
+      "VTFRA",
+      "VTGRA",
+      "VTLAM",
+      "VTORA",
+      "VTORL",
+      "VTRUT",
+      "VTWAS",
+      "VTWND",
+      "VTWNH"
+    ],
+    "county_line": false,
+    "example": "MAMID"
+  },
+  "exchange": [
+    {
+      "field": "rst"
+    },
+    {
+      "field": "qso_party"
+    }
+  ],
+  "points": {
+    "type": "mode",
+    "PH": 1,
+    "CW": 2
+  },
+  "multipliers": [
+    {
+      "type": "county",
+      "per": "once"
+    }
+  ],
+  "score": "points_x_mults",
+  "log_format": "cabrillo",
+  "columns": [
+    "nr",
+    "utc",
+    "band",
+    "mode",
+    "khz",
+    "call",
+    "rst_s",
+    "ex_s",
+    "rst_r",
+    "ex_r",
+    "land",
+    "pts",
+    "gain",
+    "mult"
+  ]
+}

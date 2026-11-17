@@ -895,6 +895,46 @@
       ],
       "checked": "2026-11-17",
       "fingerprint": "d5f6cfd2ebf43e4f109638455e01ea8dab11340c03994435e469376b32c82155"
+    },
+    {
+      "id": "neqp",
+      "url": "https://neqp.org/rules/",
+      "watch": "text",
+      "contests": [
+        "neqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "e6b4f33ef9879122ab4ece83d73d0e029595de8dc56cbaa103650e1a692a75ac"
+    },
+    {
+      "id": "neqp-counties",
+      "url": "https://neqp.org/neqp-county-abbreviations/",
+      "watch": "text",
+      "contests": [
+        "neqp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "c1b4d9fe555f02da1bae2056c13be66e26a854bd1b4c330fd06686c9efce951c"
+    },
+    {
+      "id": "7qp",
+      "url": "http://7qp.org/new/Page.asp?content=rules",
+      "watch": "text",
+      "contests": [
+        "7qp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "5743b9c1923969593bc123e198f8f0bc4cacb7d8c44b4137db3fc069cc469daa"
+    },
+    {
+      "id": "7qp-counties",
+      "url": "http://7qp.org/new/Page.asp?content=geo",
+      "watch": "text",
+      "contests": [
+        "7qp"
+      ],
+      "checked": "2026-11-17",
+      "fingerprint": "c873aa12fb08a8220d31daa718d70f0ffc73c96ce6276d4f0fab0ec225c9b241"
     }
   ]
 }

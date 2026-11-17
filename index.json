@@ -2,6 +2,15 @@
   "format": 1,
   "rules": [
     {
+      "id": "7qp",
+      "file": "7qp.json",
+      "name": "7th Call Area QSO Party (7QP)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 21,
+      "sha256": "e53aca84c88871aa18feb948471c5c40cae9ef730b5c84be12ace648ba85619e"
+    },
+    {
       "id": "9adx",
       "file": "9adx.json",
       "name": "9A DX Contest (Croatian DX)",
@@ -720,6 +729,15 @@
       "rules_checked": "2026-11",
       "format": 18,
       "sha256": "3642ae5176002cdafc8ff2836d6f57f50c1bd928e6b99757dea7dbaf6e2c3a11"
+    },
+    {
+      "id": "neqp",
+      "file": "neqp.json",
+      "name": "New England QSO Party (NEQP)",
+      "revision": 1,
+      "rules_checked": "2026-11",
+      "format": 21,
+      "sha256": "780bfd1b38e5c702d3e671b6ce0d62a851fa86599e5691032dccbe5588c545c5"
     },
     {
       "id": "okom-cw",
